@@ -8,6 +8,7 @@ body {
   background: #f4f6fb;
   color: #111827;
   line-height: 1.45;
+  -webkit-text-size-adjust: 100%;
 }
 
 .sr-only {
@@ -42,6 +43,7 @@ body {
   max-width: 1100px;
   margin: 0 auto;
   padding: 1.25rem;
+  padding-bottom: calc(1.25rem + env(safe-area-inset-bottom));
 }
 
 .hero {
@@ -69,6 +71,13 @@ body {
   margin-top: 0;
   margin-bottom: 0.75rem;
   font-size: 1.1rem;
+}
+
+.filters-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
 }
 
 .grid {
@@ -109,6 +118,25 @@ label {
   margin: -0.25rem 0 0;
 }
 
+.requirements-mobile-list {
+  display: none;
+}
+
+.mobile-requirement-item {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 0.92rem;
+  margin-bottom: 0.25rem;
+}
+
+.mobile-requirement-item input {
+  width: 18px;
+  height: 18px;
+  min-height: 18px;
+  margin-right: 0.45rem;
+}
+
 input,
 select,
 button {
@@ -123,6 +151,8 @@ select {
   background: #fff;
   font-weight: 400;
   min-height: 40px;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: rgba(29, 78, 216, 0.2);
 }
 
 select[multiple] {
@@ -176,6 +206,20 @@ button:focus-visible,
   margin-bottom: 0.6rem;
 }
 
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.4rem;
+  padding: 0.1rem 0.35rem;
+  border-radius: 999px;
+  background: #1d4ed8;
+  color: #fff;
+  font-size: 0.78rem;
+  line-height: 1.2;
+  margin-left: 0.35rem;
+}
+
 .results-head p {
   margin: 0;
   color: #334155;
@@ -192,6 +236,50 @@ button:focus-visible,
   border: 1px solid #d6e0f2;
   border-radius: 9px;
   background: #fff;
+}
+
+.results-cards {
+  display: grid;
+  gap: 0.65rem;
+}
+
+.result-card {
+  border: 1px solid #d6e0f2;
+  border-radius: 10px;
+  background: #fff;
+  padding: 0.65rem;
+}
+
+.result-card-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.6rem;
+}
+
+.result-course {
+  margin: 0;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.result-meta,
+.result-teacher,
+.result-req {
+  margin: 0.25rem 0 0;
+  color: #334155;
+  font-size: 0.9rem;
+}
+
+.card-toggle {
+  margin-top: 0.55rem;
+  width: 100%;
+}
+
+.card-detail {
+  margin-top: 0.55rem;
+  border-top: 1px dashed #ccd8ef;
+  padding-top: 0.5rem;
 }
 
 .results-table {
@@ -296,30 +384,134 @@ button:focus-visible,
   color: #334155;
 }
 
+.mobile-only {
+  display: none;
+}
+
+.filters-backdrop {
+  display: none;
+}
+
 @media (max-width: 760px) {
+  input,
+  select,
+  button {
+    font-size: 16px;
+  }
+
   .page {
     padding: 0.85rem;
   }
 
+  .mobile-only {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .filters-head {
+    margin-bottom: 0.35rem;
+  }
+
+  .filters-panel {
+    position: fixed;
+    inset: auto 0 0 0;
+    margin: 0;
+    border-radius: 14px 14px 0 0;
+    z-index: 1200;
+    transform: translateY(102%);
+    transition: transform 0.22s ease-out;
+    max-height: min(86dvh, 86vh);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
+    padding-bottom: calc(0.9rem + env(safe-area-inset-bottom));
+  }
+
+  body.filters-open .filters-panel {
+    transform: translateY(0);
+  }
+
+  .filters-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(15, 23, 42, 0.45);
+    z-index: 1100;
+  }
+
+  body.filters-open .filters-backdrop {
+    display: block;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  #requirements {
+    display: none;
+  }
+
+  .requirements-mobile-list {
+    display: block;
+    border: 1px solid #c9d7ee;
+    border-radius: 8px;
+    padding: 0.5rem 0.55rem;
+    max-height: 30dvh;
+    overflow-y: auto;
+    background: #f8fbff;
+  }
+
+  #requirements-help {
+    display: none;
+  }
+
+  .actions {
+    position: sticky;
+    bottom: 0;
+    background: #fff;
+    padding-top: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .actions button {
+    flex: 1 1 0;
+  }
+
   .results-head {
-    flex-direction: column;
-    align-items: flex-start;
+    position: sticky;
+    top: 0;
+    z-index: 800;
+    background: #fff;
+    padding: 0.55rem 0 0.5rem;
+    margin-bottom: 0.35rem;
+    align-items: center;
+    flex-wrap: wrap;
   }
 
-  .results-table {
-    table-layout: auto;
-    font-size: 0.85rem;
+  .results-head h2 {
+    margin: 0;
+    font-size: 1rem;
+    flex: 1 1 auto;
   }
 
-  .results-table th,
-  .results-table td {
-    padding: 0.4rem 0.45rem;
+  .results-head p {
+    margin-right: auto;
+    width: 100%;
   }
 
-  .results-table td[data-col="period"],
-  .results-table td[data-col="term"],
-  .results-table td[data-col="teacher"],
-  .results-table td[data-col="requirement"] {
-    width: auto;
+  #open-filters-btn {
+    margin-left: auto;
+  }
+
+  .results-table-wrap {
+    display: none;
+  }
+
+  .results-cards {
+    display: grid;
+  }
+
+  .active-filters {
+    margin-bottom: 0.45rem;
   }
 }

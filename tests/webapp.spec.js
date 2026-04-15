@@ -92,14 +92,32 @@ test.describe("schedule planner webapp", () => {
     await page.setViewportSize({ width: 390, height: 844 });
     await page.goto("/webapp/");
 
-    const rows = page.locator('#results table.results-table tbody tr:has(td[data-col="course"])');
-    await expect(rows.first()).toBeVisible();
-    await rows.first().locator("button.row-toggle").click();
-    await expect(page.locator(".detail-content").first()).toBeVisible();
+    const cards = page.locator("#results .result-card");
+    await expect(cards.first()).toBeVisible();
+    await cards.first().locator("button.card-toggle").click();
+    await expect(page.locator("#results .card-detail").first()).toBeVisible();
 
     const hasPageOverflow = await page.evaluate(
       () => document.documentElement.scrollWidth > document.documentElement.clientWidth + 1
     );
     expect(hasPageOverflow).toBeFalsy();
+  });
+
+  test("mobile filter drawer opens and applies requirement checklist filters", async ({ page }) => {
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.goto("/webapp/");
+
+    await page.locator("#open-filters-btn").click();
+    await expect(page.locator("body")).toHaveClass(/filters-open/);
+
+    await page.locator('#requirements-mobile-list input[value="Art"]').check();
+    await page.locator("#apply-filters-btn").click();
+    await expect(page.locator("body")).not.toHaveClass(/filters-open/);
+    await expect(page.locator("#active-filters")).toContainText("Art");
+
+    const cards = page.locator("#results .result-card");
+    await expect(cards.first()).toBeVisible();
+    const count = await cards.count();
+    expect(count).toBeGreaterThan(0);
   });
 });

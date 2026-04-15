@@ -26,11 +26,11 @@ These webapp-local data files are generated from canonical datasets using:
 uv run "scripts/build_webapp_data.py"
 ```
 
-## Semester Compatibility Rules
+## Semester Filter Rules
 
-- `Semester 1 compatible`: semester-1 offerings and full-year offerings
-- `Semester 2 compatible`: semester-2 offerings and full-year offerings
-- `Full year only`: only full-year offerings
+- `Semester 1 only`: semester-1 offerings only (excludes full-year offerings)
+- `Semester 2 only`: semester-2 offerings only (excludes full-year offerings)
+- `Full year only`: full-year offerings only
 
 ## GitHub Pages
 

@@ -16,8 +16,13 @@
         </p>
       </header>
 
-      <section class="panel">
-        <h2 id="filters-heading">Filters</h2>
+      <section class="panel filters-panel" id="filters-panel">
+        <div class="filters-head">
+          <h2 id="filters-heading">Filters</h2>
+          <button id="close-filters-btn" class="mobile-only" type="button" aria-label="Close filters">
+            Done
+          </button>
+        </div>
         <form id="filters-form" class="grid" role="search" aria-labelledby="filters-heading">
           <label class="course-primary">
             Course Name
@@ -36,8 +41,8 @@
             Slot Length / Semester
             <select id="term">
               <option value="">Any</option>
-              <option value="semester_1">Semester 1 compatible</option>
-              <option value="semester_2">Semester 2 compatible</option>
+              <option value="semester_1">Semester 1 only</option>
+              <option value="semester_2">Semester 2 only</option>
               <option value="full_year">Full year only</option>
             </select>
           </label>
@@ -45,6 +50,7 @@
           <label>
             Graduation Credit Requirement (multi-select)
             <select id="requirements" multiple size="6" aria-describedby="requirements-help"></select>
+            <div id="requirements-mobile-list" class="requirements-mobile-list" aria-label="Graduation requirements"></div>
             <span id="requirements-help" class="field-help"
               >Use Command (macOS) or Ctrl (Windows) to select multiple requirements.</span
             >
@@ -60,14 +66,25 @@
         </form>
 
         <div class="actions">
+          <button id="apply-filters-btn" class="mobile-only" type="button">Apply filters</button>
           <button id="clear-btn" type="button">Clear filters</button>
         </div>
       </section>
+      <div id="filters-backdrop" class="filters-backdrop" hidden></div>
 
       <section class="panel" id="results-section" aria-labelledby="results-heading">
         <div class="results-head">
           <h2 id="results-heading">Compatible Course Options</h2>
           <p id="summary" aria-live="polite" aria-atomic="true">Loading data...</p>
+          <button
+            id="open-filters-btn"
+            class="mobile-only"
+            type="button"
+            aria-expanded="false"
+            aria-controls="filters-panel"
+          >
+            Filters <span id="active-filter-count" class="badge">0</span>
+          </button>
         </div>
         <p id="active-filters" class="active-filters">Active filters: none</p>
         <p id="results-status" class="sr-only" role="status" aria-live="polite" aria-atomic="true">

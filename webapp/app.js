@@ -6,6 +6,7 @@ const DATA_PATHS = {
 };
 
 const PERIODS = ["A1", "A2", "A3", "A4", "B5", "B6", "B7", "B8"];
+const MOBILE_BREAKPOINT = 760;
 
 const state = {
   offerings: [],
@@ -29,8 +30,8 @@ function announceResultsStatus(message) {
 }
 
 function formatTermFilter(term) {
-  if (term === "semester_1") return "Semester 1 compatible";
-  if (term === "semester_2") return "Semester 2 compatible";
+  if (term === "semester_1") return "Semester 1 only";
+  if (term === "semester_2") return "Semester 2 only";
   if (term === "full_year") return "Full year only";
   return "";
 }
@@ -55,6 +56,14 @@ function setActiveFiltersSummary(filters) {
 
   const activeEl = document.getElementById("active-filters");
   activeEl.textContent = parts.length > 0 ? `Active filters: ${parts.join(" | ")}` : "Active filters: none";
+  const badgeEl = document.getElementById("active-filter-count");
+  const activeCount =
+    (filters.course ? 1 : 0) +
+    (filters.period ? 1 : 0) +
+    (filters.term ? 1 : 0) +
+    filters.requirements.length +
+    (filters.includeAudition ? 1 : 0);
+  badgeEl.textContent = String(activeCount);
 }
 
 function normalizeText(text) {
@@ -174,32 +183,73 @@ function getCompatibleByTerm(offering, selectedTerm) {
     return offering.scheduleHint === "full_year";
   }
   if (selectedTerm === "semester_1") {
-    return offering.semesterHint === "semester_1" || offering.scheduleHint === "full_year";
+    return offering.semesterHint === "semester_1";
   }
   if (selectedTerm === "semester_2") {
-    return offering.semesterHint === "semester_2" || offering.scheduleHint === "full_year";
+    return offering.semesterHint === "semester_2";
   }
   return true;
 }
 
-function renderResults(filtered) {
-  const resultsEl = document.getElementById("results");
-
-  resultsEl.innerHTML = "";
-  const countText = `${filtered.length} matching course option${filtered.length === 1 ? "" : "s"}`;
-  setResultsSummary(countText);
-  announceResultsStatus(countText);
-
-  if (filtered.length === 0) {
-    const div = document.createElement("div");
-    div.className = "empty";
-    div.textContent =
-      "No compatible options found for the current filter combination. Try clearing one filter.";
-    resultsEl.appendChild(div);
-    announceResultsStatus("No compatible course options found.");
+function createDetailContent(detailContainer, offering) {
+  const details = offering.matchedCatalogDetails;
+  if (!details || details.length === 0) {
+    const empty = document.createElement("div");
+    empty.className = "detail-item";
+    empty.innerHTML = "<p><span class='label'>Catalog match:</span> No detailed course record found for this line item.</p>";
+    detailContainer.appendChild(empty);
     return;
   }
+  for (const detail of details) {
+    const block = document.createElement("div");
+    block.className = "detail-item";
+    const prereqText = detail.prerequisites.length ? detail.prerequisites.join("; ") : "None listed";
+    const recPrereqText = detail.recommendedPrerequisites.length
+      ? detail.recommendedPrerequisites.join("; ")
+      : "None listed";
+    block.innerHTML = `
+      <h4>${detail.courseName}</h4>
+      <p><span class="label">Section:</span> ${detail.sectionName || "Unspecified"} • <span class="label">Length:</span> ${detail.courseLength || "Unspecified"} • <span class="label">Grades:</span> ${detail.grades || "Unspecified"}</p>
+      <p><span class="label">Prerequisites:</span> ${prereqText}</p>
+      <p><span class="label">Recommended:</span> ${recPrereqText}</p>
+      <p><span class="label">Description:</span> ${detail.description || "No description available."}</p>
+    `;
+    detailContainer.appendChild(block);
+  }
+}
 
+function addToggleHandlers(toggleBtn, detailEl, offering) {
+  const toggle = (keyboardTriggered = false) => {
+    const expanded = toggleBtn.getAttribute("aria-expanded") === "true";
+    toggleBtn.setAttribute("aria-expanded", String(!expanded));
+    toggleBtn.textContent = expanded ? "Show details" : "Hide details";
+    toggleBtn.setAttribute("aria-label", `${expanded ? "Show" : "Hide"} details for ${offering.courseName} in ${offering.period}`);
+    detailEl.hidden = expanded;
+    if (!expanded && keyboardTriggered) {
+      detailEl.focus({ preventScroll: false });
+    }
+  };
+  let keyboardToggleFired = false;
+  toggleBtn.addEventListener("click", (event) => {
+    event.stopPropagation();
+    if (keyboardToggleFired) {
+      keyboardToggleFired = false;
+      return;
+    }
+    toggle(false);
+  });
+  toggleBtn.addEventListener("keydown", (event) => {
+    if (event.key !== "Enter" && event.key !== " ") {
+      return;
+    }
+    event.preventDefault();
+    event.stopPropagation();
+    keyboardToggleFired = true;
+    toggle(true);
+  });
+}
+
+function renderDesktopResults(resultsEl, filtered) {
   const wrap = document.createElement("div");
   wrap.className = "results-table-wrap";
   const table = document.createElement("table");
@@ -207,7 +257,6 @@ function renderResults(filtered) {
   table.innerHTML =
     "<thead><tr><th></th><th>Period</th><th>Term</th><th>Course</th><th>Teacher</th><th>Graduation Requirement</th></tr></thead>";
   const tbody = document.createElement("tbody");
-
   for (const [index, offering] of filtered.entries()) {
     const itemId = `${toIdFragment(offering.courseName)}-${offering.period}-${offering.sourceRow}-${index}`;
     const detailPanelId = `detail-panel-${itemId}`;
@@ -220,7 +269,7 @@ function renderResults(filtered) {
     toggleBtn.setAttribute("aria-expanded", "false");
     toggleBtn.setAttribute("aria-controls", detailPanelId);
     toggleBtn.setAttribute("aria-label", `Show details for ${offering.courseName} in ${offering.period}`);
-    toggleBtn.textContent = "▸";
+    toggleBtn.textContent = "Show details";
     toggleCell.appendChild(toggleBtn);
     row.appendChild(toggleCell);
 
@@ -228,22 +277,18 @@ function renderResults(filtered) {
     periodCell.setAttribute("data-col", "period");
     periodCell.textContent = offering.period;
     row.appendChild(periodCell);
-
     const termCell = document.createElement("td");
     termCell.setAttribute("data-col", "term");
     termCell.textContent = offering.semesterHint.replace("_", " ");
     row.appendChild(termCell);
-
     const courseCell = document.createElement("td");
     courseCell.setAttribute("data-col", "course");
     courseCell.textContent = offering.courseName;
     row.appendChild(courseCell);
-
     const teacherCell = document.createElement("td");
     teacherCell.setAttribute("data-col", "teacher");
     teacherCell.textContent = `${offering.teacher}${offering.room ? ` (${offering.room})` : ""}`;
     row.appendChild(teacherCell);
-
     const reqCell = document.createElement("td");
     reqCell.setAttribute("data-col", "requirement");
     reqCell.textContent = offering.graduationRequirements.length
@@ -262,89 +307,99 @@ function renderResults(filtered) {
     detailContent.setAttribute("role", "region");
     detailContent.setAttribute("aria-label", `Details for ${offering.courseName} in ${offering.period}`);
     detailContent.tabIndex = -1;
+    createDetailContent(detailContent, offering);
     detailTd.appendChild(detailContent);
     detailRow.appendChild(detailTd);
-    const details = offering.matchedCatalogDetails;
+    addToggleHandlers(toggleBtn, detailRow, offering);
 
-    if (!details || details.length === 0) {
-      const empty = document.createElement("div");
-      empty.className = "detail-item";
-      empty.innerHTML =
-        "<p><span class='label'>Catalog match:</span> No detailed course record found for this line item.</p>";
-      detailContent.appendChild(empty);
-    } else {
-      for (const detail of details) {
-        const block = document.createElement("div");
-        block.className = "detail-item";
-        const prereqText = detail.prerequisites.length
-          ? detail.prerequisites.join("; ")
-          : "None listed";
-        const recPrereqText = detail.recommendedPrerequisites.length
-          ? detail.recommendedPrerequisites.join("; ")
-          : "None listed";
-
-        block.innerHTML = `
-          <h4>${detail.courseName}</h4>
-          <p><span class="label">Section:</span> ${detail.sectionName || "Unspecified"} • <span class="label">Length:</span> ${detail.courseLength || "Unspecified"} • <span class="label">Grades:</span> ${detail.grades || "Unspecified"}</p>
-          <p><span class="label">Prerequisites:</span> ${prereqText}</p>
-          <p><span class="label">Recommended:</span> ${recPrereqText}</p>
-          <p><span class="label">Description:</span> ${detail.description || "No description available."}</p>
-        `;
-        detailContent.appendChild(block);
-      }
-    }
-
-    const toggle = (keyboardTriggered = false) => {
-      const expanded = toggleBtn.getAttribute("aria-expanded") === "true";
-      toggleBtn.setAttribute("aria-expanded", String(!expanded));
-      toggleBtn.textContent = expanded ? "▸" : "▾";
-      toggleBtn.setAttribute(
-        "aria-label",
-        `${expanded ? "Show" : "Hide"} details for ${offering.courseName} in ${offering.period}`
-      );
-      detailRow.hidden = expanded;
-      if (!expanded && keyboardTriggered) {
-        detailContent.focus({ preventScroll: false });
-      }
-    };
-
-    let keyboardToggleFired = false;
-    toggleBtn.addEventListener("click", (event) => {
-      event.stopPropagation();
-      if (keyboardToggleFired) {
-        keyboardToggleFired = false;
-        return;
-      }
-      toggle(false);
-    });
-    toggleBtn.addEventListener("keydown", (event) => {
-      if (event.key !== "Enter" && event.key !== " ") {
-        return;
-      }
-      event.preventDefault();
-      event.stopPropagation();
-      keyboardToggleFired = true;
-      toggle(true);
-    });
     row.addEventListener("click", (event) => {
-      if (event.target.closest("button,a,input,select,textarea")) {
-        return;
-      }
-      toggle(false);
+      if (event.target.closest("button,a,input,select,textarea")) return;
+      toggleBtn.click();
     });
-
     tbody.appendChild(row);
     tbody.appendChild(detailRow);
   }
-
   table.appendChild(tbody);
   wrap.appendChild(table);
   resultsEl.appendChild(wrap);
 }
 
+function renderMobileResults(resultsEl, filtered) {
+  const list = document.createElement("div");
+  list.className = "results-cards";
+  for (const [index, offering] of filtered.entries()) {
+    const itemId = `${toIdFragment(offering.courseName)}-${offering.period}-${offering.sourceRow}-${index}`;
+    const detailPanelId = `card-detail-${itemId}`;
+    const card = document.createElement("article");
+    card.className = "result-card";
+
+    const top = document.createElement("div");
+    top.className = "result-card-top";
+    top.innerHTML = `<p class="result-course">${offering.courseName}</p><p class="result-meta">${offering.period} • ${offering.semesterHint.replace("_", " ")}</p>`;
+    card.appendChild(top);
+
+    const teacher = document.createElement("p");
+    teacher.className = "result-teacher";
+    teacher.textContent = `${offering.teacher}${offering.room ? ` (${offering.room})` : ""}`;
+    card.appendChild(teacher);
+
+    const req = document.createElement("p");
+    req.className = "result-req";
+    req.textContent = offering.graduationRequirements.length
+      ? offering.graduationRequirements.join(", ")
+      : "No catalog match";
+    card.appendChild(req);
+
+    const toggleBtn = document.createElement("button");
+    toggleBtn.type = "button";
+    toggleBtn.className = "card-toggle";
+    toggleBtn.setAttribute("aria-expanded", "false");
+    toggleBtn.setAttribute("aria-controls", detailPanelId);
+    toggleBtn.setAttribute("aria-label", `Show details for ${offering.courseName} in ${offering.period}`);
+    toggleBtn.textContent = "Show details";
+    card.appendChild(toggleBtn);
+
+    const detail = document.createElement("div");
+    detail.className = "card-detail";
+    detail.id = detailPanelId;
+    detail.hidden = true;
+    detail.tabIndex = -1;
+    detail.setAttribute("role", "region");
+    detail.setAttribute("aria-label", `Details for ${offering.courseName} in ${offering.period}`);
+    const detailContent = document.createElement("div");
+    detailContent.className = "detail-content";
+    createDetailContent(detailContent, offering);
+    detail.appendChild(detailContent);
+    addToggleHandlers(toggleBtn, detail, offering);
+    card.appendChild(detail);
+    list.appendChild(card);
+  }
+  resultsEl.appendChild(list);
+}
+
+function renderResults(filtered) {
+  const resultsEl = document.getElementById("results");
+  resultsEl.innerHTML = "";
+  const countText = `${filtered.length} matching course option${filtered.length === 1 ? "" : "s"}`;
+  setResultsSummary(countText);
+  announceResultsStatus(countText);
+  if (filtered.length === 0) {
+    const div = document.createElement("div");
+    div.className = "empty";
+    div.textContent = "No compatible options found for the current filter combination. Try clearing one filter.";
+    resultsEl.appendChild(div);
+    announceResultsStatus("No compatible course options found.");
+    return;
+  }
+  if (window.innerWidth <= MOBILE_BREAKPOINT) {
+    renderMobileResults(resultsEl, filtered);
+    return;
+  }
+  renderDesktopResults(resultsEl, filtered);
+}
+
 function currentFilters() {
-  const requirementSelect = document.getElementById("requirements");
-  const selectedRequirements = [...requirementSelect.selectedOptions].map((option) => option.value);
+  const selectedRequirements = getSelectedRequirements();
   return {
     period: document.getElementById("period").value,
     term: document.getElementById("term").value,
@@ -352,6 +407,27 @@ function currentFilters() {
     course: normalizeText(document.getElementById("course").value),
     includeAudition: document.getElementById("exclude-audition").checked,
   };
+}
+
+function getSelectedRequirements() {
+  const selectedFromChecks = [...document.querySelectorAll('#requirements-mobile-list input[type="checkbox"]:checked')].map(
+    (input) => input.value
+  );
+  if (selectedFromChecks.length > 0) {
+    return selectedFromChecks;
+  }
+  const requirementSelect = document.getElementById("requirements");
+  return [...requirementSelect.selectedOptions].map((option) => option.value);
+}
+
+function setRequirementsSelection(values) {
+  const chosen = new Set(values);
+  for (const option of document.getElementById("requirements").options) {
+    option.selected = chosen.has(option.value);
+  }
+  for (const check of document.querySelectorAll('#requirements-mobile-list input[type="checkbox"]')) {
+    check.checked = chosen.has(check.value);
+  }
 }
 
 function applyFilters() {
@@ -405,11 +481,21 @@ function fillInputs() {
   }
 
   const reqSelect = document.getElementById("requirements");
+  const reqMobile = document.getElementById("requirements-mobile-list");
   for (const req of state.requirementOptions) {
     const option = document.createElement("option");
     option.value = req;
     option.textContent = req;
     reqSelect.appendChild(option);
+
+    const item = document.createElement("label");
+    item.className = "mobile-requirement-item";
+    const box = document.createElement("input");
+    box.type = "checkbox";
+    box.value = req;
+    item.appendChild(box);
+    item.append(` ${req}`);
+    reqMobile.appendChild(item);
   }
 
   const courseDataList = document.getElementById("course-options");
@@ -421,25 +507,73 @@ function fillInputs() {
 }
 
 function wireEvents() {
-  ["period", "term", "requirements", "course", "exclude-audition"].forEach((id) => {
+  ["period", "term", "requirements", "exclude-audition"].forEach((id) => {
     document.getElementById(id).addEventListener("input", applyFilters);
     document.getElementById(id).addEventListener("change", applyFilters);
+  });
+  document.getElementById("course").addEventListener("change", applyFilters);
+  document.getElementById("requirements").addEventListener("change", () => {
+    setRequirementsSelection(getSelectedRequirements());
+  });
+  document.getElementById("requirements-mobile-list").addEventListener("change", () => {
+    setRequirementsSelection(getSelectedRequirements());
+    applyFilters();
   });
 
   document.getElementById("clear-btn").addEventListener("click", () => {
     document.getElementById("period").value = "";
     document.getElementById("term").value = "";
     document.getElementById("exclude-audition").checked = false;
-    for (const option of document.getElementById("requirements").options) {
-      option.selected = false;
-    }
+    setRequirementsSelection([]);
     document.getElementById("course").value = "";
     applyFilters();
     announceResultsStatus("All filters cleared. Showing all compatible course options.");
   });
 
+  const openFilters = () => {
+    if (window.innerWidth > MOBILE_BREAKPOINT) {
+      return;
+    }
+    document.body.classList.add("filters-open");
+    document.getElementById("open-filters-btn").setAttribute("aria-expanded", "true");
+    document.getElementById("filters-backdrop").hidden = false;
+  };
+  const closeFilters = () => {
+    document.body.classList.remove("filters-open");
+    document.getElementById("open-filters-btn").setAttribute("aria-expanded", "false");
+    document.getElementById("filters-backdrop").hidden = true;
+  };
+  document.getElementById("open-filters-btn").addEventListener("click", openFilters);
+  document.getElementById("close-filters-btn").addEventListener("click", closeFilters);
+  document.getElementById("apply-filters-btn").addEventListener("click", () => {
+    applyFilters();
+    closeFilters();
+  });
+  document.getElementById("filters-backdrop").addEventListener("click", closeFilters);
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      closeFilters();
+    }
+  });
+
   document.getElementById("filters-form").addEventListener("submit", (event) => {
     event.preventDefault();
+  });
+
+  let searchTimer;
+  document.getElementById("course").addEventListener("input", () => {
+    if (window.innerWidth > MOBILE_BREAKPOINT) {
+      applyFilters();
+      return;
+    }
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(applyFilters, 130);
+  });
+  window.addEventListener("resize", () => {
+    if (window.innerWidth > MOBILE_BREAKPOINT) {
+      closeFilters();
+    }
+    applyFilters();
   });
 }
 
