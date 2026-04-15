@@ -13,6 +13,50 @@ const state = {
   courseOptions: [],
 };
 
+function toIdFragment(value) {
+  const normalized = normalizeText(value).replace(/\s+/g, "-");
+  return normalized || "item";
+}
+
+function setResultsSummary(message) {
+  const summaryEl = document.getElementById("summary");
+  summaryEl.textContent = message;
+}
+
+function announceResultsStatus(message) {
+  const statusEl = document.getElementById("results-status");
+  statusEl.textContent = message;
+}
+
+function formatTermFilter(term) {
+  if (term === "semester_1") return "Semester 1 compatible";
+  if (term === "semester_2") return "Semester 2 compatible";
+  if (term === "full_year") return "Full year only";
+  return "";
+}
+
+function setActiveFiltersSummary(filters) {
+  const parts = [];
+  if (filters.course) {
+    parts.push(`Course: "${document.getElementById("course").value.trim()}"`);
+  }
+  if (filters.period) {
+    parts.push(`Period: ${filters.period}`);
+  }
+  if (filters.term) {
+    parts.push(`Slot: ${formatTermFilter(filters.term)}`);
+  }
+  if (filters.requirements.length > 0) {
+    parts.push(`Requirements: ${filters.requirements.join(", ")}`);
+  }
+  if (filters.includeAudition) {
+    parts.push("Includes audition/tryout courses");
+  }
+
+  const activeEl = document.getElementById("active-filters");
+  activeEl.textContent = parts.length > 0 ? `Active filters: ${parts.join(" | ")}` : "Active filters: none";
+}
+
 function normalizeText(text) {
   return String(text || "")
     .toLowerCase()
@@ -140,10 +184,11 @@ function getCompatibleByTerm(offering, selectedTerm) {
 
 function renderResults(filtered) {
   const resultsEl = document.getElementById("results");
-  const summaryEl = document.getElementById("summary");
 
   resultsEl.innerHTML = "";
-  summaryEl.textContent = `${filtered.length} matching course option${filtered.length === 1 ? "" : "s"}`;
+  const countText = `${filtered.length} matching course option${filtered.length === 1 ? "" : "s"}`;
+  setResultsSummary(countText);
+  announceResultsStatus(countText);
 
   if (filtered.length === 0) {
     const div = document.createElement("div");
@@ -151,6 +196,7 @@ function renderResults(filtered) {
     div.textContent =
       "No compatible options found for the current filter combination. Try clearing one filter.";
     resultsEl.appendChild(div);
+    announceResultsStatus("No compatible course options found.");
     return;
   }
 
@@ -162,7 +208,9 @@ function renderResults(filtered) {
     "<thead><tr><th></th><th>Period</th><th>Term</th><th>Course</th><th>Teacher</th><th>Graduation Requirement</th></tr></thead>";
   const tbody = document.createElement("tbody");
 
-  for (const offering of filtered) {
+  for (const [index, offering] of filtered.entries()) {
+    const itemId = `${toIdFragment(offering.courseName)}-${offering.period}-${offering.sourceRow}-${index}`;
+    const detailPanelId = `detail-panel-${itemId}`;
     const row = document.createElement("tr");
     const toggleCell = document.createElement("td");
     toggleCell.setAttribute("data-col", "toggle");
@@ -170,7 +218,8 @@ function renderResults(filtered) {
     toggleBtn.type = "button";
     toggleBtn.className = "row-toggle";
     toggleBtn.setAttribute("aria-expanded", "false");
-    toggleBtn.setAttribute("aria-label", "Toggle details");
+    toggleBtn.setAttribute("aria-controls", detailPanelId);
+    toggleBtn.setAttribute("aria-label", `Show details for ${offering.courseName} in ${offering.period}`);
     toggleBtn.textContent = "▸";
     toggleCell.appendChild(toggleBtn);
     row.appendChild(toggleCell);
@@ -209,6 +258,10 @@ function renderResults(filtered) {
     detailTd.colSpan = 6;
     const detailContent = document.createElement("div");
     detailContent.className = "detail-content";
+    detailContent.id = detailPanelId;
+    detailContent.setAttribute("role", "region");
+    detailContent.setAttribute("aria-label", `Details for ${offering.courseName} in ${offering.period}`);
+    detailContent.tabIndex = -1;
     detailTd.appendChild(detailContent);
     detailRow.appendChild(detailTd);
     const details = offering.matchedCatalogDetails;
@@ -241,18 +294,44 @@ function renderResults(filtered) {
       }
     }
 
-    const toggle = () => {
+    const toggle = (keyboardTriggered = false) => {
       const expanded = toggleBtn.getAttribute("aria-expanded") === "true";
       toggleBtn.setAttribute("aria-expanded", String(!expanded));
       toggleBtn.textContent = expanded ? "▸" : "▾";
+      toggleBtn.setAttribute(
+        "aria-label",
+        `${expanded ? "Show" : "Hide"} details for ${offering.courseName} in ${offering.period}`
+      );
       detailRow.hidden = expanded;
+      if (!expanded && keyboardTriggered) {
+        detailContent.focus({ preventScroll: false });
+      }
     };
 
+    let keyboardToggleFired = false;
     toggleBtn.addEventListener("click", (event) => {
       event.stopPropagation();
-      toggle();
+      if (keyboardToggleFired) {
+        keyboardToggleFired = false;
+        return;
+      }
+      toggle(false);
     });
-    row.addEventListener("click", toggle);
+    toggleBtn.addEventListener("keydown", (event) => {
+      if (event.key !== "Enter" && event.key !== " ") {
+        return;
+      }
+      event.preventDefault();
+      event.stopPropagation();
+      keyboardToggleFired = true;
+      toggle(true);
+    });
+    row.addEventListener("click", (event) => {
+      if (event.target.closest("button,a,input,select,textarea")) {
+        return;
+      }
+      toggle(false);
+    });
 
     tbody.appendChild(row);
     tbody.appendChild(detailRow);
@@ -277,6 +356,8 @@ function currentFilters() {
 
 function applyFilters() {
   const filters = currentFilters();
+  setActiveFiltersSummary(filters);
+
   const filtered = state.offerings.filter((offering) => {
     if (filters.period && offering.period !== filters.period) return false;
     if (!getCompatibleByTerm(offering, filters.term)) return false;
@@ -354,6 +435,11 @@ function wireEvents() {
     }
     document.getElementById("course").value = "";
     applyFilters();
+    announceResultsStatus("All filters cleared. Showing all compatible course options.");
+  });
+
+  document.getElementById("filters-form").addEventListener("submit", (event) => {
+    event.preventDefault();
   });
 }
 
@@ -387,9 +473,10 @@ async function init() {
     applyFilters();
   } catch (error) {
     const resultsEl = document.getElementById("results");
-    const summaryEl = document.getElementById("summary");
-    summaryEl.textContent = "Error loading datasets";
-    resultsEl.innerHTML = `<div class="empty">${error.message}</div>`;
+    setResultsSummary("Error loading datasets");
+    announceResultsStatus("Error loading datasets.");
+    resultsEl.innerHTML =
+      "<div class='empty'>Unable to load course data. Confirm the site is served from this repository root and data files are present in webapp/data.</div>";
   }
 }
 

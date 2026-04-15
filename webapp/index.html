@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
+    <a class="skip-link" href="#results-section">Skip to results</a>
     <main class="page">
       <header class="hero">
         <h1>Student Schedule Planner</h1>
@@ -16,8 +17,8 @@
       </header>
 
       <section class="panel">
-        <h2>Filters</h2>
-        <div class="grid">
+        <h2 id="filters-heading">Filters</h2>
+        <form id="filters-form" class="grid" role="search" aria-labelledby="filters-heading">
           <label class="course-primary">
             Course Name
             <input id="course" list="course-options" placeholder="Search for a course..." />
@@ -43,25 +44,35 @@
 
           <label>
             Graduation Credit Requirement (multi-select)
-            <select id="requirements" multiple size="6"></select>
+            <select id="requirements" multiple size="6" aria-describedby="requirements-help"></select>
+            <span id="requirements-help" class="field-help"
+              >Use Command (macOS) or Ctrl (Windows) to select multiple requirements.</span
+            >
           </label>
 
           <label class="checkbox-label">
-            <input id="exclude-audition" type="checkbox" />
+            <input id="exclude-audition" type="checkbox" aria-describedby="audition-help" />
             Include audition/tryout-required courses
           </label>
-        </div>
+          <p id="audition-help" class="field-help checkbox-help">
+            When unchecked, only general-enrollment courses are shown.
+          </p>
+        </form>
 
         <div class="actions">
           <button id="clear-btn" type="button">Clear filters</button>
         </div>
       </section>
 
-      <section class="panel">
+      <section class="panel" id="results-section" aria-labelledby="results-heading">
         <div class="results-head">
-          <h2>Compatible Course Options</h2>
-          <p id="summary">Loading data...</p>
+          <h2 id="results-heading">Compatible Course Options</h2>
+          <p id="summary" aria-live="polite" aria-atomic="true">Loading data...</p>
         </div>
+        <p id="active-filters" class="active-filters">Active filters: none</p>
+        <p id="results-status" class="sr-only" role="status" aria-live="polite" aria-atomic="true">
+          Loading course options.
+        </p>
         <div id="results"></div>
       </section>
     </main>
