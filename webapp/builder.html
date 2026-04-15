@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Schedule Builder | Lehi High</title>
+    <link rel="stylesheet" href="./builder.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#builder-main">Skip to builder</a>
+    <main id="builder-main" class="page">
+      <header class="hero">
+        <h1>Schedule Builder</h1>
+        <nav class="hero-links" aria-label="Planner links">
+          <a href="./index.html">Schedule Explorer</a>
+          <a
+            href="https://alpineschooldistrictut.sites.thrillshare.com/o/lehi-hs/page/counseling"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Counseling</a
+          >
+        </nav>
+        <p>Build, save, and export a completed registration plan.</p>
+      </header>
+
+      <section class="panel">
+        <h2>Student Info</h2>
+        <div class="grid student-grid">
+          <label>
+            Student Name
+            <input id="student-name" autocomplete="name" />
+          </label>
+          <label>
+            Grade / Year
+            <input id="student-grade" placeholder="10th Grade (2026-27)" />
+          </label>
+          <label>
+            Counselor
+            <input id="student-counselor" />
+          </label>
+          <label>
+            Student ID (optional)
+            <input id="student-id" />
+          </label>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>Planned Schedule</h2>
+          <div class="save-status-wrap">
+            <span id="save-status">Not saved yet</span>
+            <span id="completion-status">Draft</span>
+          </div>
+        </div>
+        <p class="help-text">
+          Enter Semester 1 and Semester 2 classes, or mark the slot as Full Year and fill Semester 1 only.
+        </p>
+        <div class="table-wrap">
+          <table class="builder-table">
+            <thead>
+              <tr>
+                <th>Day</th>
+                <th>Period</th>
+                <th>Full Year</th>
+                <th>Semester 1</th>
+                <th>Semester 2</th>
+                <th>Teacher</th>
+                <th>Notes</th>
+              </tr>
+            </thead>
+            <tbody id="schedule-rows"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>Requirements and Priorities</h2>
+        <div class="grid">
+          <label>
+            Required Classes (one per line)
+            <textarea id="required-classes" rows="5"></textarea>
+          </label>
+          <label>
+            Elective Priorities (one per line)
+            <textarea id="elective-priorities" rows="5"></textarea>
+          </label>
+          <label class="full-width">
+            Counselor / Family Notes
+            <textarea id="schedule-notes" rows="4"></textarea>
+          </label>
+        </div>
+      </section>
+
+      <section class="panel controls-panel">
+        <h2>Save and Export</h2>
+        <div class="controls-grid">
+          <label>
+            Checkpoint Name
+            <input id="checkpoint-name" placeholder="e.g. After counselor review" />
+          </label>
+          <button id="save-checkpoint-btn" type="button">Save checkpoint</button>
+          <label>
+            Saved Checkpoints
+            <select id="checkpoint-select">
+              <option value="">No saved checkpoints</option>
+            </select>
+          </label>
+          <button id="restore-checkpoint-btn" type="button">Restore checkpoint</button>
+          <button id="mark-complete-btn" type="button">Mark complete</button>
+          <button id="export-pdf-btn" type="button">Export to PDF</button>
+        </div>
+        <p id="validation-status" class="help-text"></p>
+      </section>
+
+      <datalist id="course-options"></datalist>
+    </main>
+
+    <section id="print-summary" class="print-summary" aria-label="Printable schedule summary"></section>
+
+    <script src="./builder.js" defer></script>
+  </body>
+</html>

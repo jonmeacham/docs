@@ -17274,17 +17274,17 @@
     "teacher_row_count": 138,
     "cell_count": 770,
     "section_teacher_counts": {
-      "GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC)": 9,
-      "PE / HEALTH": 27,
-      "SCIENCE": 11,
-      "ENGLISH": 14,
       "CTE / FINANCIAL LIT": 28,
+      "PE / HEALTH": 27,
       "SPED": 4,
       "MATH": 12,
-      "WORLD LANGUAGES": 9,
-      "FINE ARTS": 13,
       "SOCIAL STUDIES": 9,
+      "FINE ARTS": 13,
+      "ENGLISH": 14,
+      "WORLD LANGUAGES": 9,
+      "SCIENCE": 11,
       "UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE": 1,
+      "GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC)": 9,
       "SEMINARY": 1
     },
     "schedule_hint_counts": {

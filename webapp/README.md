@@ -2,6 +2,11 @@
 
 Static web app for schedule-planning queries, compatible with GitHub Pages.
 
+## Pages
+
+- `./index.html` - course explorer and filter tool
+- `./builder.html` - schedule builder with localStorage save + PDF export
+
 ## What It Supports
 
 You can filter by any combination of:
@@ -12,6 +17,16 @@ You can filter by any combination of:
 - course name from a searchable list
 
 Results show all compatible offerings from the machine-readable master schedule, with teacher/section details and matched graduation requirements from the catalog.
+
+## Schedule Builder Storage Keys
+
+The builder stores data in browser local storage:
+
+- `lhs.builder.current` - latest autosaved draft
+- `lhs.builder.saves` - named checkpoint snapshots
+- `lhs.builder.completed` - final completed schedule snapshot
+
+Builder export uses print styles + browser `Save as PDF`.
 
 ## Data Sources
 

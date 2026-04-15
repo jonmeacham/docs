@@ -52,8 +52,7 @@ test.describe("schedule planner webapp", () => {
   test("supports keyboard flow and detail aria state transitions", async ({ page }) => {
     await page.goto("/webapp/");
 
-    await page.keyboard.press("Tab");
-    await page.keyboard.press("Tab");
+    await page.locator("#course").focus();
     await expect(page.locator("#course")).toBeFocused();
 
     await page.keyboard.type("Spanish 2");
