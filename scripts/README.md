@@ -16,25 +16,25 @@ This folder contains reusable extractors for generating machine-readable plannin
 Run from repository root (`/Users/jon/repo/docs`):
 
 ```bash
-python3 "scripts/extract_master_schedule_xlsx.py" \
+uv run "scripts/extract_master_schedule_xlsx.py" \
   --xlsx "26-27 Printable Master Schedule.xlsx" \
   --output-dir "machine_readable_master_schedule_xlsx"
 ```
 
 ```bash
-python3 "scripts/extract_course_catalog_md.py" \
+uv run "scripts/extract_course_catalog_md.py" \
   --source "LHS COURSE DESCRIPTIONS 26-27.md" \
   --output-dir "machine_readable_course_catalog"
 ```
 
 ```bash
-python3 "scripts/build_webapp_data.py"
+uv run "scripts/build_webapp_data.py"
 ```
 
 Legacy OCR fallback (only if XLSX is unavailable):
 
 ```bash
-python3 "scripts/extract_master_schedule.py" \
+uv run "scripts/extract_master_schedule.py" \
   --pdf "26-27 Printable Master Schedule - TENTATIVE MASTER SCHEDULE.pdf" \
   --output-dir "machine_readable_master_schedule"
 ```

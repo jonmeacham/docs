@@ -7,7 +7,7 @@
     "test": "playwright test",
     "test:headed": "playwright test --headed",
     "test:webapp": "playwright test tests/webapp.spec.js",
-    "build:webapp-data": "python3 scripts/build_webapp_data.py"
+    "build:webapp-data": "uv run scripts/build_webapp_data.py"
   },
   "repository": {
     "type": "git",

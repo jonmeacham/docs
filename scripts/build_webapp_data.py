@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env -S uv run python
 """Build webapp-local data files for GitHub Pages deployment."""
 
 from __future__ import annotations

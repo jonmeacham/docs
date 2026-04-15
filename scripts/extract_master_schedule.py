@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env -S uv run python
 """Build a machine-readable version of the Lehi High master schedule PDF.
 
 The output intentionally preserves each schedule cell as an ordered list of lines.

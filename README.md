@@ -18,14 +18,14 @@ From repo root:
 
 ```bash
 npm install
-python3 "scripts/build_webapp_data.py"
+uv run "scripts/build_webapp_data.py"
 npm run test:webapp
 ```
 
 Run locally:
 
 ```bash
-python3 -m http.server 4173
+uv run python -m http.server 4173
 ```
 
 Then open:
@@ -37,13 +37,13 @@ Then open:
 Canonical source extraction:
 
 ```bash
-python3 "scripts/extract_master_schedule_xlsx.py" \
+uv run "scripts/extract_master_schedule_xlsx.py" \
   --xlsx "26-27 Printable Master Schedule.xlsx" \
   --output-dir "machine_readable_master_schedule_xlsx"
 ```
 
 ```bash
-python3 "scripts/extract_course_catalog_md.py" \
+uv run "scripts/extract_course_catalog_md.py" \
   --source "LHS COURSE DESCRIPTIONS 26-27.md" \
   --output-dir "machine_readable_course_catalog"
 ```
@@ -51,7 +51,7 @@ python3 "scripts/extract_course_catalog_md.py" \
 Build webapp-local deployment data:
 
 ```bash
-python3 "scripts/build_webapp_data.py"
+uv run "scripts/build_webapp_data.py"
 # or
 npm run build:webapp-data
 ```

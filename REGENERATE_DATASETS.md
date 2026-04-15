@@ -12,19 +12,19 @@ Use this guide when new versions of the master schedule or course catalog are pu
 From repo root:
 
 ```bash
-python3 "scripts/extract_master_schedule_xlsx.py" \
+uv run "scripts/extract_master_schedule_xlsx.py" \
   --xlsx "26-27 Printable Master Schedule.xlsx" \
   --output-dir "machine_readable_master_schedule_xlsx"
 ```
 
 ```bash
-python3 "scripts/extract_course_catalog_md.py" \
+uv run "scripts/extract_course_catalog_md.py" \
   --source "LHS COURSE DESCRIPTIONS 26-27.md" \
   --output-dir "machine_readable_course_catalog"
 ```
 
 ```bash
-python3 "scripts/build_webapp_data.py"
+uv run "scripts/build_webapp_data.py"
 ```
 
 ## Validation Checklist
@@ -68,7 +68,7 @@ These are generated from the canonical datasets by `scripts/build_webapp_data.py
 If XLSX is unavailable, a PDF OCR fallback exists:
 
 ```bash
-python3 "scripts/extract_master_schedule.py"
+uv run "scripts/extract_master_schedule.py"
 ```
 
 This path is less reliable and should only be used when spreadsheet source is missing.

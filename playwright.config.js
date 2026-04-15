@@ -10,7 +10,7 @@ module.exports = defineConfig({
     trace: "on-first-retry",
   },
   webServer: {
-    command: "python3 -m http.server 4173",
+    command: "uv run python -m http.server 4173",
     port: 4173,
     reuseExistingServer: true,
     cwd: ".",

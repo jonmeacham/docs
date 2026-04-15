@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env -S uv run python
 """Extract a machine-readable master schedule from the XLSX source workbook.
 
 Designed for yearly reuse:

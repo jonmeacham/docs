@@ -23,7 +23,7 @@ The app reads:
 These webapp-local data files are generated from canonical datasets using:
 
 ```bash
-python3 "scripts/build_webapp_data.py"
+uv run "scripts/build_webapp_data.py"
 ```
 
 ## Semester Compatibility Rules
@@ -46,5 +46,5 @@ Because the app now uses local `./data/*` paths, it can be served directly from 
 
 ```bash
 cd webapp
-python3 -m http.server 4173
+uv run python -m http.server 4173
 ```
