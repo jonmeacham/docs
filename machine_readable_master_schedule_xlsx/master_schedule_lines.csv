@@ -1,0 +1,1142 @@
+sheet_name,source_row,teacher_row,section,teacher_name,room,period,cell_schedule_hint,line_index,semester_hint,course_text
+TENTATIVE MASTER SCHEDULE,9,9,CTE / FINANCIAL LIT,"Adams, A",160,A2,semester_pair,1,semester_1,Culinary 1
+TENTATIVE MASTER SCHEDULE,9,9,CTE / FINANCIAL LIT,"Adams, A",160,A2,semester_pair,2,semester_2,Culinary 1
+TENTATIVE MASTER SCHEDULE,9,9,CTE / FINANCIAL LIT,"Adams, A",160,A3,full_year,1,full_year,ProStart 1 CE (Teacher Approved)
+TENTATIVE MASTER SCHEDULE,9,9,CTE / FINANCIAL LIT,"Adams, A",160,A4,semester_pair,1,semester_1,Culinary 1
+TENTATIVE MASTER SCHEDULE,9,9,CTE / FINANCIAL LIT,"Adams, A",160,A4,semester_pair,2,semester_2,Baking and Pastry (Teacher Approved)
+TENTATIVE MASTER SCHEDULE,9,9,CTE / FINANCIAL LIT,"Adams, A",160,B5,semester_pair,1,semester_1,Culinary 1
+TENTATIVE MASTER SCHEDULE,9,9,CTE / FINANCIAL LIT,"Adams, A",160,B5,semester_pair,2,semester_2,Culinary 1
+TENTATIVE MASTER SCHEDULE,9,9,CTE / FINANCIAL LIT,"Adams, A",160,B6,semester_pair,1,semester_1,Culinary 1
+TENTATIVE MASTER SCHEDULE,9,9,CTE / FINANCIAL LIT,"Adams, A",160,B6,semester_pair,2,semester_2,Culinary 1
+TENTATIVE MASTER SCHEDULE,9,9,CTE / FINANCIAL LIT,"Adams, A",160,B7,full_year,1,full_year,ProStart 1 CE (Teacher Approved)
+TENTATIVE MASTER SCHEDULE,9,9,CTE / FINANCIAL LIT,"Adams, A",160,B8,semester_pair,1,semester_1,Culinary 1
+TENTATIVE MASTER SCHEDULE,9,9,CTE / FINANCIAL LIT,"Adams, A",160,B8,semester_pair,2,semester_2,Baking and Pastry (Teacher Approved)
+TENTATIVE MASTER SCHEDULE,10,10,CTE / FINANCIAL LIT,"Bentley, J",178,A1,semester_pair,1,semester_1,EMR CE
+TENTATIVE MASTER SCHEDULE,10,10,CTE / FINANCIAL LIT,"Bentley, J",178,A1,semester_pair,2,semester_2,EMR CE
+TENTATIVE MASTER SCHEDULE,10,10,CTE / FINANCIAL LIT,"Bentley, J",178,A2,semester_pair,1,semester_1,Health Science Intro
+TENTATIVE MASTER SCHEDULE,10,10,CTE / FINANCIAL LIT,"Bentley, J",178,A2,semester_pair,2,semester_2,Medical Terminology CE
+TENTATIVE MASTER SCHEDULE,10,10,CTE / FINANCIAL LIT,"Bentley, J",178,A3,semester_pair,1,semester_1,Health Science Intro
+TENTATIVE MASTER SCHEDULE,10,10,CTE / FINANCIAL LIT,"Bentley, J",178,A3,semester_pair,2,semester_2,Medical Terminology CE
+TENTATIVE MASTER SCHEDULE,10,10,CTE / FINANCIAL LIT,"Bentley, J",178,A4,semester_pair,1,semester_1,Health
+TENTATIVE MASTER SCHEDULE,10,10,CTE / FINANCIAL LIT,"Bentley, J",178,A4,semester_pair,2,semester_2,Health
+TENTATIVE MASTER SCHEDULE,10,10,CTE / FINANCIAL LIT,"Bentley, J",178,B6,full_year,1,full_year,Sports Medicine CE
+TENTATIVE MASTER SCHEDULE,10,10,CTE / FINANCIAL LIT,"Bentley, J",178,B7,full_year,1,full_year,Sports Medicine CE
+TENTATIVE MASTER SCHEDULE,10,10,CTE / FINANCIAL LIT,"Bentley, J",178,B8,full_year,1,full_year,Sports Medicine CE
+TENTATIVE MASTER SCHEDULE,11,11,CTE / FINANCIAL LIT,"Bergholm, B",109,A1,semester_pair,1,semester_1,Zoology
+TENTATIVE MASTER SCHEDULE,11,11,CTE / FINANCIAL LIT,"Bergholm, B",109,A1,semester_pair,2,semester_2,Zoology
+TENTATIVE MASTER SCHEDULE,11,11,CTE / FINANCIAL LIT,"Bergholm, B",109,A2,semester_pair,1,semester_1,Zoology
+TENTATIVE MASTER SCHEDULE,11,11,CTE / FINANCIAL LIT,"Bergholm, B",109,A2,semester_pair,2,semester_2,Zoology
+TENTATIVE MASTER SCHEDULE,11,11,CTE / FINANCIAL LIT,"Bergholm, B",109,A3,semester_pair,1,semester_1,Zoology
+TENTATIVE MASTER SCHEDULE,11,11,CTE / FINANCIAL LIT,"Bergholm, B",109,A3,semester_pair,2,semester_2,Zoology
+TENTATIVE MASTER SCHEDULE,11,11,CTE / FINANCIAL LIT,"Bergholm, B",109,B5,full_year,1,full_year,Medical Anatomy
+TENTATIVE MASTER SCHEDULE,11,11,CTE / FINANCIAL LIT,"Bergholm, B",109,B6,full_year,1,full_year,Medical Anatomy
+TENTATIVE MASTER SCHEDULE,11,11,CTE / FINANCIAL LIT,"Bergholm, B",109,B7,semester_pair,1,semester_1,Zoology
+TENTATIVE MASTER SCHEDULE,11,11,CTE / FINANCIAL LIT,"Bergholm, B",109,B7,semester_pair,2,semester_2,Zoology
+TENTATIVE MASTER SCHEDULE,11,11,CTE / FINANCIAL LIT,"Bergholm, B",109,B8,semester_pair,1,semester_1,Zoology
+TENTATIVE MASTER SCHEDULE,11,11,CTE / FINANCIAL LIT,"Bergholm, B",109,B8,semester_pair,2,semester_2,Zoology
+TENTATIVE MASTER SCHEDULE,12,12,CTE / FINANCIAL LIT,"Boyd, K",344,A1,semester_pair,1,semester_1,Financial Lit CE
+TENTATIVE MASTER SCHEDULE,12,12,CTE / FINANCIAL LIT,"Boyd, K",344,A1,semester_pair,2,semester_2,Financial Lit CE
+TENTATIVE MASTER SCHEDULE,12,12,CTE / FINANCIAL LIT,"Boyd, K",344,A2,semester_pair,1,semester_1,Financial Lit CE
+TENTATIVE MASTER SCHEDULE,12,12,CTE / FINANCIAL LIT,"Boyd, K",344,A2,semester_pair,2,semester_2,Financial Lit CE
+TENTATIVE MASTER SCHEDULE,12,12,CTE / FINANCIAL LIT,"Boyd, K",344,A3,semester_pair,1,semester_1,Financial Lit CE
+TENTATIVE MASTER SCHEDULE,12,12,CTE / FINANCIAL LIT,"Boyd, K",344,A3,semester_pair,2,semester_2,Financial Lit CE
+TENTATIVE MASTER SCHEDULE,12,12,CTE / FINANCIAL LIT,"Boyd, K",344,B5,semester_pair,1,semester_1,Digital Business Applications
+TENTATIVE MASTER SCHEDULE,12,12,CTE / FINANCIAL LIT,"Boyd, K",344,B5,semester_pair,2,semester_2,Digital Business Applications
+TENTATIVE MASTER SCHEDULE,12,12,CTE / FINANCIAL LIT,"Boyd, K",344,B6,semester_pair,1,semester_1,Digital Marketing
+TENTATIVE MASTER SCHEDULE,12,12,CTE / FINANCIAL LIT,"Boyd, K",344,B6,semester_pair,2,semester_2,Business Management
+TENTATIVE MASTER SCHEDULE,12,12,CTE / FINANCIAL LIT,"Boyd, K",344,B7,semester_pair,1,semester_1,Real Estate
+TENTATIVE MASTER SCHEDULE,12,12,CTE / FINANCIAL LIT,"Boyd, K",344,B7,semester_pair,2,semester_2,Real Estate
+TENTATIVE MASTER SCHEDULE,12,12,CTE / FINANCIAL LIT,"Boyd, K",344,B8,semester_pair,1,semester_1,Digital Business Applications
+TENTATIVE MASTER SCHEDULE,12,12,CTE / FINANCIAL LIT,"Boyd, K",344,B8,semester_pair,2,semester_2,Digital Business Applications
+TENTATIVE MASTER SCHEDULE,13,13,CTE / FINANCIAL LIT,"Burningham, R",614,A1,semester_pair,1,semester_1,Woods 1
+TENTATIVE MASTER SCHEDULE,13,13,CTE / FINANCIAL LIT,"Burningham, R",614,A1,semester_pair,2,semester_2,Woods 1
+TENTATIVE MASTER SCHEDULE,13,13,CTE / FINANCIAL LIT,"Burningham, R",614,A2,full_year,1,full_year,Woods 2/3 CE
+TENTATIVE MASTER SCHEDULE,13,13,CTE / FINANCIAL LIT,"Burningham, R",614,A3,full_year,1,full_year,Woods 2/3 CE
+TENTATIVE MASTER SCHEDULE,13,13,CTE / FINANCIAL LIT,"Burningham, R",614,B5,semester_pair,1,semester_1,Woods 1
+TENTATIVE MASTER SCHEDULE,13,13,CTE / FINANCIAL LIT,"Burningham, R",614,B5,semester_pair,2,semester_2,Woods 1
+TENTATIVE MASTER SCHEDULE,13,13,CTE / FINANCIAL LIT,"Burningham, R",614,B6,semester_pair,1,semester_1,Woods 1
+TENTATIVE MASTER SCHEDULE,13,13,CTE / FINANCIAL LIT,"Burningham, R",614,B6,semester_pair,2,semester_2,Woods 1
+TENTATIVE MASTER SCHEDULE,13,13,CTE / FINANCIAL LIT,"Burningham, R",614,B7,semester_pair,1,semester_1,Woods 1
+TENTATIVE MASTER SCHEDULE,13,13,CTE / FINANCIAL LIT,"Burningham, R",614,B7,semester_pair,2,semester_2,Woods 1
+TENTATIVE MASTER SCHEDULE,13,13,CTE / FINANCIAL LIT,"Burningham, R",614,B8,full_year,1,full_year,(Tennis (M)) (Sem 2)
+TENTATIVE MASTER SCHEDULE,14,14,CTE / FINANCIAL LIT,"Chen, J",262,A1,semester_pair,1,semester_1,Digital Illustration
+TENTATIVE MASTER SCHEDULE,14,14,CTE / FINANCIAL LIT,"Chen, J",262,A1,semester_pair,2,semester_2,Digital Illustration
+TENTATIVE MASTER SCHEDULE,14,14,CTE / FINANCIAL LIT,"Chen, J",262,A3,semester_pair,1,semester_1,Digital Illustration
+TENTATIVE MASTER SCHEDULE,14,14,CTE / FINANCIAL LIT,"Chen, J",262,A3,semester_pair,2,semester_2,Digital Illustration
+TENTATIVE MASTER SCHEDULE,14,14,CTE / FINANCIAL LIT,"Chen, J",262,A4,semester_pair,1,semester_1,Digital Illustration
+TENTATIVE MASTER SCHEDULE,14,14,CTE / FINANCIAL LIT,"Chen, J",262,A4,semester_pair,2,semester_2,Digital Illustration
+TENTATIVE MASTER SCHEDULE,14,14,CTE / FINANCIAL LIT,"Chen, J",262,B5,semester_pair,1,semester_1,Commercial Art 1
+TENTATIVE MASTER SCHEDULE,14,14,CTE / FINANCIAL LIT,"Chen, J",262,B5,semester_pair,2,semester_2,Commercial Art 1
+TENTATIVE MASTER SCHEDULE,14,14,CTE / FINANCIAL LIT,"Chen, J",262,B7,semester_pair,1,semester_1,Commercial Art 1
+TENTATIVE MASTER SCHEDULE,14,14,CTE / FINANCIAL LIT,"Chen, J",262,B7,semester_pair,2,semester_2,Commercial Art 1
+TENTATIVE MASTER SCHEDULE,14,14,CTE / FINANCIAL LIT,"Chen, J",262,B8,semester_pair,1,semester_1,Commercial Art 1
+TENTATIVE MASTER SCHEDULE,14,14,CTE / FINANCIAL LIT,"Chen, J",262,B8,semester_pair,2,semester_2,Commercial Art 2
+TENTATIVE MASTER SCHEDULE,15,15,CTE / FINANCIAL LIT,"Cook, C",179,A1,semester_pair,1,semester_1,Sports & Outdoor Rec Marketing
+TENTATIVE MASTER SCHEDULE,15,15,CTE / FINANCIAL LIT,"Cook, C",179,A1,semester_pair,2,semester_2,Sports & Outdoor Rec Marketing
+TENTATIVE MASTER SCHEDULE,15,15,CTE / FINANCIAL LIT,"Cook, C",179,A3,semester_pair,1,semester_1,Entrepreneurship
+TENTATIVE MASTER SCHEDULE,15,15,CTE / FINANCIAL LIT,"Cook, C",179,A3,semester_pair,2,semester_2,Entrepreneurship
+TENTATIVE MASTER SCHEDULE,15,15,CTE / FINANCIAL LIT,"Cook, C",179,A4,semester_pair,1,semester_1,Financial Lit CE
+TENTATIVE MASTER SCHEDULE,15,15,CTE / FINANCIAL LIT,"Cook, C",179,A4,semester_pair,2,semester_2,Financial Lit CE
+TENTATIVE MASTER SCHEDULE,15,15,CTE / FINANCIAL LIT,"Cook, C",179,B5,semester_pair,1,semester_1,Financial Lit CE
+TENTATIVE MASTER SCHEDULE,15,15,CTE / FINANCIAL LIT,"Cook, C",179,B5,semester_pair,2,semester_2,Financial Lit CE
+TENTATIVE MASTER SCHEDULE,15,15,CTE / FINANCIAL LIT,"Cook, C",179,B6,semester_pair,1,semester_1,Financial Lit CE
+TENTATIVE MASTER SCHEDULE,15,15,CTE / FINANCIAL LIT,"Cook, C",179,B6,semester_pair,2,semester_2,Financial Lit CE
+TENTATIVE MASTER SCHEDULE,15,15,CTE / FINANCIAL LIT,"Cook, C",179,B7,full_year,1,full_year,Student Council
+TENTATIVE MASTER SCHEDULE,15,15,CTE / FINANCIAL LIT,"Cook, C",179,B8,semester_pair,1,semester_1,Business Leadership 1
+TENTATIVE MASTER SCHEDULE,15,15,CTE / FINANCIAL LIT,"Cook, C",179,B8,semester_pair,2,semester_2,Marketing 1
+TENTATIVE MASTER SCHEDULE,16,16,CTE / FINANCIAL LIT,"Dunn, D",223,A1,semester_pair,1,semester_1,Mechanical Design & Eng 2
+TENTATIVE MASTER SCHEDULE,16,16,CTE / FINANCIAL LIT,"Dunn, D",223,A1,semester_pair,2,semester_2,3D Print Technology
+TENTATIVE MASTER SCHEDULE,16,16,CTE / FINANCIAL LIT,"Dunn, D",223,A2,semester_pair,1,semester_1,UAS/Drone
+TENTATIVE MASTER SCHEDULE,16,16,CTE / FINANCIAL LIT,"Dunn, D",223,A2,semester_pair,2,semester_2,UAS/Drone
+TENTATIVE MASTER SCHEDULE,16,16,CTE / FINANCIAL LIT,"Dunn, D",223,A3,semester_pair,1,semester_1,Mechanical Design & Eng 1
+TENTATIVE MASTER SCHEDULE,16,16,CTE / FINANCIAL LIT,"Dunn, D",223,A3,semester_pair,2,semester_2,Mechanical Design & Eng 2
+TENTATIVE MASTER SCHEDULE,16,16,CTE / FINANCIAL LIT,"Dunn, D",223,A4,semester_pair,1,semester_1,Mechanical Design & Eng 1
+TENTATIVE MASTER SCHEDULE,16,16,CTE / FINANCIAL LIT,"Dunn, D",223,A4,semester_pair,2,semester_2,Mechanical Design & Eng 2
+TENTATIVE MASTER SCHEDULE,16,16,CTE / FINANCIAL LIT,"Dunn, D",223,B5,semester_pair,1,semester_1,UAS/Drone
+TENTATIVE MASTER SCHEDULE,16,16,CTE / FINANCIAL LIT,"Dunn, D",223,B5,semester_pair,2,semester_2,UAS/Drone
+TENTATIVE MASTER SCHEDULE,16,16,CTE / FINANCIAL LIT,"Dunn, D",223,B7,semester_pair,1,semester_1,Mechanical Design & Eng 1
+TENTATIVE MASTER SCHEDULE,16,16,CTE / FINANCIAL LIT,"Dunn, D",223,B7,semester_pair,2,semester_2,Mechanical Design & Eng 2
+TENTATIVE MASTER SCHEDULE,16,16,CTE / FINANCIAL LIT,"Dunn, D",223,B8,semester_pair,1,semester_1,3D Print Technology
+TENTATIVE MASTER SCHEDULE,16,16,CTE / FINANCIAL LIT,"Dunn, D",223,B8,semester_pair,2,semester_2,3D Print Technology
+TENTATIVE MASTER SCHEDULE,17,17,CTE / FINANCIAL LIT,"Fairbanks, J",183/A-days,A1,semester_pair,1,semester_1,Interior Design 1
+TENTATIVE MASTER SCHEDULE,17,17,CTE / FINANCIAL LIT,"Fairbanks, J",183/A-days,A1,semester_pair,2,semester_2,Interior Design 2
+TENTATIVE MASTER SCHEDULE,17,17,CTE / FINANCIAL LIT,"Fairbanks, J",183/A-days,A2,semester_pair,1,semester_1,Interior Design 1
+TENTATIVE MASTER SCHEDULE,17,17,CTE / FINANCIAL LIT,"Fairbanks, J",183/A-days,A2,semester_pair,2,semester_2,Interior Design 2
+TENTATIVE MASTER SCHEDULE,17,17,CTE / FINANCIAL LIT,"Fairbanks, J",183/A-days,A4,semester_pair,1,semester_1,Interior Design 1
+TENTATIVE MASTER SCHEDULE,17,17,CTE / FINANCIAL LIT,"Fairbanks, J",183/A-days,A4,semester_pair,2,semester_2,Fashion Design
+TENTATIVE MASTER SCHEDULE,17,17,CTE / FINANCIAL LIT,"Fairbanks, J",183/A-days,B5,semester_pair,1,semester_1,Sewing 1
+TENTATIVE MASTER SCHEDULE,17,17,CTE / FINANCIAL LIT,"Fairbanks, J",183/A-days,B5,semester_pair,2,semester_2,Sports Sewing 2
+TENTATIVE MASTER SCHEDULE,17,17,CTE / FINANCIAL LIT,"Fairbanks, J",183/A-days,B6,semester_pair,1,semester_1,Sewing 1
+TENTATIVE MASTER SCHEDULE,17,17,CTE / FINANCIAL LIT,"Fairbanks, J",183/A-days,B6,semester_pair,2,semester_2,Sports Sewing 2
+TENTATIVE MASTER SCHEDULE,17,17,CTE / FINANCIAL LIT,"Fairbanks, J",183/A-days,B8,semester_pair,1,semester_1,Sewing 1
+TENTATIVE MASTER SCHEDULE,17,17,CTE / FINANCIAL LIT,"Fairbanks, J",183/A-days,B8,semester_pair,2,semester_2,Sewing 1
+TENTATIVE MASTER SCHEDULE,18,18,CTE / FINANCIAL LIT,"Fairbanks, J",164/B-days,B5,full_year,1,full_year,Sewing 3 (Teacher Approved)
+TENTATIVE MASTER SCHEDULE,18,18,CTE / FINANCIAL LIT,"Fairbanks, J",164/B-days,B6,full_year,1,full_year,Sewing 3 (Teacher Approved)
+TENTATIVE MASTER SCHEDULE,18,18,CTE / FINANCIAL LIT,"Fairbanks, J",164/B-days,B8,full_year,1,full_year,Sewing 3 (Teacher Approved)
+TENTATIVE MASTER SCHEDULE,19,19,CTE / FINANCIAL LIT,"Gordon, P",261,A1,semester_pair,1,semester_1,Financial Lit
+TENTATIVE MASTER SCHEDULE,19,19,CTE / FINANCIAL LIT,"Gordon, P",261,A1,semester_pair,2,semester_2,Financial Lit
+TENTATIVE MASTER SCHEDULE,19,19,CTE / FINANCIAL LIT,"Gordon, P",261,A2,semester_pair,1,semester_1,Financial Lit
+TENTATIVE MASTER SCHEDULE,19,19,CTE / FINANCIAL LIT,"Gordon, P",261,A2,semester_pair,2,semester_2,Financial Lit
+TENTATIVE MASTER SCHEDULE,19,19,CTE / FINANCIAL LIT,"Gordon, P",261,A3,semester_pair,1,semester_1,Hospitality and Tourism
+TENTATIVE MASTER SCHEDULE,19,19,CTE / FINANCIAL LIT,"Gordon, P",261,A3,semester_pair,2,semester_2,Hospitality and Tourism
+TENTATIVE MASTER SCHEDULE,19,19,CTE / FINANCIAL LIT,"Gordon, P",261,B6,semester_pair,1,semester_1,Teaching as a Profession
+TENTATIVE MASTER SCHEDULE,19,19,CTE / FINANCIAL LIT,"Gordon, P",261,B6,semester_pair,2,semester_2,Aspiring Educators CE
+TENTATIVE MASTER SCHEDULE,19,19,CTE / FINANCIAL LIT,"Gordon, P",261,B7,full_year,1,full_year,(Student Council)
+TENTATIVE MASTER SCHEDULE,19,19,CTE / FINANCIAL LIT,"Gordon, P",261,B8,semester_pair,1,semester_1,Financial Lit
+TENTATIVE MASTER SCHEDULE,19,19,CTE / FINANCIAL LIT,"Gordon, P",261,B8,semester_pair,2,semester_2,Financial Lit
+TENTATIVE MASTER SCHEDULE,20,20,CTE / FINANCIAL LIT,"Greenwood, C - IVC",220,A3,full_year,1,full_year,IVC: Medical Anatomy
+TENTATIVE MASTER SCHEDULE,20,20,CTE / FINANCIAL LIT,"Greenwood, C - IVC",220,B6,semester_pair,1,semester_1,IVC: Med Terminology
+TENTATIVE MASTER SCHEDULE,20,20,CTE / FINANCIAL LIT,"Greenwood, C - IVC",220,B6,semester_pair,2,semester_2,IVC: Med Terminology
+TENTATIVE MASTER SCHEDULE,20,20,CTE / FINANCIAL LIT,"Greenwood, C - IVC",220,B7,full_year,1,full_year,IVC: Medical Anatomy
+TENTATIVE MASTER SCHEDULE,20,20,CTE / FINANCIAL LIT,"Greenwood, C - IVC",220,B8,full_year,1,full_year,IVC: Medical Anatomy
+TENTATIVE MASTER SCHEDULE,21,21,CTE / FINANCIAL LIT,"Ingersoll, J",234/B-days,A1,semester_pair,1,semester_1,Weight Training
+TENTATIVE MASTER SCHEDULE,21,21,CTE / FINANCIAL LIT,"Ingersoll, J",234/B-days,A1,semester_pair,2,semester_2,Weight Training
+TENTATIVE MASTER SCHEDULE,21,21,CTE / FINANCIAL LIT,"Ingersoll, J",234/B-days,A2,semester_pair,1,semester_1,Weight Training
+TENTATIVE MASTER SCHEDULE,21,21,CTE / FINANCIAL LIT,"Ingersoll, J",234/B-days,A2,semester_pair,2,semester_2,Weight Training
+TENTATIVE MASTER SCHEDULE,21,21,CTE / FINANCIAL LIT,"Ingersoll, J",234/B-days,A3,semester_pair,1,semester_1,Rec Basketball
+TENTATIVE MASTER SCHEDULE,21,21,CTE / FINANCIAL LIT,"Ingersoll, J",234/B-days,A3,semester_pair,2,semester_2,Rec Basketball
+TENTATIVE MASTER SCHEDULE,21,21,CTE / FINANCIAL LIT,"Ingersoll, J",234/B-days,B5,semester_pair,1,semester_1,Financial Lit
+TENTATIVE MASTER SCHEDULE,21,21,CTE / FINANCIAL LIT,"Ingersoll, J",234/B-days,B5,semester_pair,2,semester_2,Financial Lit
+TENTATIVE MASTER SCHEDULE,21,21,CTE / FINANCIAL LIT,"Ingersoll, J",234/B-days,B6,semester_pair,1,semester_1,Financial Lit
+TENTATIVE MASTER SCHEDULE,21,21,CTE / FINANCIAL LIT,"Ingersoll, J",234/B-days,B6,semester_pair,2,semester_2,Financial Lit
+TENTATIVE MASTER SCHEDULE,21,21,CTE / FINANCIAL LIT,"Ingersoll, J",234/B-days,B7,semester_pair,1,semester_1,Financial Lit
+TENTATIVE MASTER SCHEDULE,21,21,CTE / FINANCIAL LIT,"Ingersoll, J",234/B-days,B7,semester_pair,2,semester_2,Financial Lit
+TENTATIVE MASTER SCHEDULE,21,21,CTE / FINANCIAL LIT,"Ingersoll, J",234/B-days,B8,semester_pair,1,semester_1,Lifetime Activities
+TENTATIVE MASTER SCHEDULE,21,21,CTE / FINANCIAL LIT,"Ingersoll, J",234/B-days,B8,semester_pair,2,semester_2,Lifetime Activities
+TENTATIVE MASTER SCHEDULE,22,22,CTE / FINANCIAL LIT,"Marshall, R",616,A1,full_year,1,full_year,AG Mech/Weld 1
+TENTATIVE MASTER SCHEDULE,22,22,CTE / FINANCIAL LIT,"Marshall, R",616,A2,full_year,1,full_year,AG Mech/Weld 1
+TENTATIVE MASTER SCHEDULE,22,22,CTE / FINANCIAL LIT,"Marshall, R",616,A3,full_year,1,full_year,AG Mech/Weld 1
+TENTATIVE MASTER SCHEDULE,22,22,CTE / FINANCIAL LIT,"Marshall, R",616,A4,full_year,1,full_year,Veterinary Assistant 1
+TENTATIVE MASTER SCHEDULE,22,22,CTE / FINANCIAL LIT,"Marshall, R",616,B6,full_year,1,full_year,AG Mech/Weld 2
+TENTATIVE MASTER SCHEDULE,22,22,CTE / FINANCIAL LIT,"Marshall, R",616,B7,full_year,1,full_year,AG Mech/Weld 2
+TENTATIVE MASTER SCHEDULE,22,22,CTE / FINANCIAL LIT,"Marshall, R",616,B8,semester_pair,1,semester_1,Equine Science 1
+TENTATIVE MASTER SCHEDULE,22,22,CTE / FINANCIAL LIT,"Marshall, R",616,B8,semester_pair,2,semester_2,Equine Science 2
+TENTATIVE MASTER SCHEDULE,23,23,CTE / FINANCIAL LIT,"Marshall, R",616,B6,full_year,1,full_year,AG Mech/Weld 3
+TENTATIVE MASTER SCHEDULE,23,23,CTE / FINANCIAL LIT,"Marshall, R",616,B7,full_year,1,full_year,AG Mech/Weld 3
+TENTATIVE MASTER SCHEDULE,24,24,CTE / FINANCIAL LIT,"McMullin, T",162,A1,semester_pair,1,semester_1,CTE Internship
+TENTATIVE MASTER SCHEDULE,24,24,CTE / FINANCIAL LIT,"McMullin, T",162,A1,semester_pair,2,semester_2,CTE Internship
+TENTATIVE MASTER SCHEDULE,24,24,CTE / FINANCIAL LIT,"McMullin, T",162,A2,semester_pair,1,semester_1,CTE Internship
+TENTATIVE MASTER SCHEDULE,24,24,CTE / FINANCIAL LIT,"McMullin, T",162,A2,semester_pair,2,semester_2,CTE Internship
+TENTATIVE MASTER SCHEDULE,24,24,CTE / FINANCIAL LIT,"McMullin, T",162,A3,semester_pair,1,semester_1,CTE Internship
+TENTATIVE MASTER SCHEDULE,24,24,CTE / FINANCIAL LIT,"McMullin, T",162,A3,semester_pair,2,semester_2,CTE Internship
+TENTATIVE MASTER SCHEDULE,24,24,CTE / FINANCIAL LIT,"McMullin, T",162,A4,semester_pair,1,semester_1,CTE Internship
+TENTATIVE MASTER SCHEDULE,24,24,CTE / FINANCIAL LIT,"McMullin, T",162,A4,semester_pair,2,semester_2,CTE Internship
+TENTATIVE MASTER SCHEDULE,24,24,CTE / FINANCIAL LIT,"McMullin, T",162,B6,semester_pair,1,semester_1,CTE Internship
+TENTATIVE MASTER SCHEDULE,24,24,CTE / FINANCIAL LIT,"McMullin, T",162,B6,semester_pair,2,semester_2,CTE Internship
+TENTATIVE MASTER SCHEDULE,24,24,CTE / FINANCIAL LIT,"McMullin, T",162,B7,semester_pair,1,semester_1,CTE Internship
+TENTATIVE MASTER SCHEDULE,24,24,CTE / FINANCIAL LIT,"McMullin, T",162,B7,semester_pair,2,semester_2,CTE Internship
+TENTATIVE MASTER SCHEDULE,24,24,CTE / FINANCIAL LIT,"McMullin, T",162,B8,semester_pair,1,semester_1,CTE Internship
+TENTATIVE MASTER SCHEDULE,24,24,CTE / FINANCIAL LIT,"McMullin, T",162,B8,semester_pair,2,semester_2,CTE Internship
+TENTATIVE MASTER SCHEDULE,25,25,CTE / FINANCIAL LIT,"Red, J",264,A1,semester_pair,1,semester_1,Video Production 1
+TENTATIVE MASTER SCHEDULE,25,25,CTE / FINANCIAL LIT,"Red, J",264,A1,semester_pair,2,semester_2,Video Production 2
+TENTATIVE MASTER SCHEDULE,25,25,CTE / FINANCIAL LIT,"Red, J",264,A3,semester_pair,1,semester_1,Video Production 1
+TENTATIVE MASTER SCHEDULE,25,25,CTE / FINANCIAL LIT,"Red, J",264,A3,semester_pair,2,semester_2,Video Production 2
+TENTATIVE MASTER SCHEDULE,25,25,CTE / FINANCIAL LIT,"Red, J",264,A4,semester_pair,1,semester_1,Video Production 1
+TENTATIVE MASTER SCHEDULE,25,25,CTE / FINANCIAL LIT,"Red, J",264,A4,semester_pair,2,semester_2,Video Production 2
+TENTATIVE MASTER SCHEDULE,25,25,CTE / FINANCIAL LIT,"Red, J",264,B5,semester_pair,1,semester_1,Video Production 1
+TENTATIVE MASTER SCHEDULE,25,25,CTE / FINANCIAL LIT,"Red, J",264,B5,semester_pair,2,semester_2,Radio Production 1
+TENTATIVE MASTER SCHEDULE,25,25,CTE / FINANCIAL LIT,"Red, J",264,B6,semester_pair,1,semester_1,Video Production 1
+TENTATIVE MASTER SCHEDULE,25,25,CTE / FINANCIAL LIT,"Red, J",264,B6,semester_pair,2,semester_2,Video Production 2
+TENTATIVE MASTER SCHEDULE,25,25,CTE / FINANCIAL LIT,"Red, J",264,B7,semester_pair,1,semester_1,Video Production 1
+TENTATIVE MASTER SCHEDULE,25,25,CTE / FINANCIAL LIT,"Red, J",264,B7,semester_pair,2,semester_2,Video Production 1
+TENTATIVE MASTER SCHEDULE,25,25,CTE / FINANCIAL LIT,"Red, J",264,B8,semester_pair,1,semester_1,Video Production 1
+TENTATIVE MASTER SCHEDULE,25,25,CTE / FINANCIAL LIT,"Red, J",264,B8,semester_pair,2,semester_2,Video Production 1
+TENTATIVE MASTER SCHEDULE,26,26,CTE / FINANCIAL LIT,"Red, J",264,A1,semester_pair,1,semester_1,TV Broadcast 1
+TENTATIVE MASTER SCHEDULE,26,26,CTE / FINANCIAL LIT,"Red, J",264,A1,semester_pair,2,semester_2,TV Broadcast 2
+TENTATIVE MASTER SCHEDULE,26,26,CTE / FINANCIAL LIT,"Red, J",264,A3,semester_pair,1,semester_1,TV Broadcast 1
+TENTATIVE MASTER SCHEDULE,26,26,CTE / FINANCIAL LIT,"Red, J",264,A3,semester_pair,2,semester_2,TV Broadcast 2
+TENTATIVE MASTER SCHEDULE,26,26,CTE / FINANCIAL LIT,"Red, J",264,A4,semester_pair,1,semester_1,TV Broadcast 1
+TENTATIVE MASTER SCHEDULE,26,26,CTE / FINANCIAL LIT,"Red, J",264,A4,semester_pair,2,semester_2,TV Broadcast 2
+TENTATIVE MASTER SCHEDULE,26,26,CTE / FINANCIAL LIT,"Red, J",264,B5,semester_pair,1,semester_1,TV Broadcast 1
+TENTATIVE MASTER SCHEDULE,26,26,CTE / FINANCIAL LIT,"Red, J",264,B5,semester_pair,2,semester_2,TV Broadcast 2
+TENTATIVE MASTER SCHEDULE,26,26,CTE / FINANCIAL LIT,"Red, J",264,B6,semester_pair,1,semester_1,TV Broadcast 1
+TENTATIVE MASTER SCHEDULE,26,26,CTE / FINANCIAL LIT,"Red, J",264,B6,semester_pair,2,semester_2,TV Broadcast 2
+TENTATIVE MASTER SCHEDULE,26,26,CTE / FINANCIAL LIT,"Red, J",264,B7,semester_pair,1,semester_1,TV Broadcast 1
+TENTATIVE MASTER SCHEDULE,26,26,CTE / FINANCIAL LIT,"Red, J",264,B7,semester_pair,2,semester_2,TV Broadcast 2
+TENTATIVE MASTER SCHEDULE,26,26,CTE / FINANCIAL LIT,"Red, J",264,B8,semester_pair,1,semester_1,TV Broadcast 1
+TENTATIVE MASTER SCHEDULE,26,26,CTE / FINANCIAL LIT,"Red, J",264,B8,semester_pair,2,semester_2,TV Broadcast 2
+TENTATIVE MASTER SCHEDULE,27,27,CTE / FINANCIAL LIT,"Ricks, M",360,A1,semester_pair,1,semester_1,Gov & Cit
+TENTATIVE MASTER SCHEDULE,27,27,CTE / FINANCIAL LIT,"Ricks, M",360,A1,semester_pair,2,semester_2,Gov & Cit
+TENTATIVE MASTER SCHEDULE,27,27,CTE / FINANCIAL LIT,"Ricks, M",360,A3,semester_pair,1,semester_1,Financial Lit
+TENTATIVE MASTER SCHEDULE,27,27,CTE / FINANCIAL LIT,"Ricks, M",360,A3,semester_pair,2,semester_2,Financial Lit
+TENTATIVE MASTER SCHEDULE,27,27,CTE / FINANCIAL LIT,"Ricks, M",360,B5,full_year,1,full_year,U.S. History
+TENTATIVE MASTER SCHEDULE,27,27,CTE / FINANCIAL LIT,"Ricks, M",360,B6,full_year,1,full_year,U.S. History
+TENTATIVE MASTER SCHEDULE,27,27,CTE / FINANCIAL LIT,"Ricks, M",360,B7,full_year,1,full_year,U.S. History
+TENTATIVE MASTER SCHEDULE,27,27,CTE / FINANCIAL LIT,"Ricks, M",360,B8,full_year,1,full_year,U.S. History
+TENTATIVE MASTER SCHEDULE,28,28,CTE / FINANCIAL LIT,"Slager, B",257,A1,semester_pair,1,semester_1,Photo 1
+TENTATIVE MASTER SCHEDULE,28,28,CTE / FINANCIAL LIT,"Slager, B",257,A1,semester_pair,2,semester_2,Photo 1
+TENTATIVE MASTER SCHEDULE,28,28,CTE / FINANCIAL LIT,"Slager, B",257,A2,semester_pair,1,semester_1,Photo 1
+TENTATIVE MASTER SCHEDULE,28,28,CTE / FINANCIAL LIT,"Slager, B",257,A2,semester_pair,2,semester_2,Photo 2
+TENTATIVE MASTER SCHEDULE,28,28,CTE / FINANCIAL LIT,"Slager, B",257,A3,full_year,1,full_year,Photo 3 (Teacher Approved)
+TENTATIVE MASTER SCHEDULE,28,28,CTE / FINANCIAL LIT,"Slager, B",257,A4,semester_pair,1,semester_1,Photo 1
+TENTATIVE MASTER SCHEDULE,28,28,CTE / FINANCIAL LIT,"Slager, B",257,A4,semester_pair,2,semester_2,Photo 2
+TENTATIVE MASTER SCHEDULE,28,28,CTE / FINANCIAL LIT,"Slager, B",257,B5,semester_pair,1,semester_1,Photo 1
+TENTATIVE MASTER SCHEDULE,28,28,CTE / FINANCIAL LIT,"Slager, B",257,B5,semester_pair,2,semester_2,Photo 1
+TENTATIVE MASTER SCHEDULE,28,28,CTE / FINANCIAL LIT,"Slager, B",257,B7,semester_pair,1,semester_1,Photo 1
+TENTATIVE MASTER SCHEDULE,28,28,CTE / FINANCIAL LIT,"Slager, B",257,B7,semester_pair,2,semester_2,Photo 2
+TENTATIVE MASTER SCHEDULE,28,28,CTE / FINANCIAL LIT,"Slager, B",257,B8,semester_pair,1,semester_1,Photo 1
+TENTATIVE MASTER SCHEDULE,28,28,CTE / FINANCIAL LIT,"Slager, B",257,B8,semester_pair,2,semester_2,Photo 2
+TENTATIVE MASTER SCHEDULE,29,29,CTE / FINANCIAL LIT,"Spencer, S",615,A1,semester_pair,1,semester_1,Floral Design
+TENTATIVE MASTER SCHEDULE,29,29,CTE / FINANCIAL LIT,"Spencer, S",615,A1,semester_pair,2,semester_2,Floral Design
+TENTATIVE MASTER SCHEDULE,29,29,CTE / FINANCIAL LIT,"Spencer, S",615,A2,full_year,1,full_year,Animal Science
+TENTATIVE MASTER SCHEDULE,29,29,CTE / FINANCIAL LIT,"Spencer, S",615,A3,full_year,1,full_year,Animal Science
+TENTATIVE MASTER SCHEDULE,29,29,CTE / FINANCIAL LIT,"Spencer, S",615,A4,semester_pair,1,semester_1,Floral Design
+TENTATIVE MASTER SCHEDULE,29,29,CTE / FINANCIAL LIT,"Spencer, S",615,A4,semester_pair,2,semester_2,Floral Design
+TENTATIVE MASTER SCHEDULE,29,29,CTE / FINANCIAL LIT,"Spencer, S",615,B5,full_year,1,full_year,Plant and Soil Science CE
+TENTATIVE MASTER SCHEDULE,29,29,CTE / FINANCIAL LIT,"Spencer, S",615,B6,full_year,1,full_year,Plant and Soil Science CE
+TENTATIVE MASTER SCHEDULE,29,29,CTE / FINANCIAL LIT,"Spencer, S",615,B7,full_year,1,full_year,Biology AG Science
+TENTATIVE MASTER SCHEDULE,30,30,CTE / FINANCIAL LIT,"Stott, M",168,A2,semester_pair,1,semester_1,Early Childhood 1
+TENTATIVE MASTER SCHEDULE,30,30,CTE / FINANCIAL LIT,"Stott, M",168,A2,semester_pair,2,semester_2,Early Childhood 2
+TENTATIVE MASTER SCHEDULE,30,30,CTE / FINANCIAL LIT,"Stott, M",168,A3,semester_pair,1,semester_1,Early Childhood 1
+TENTATIVE MASTER SCHEDULE,30,30,CTE / FINANCIAL LIT,"Stott, M",168,A3,semester_pair,2,semester_2,Early Childhood 2
+TENTATIVE MASTER SCHEDULE,30,30,CTE / FINANCIAL LIT,"Stott, M",168,A4,semester_pair,1,semester_1,Child Development
+TENTATIVE MASTER SCHEDULE,30,30,CTE / FINANCIAL LIT,"Stott, M",168,A4,semester_pair,2,semester_2,Child Development
+TENTATIVE MASTER SCHEDULE,30,30,CTE / FINANCIAL LIT,"Stott, M",168,B5,semester_pair,1,semester_1,Child Development
+TENTATIVE MASTER SCHEDULE,30,30,CTE / FINANCIAL LIT,"Stott, M",168,B5,semester_pair,2,semester_2,Child Development
+TENTATIVE MASTER SCHEDULE,30,30,CTE / FINANCIAL LIT,"Stott, M",168,B6,semester_pair,1,semester_1,Early Childhood 1
+TENTATIVE MASTER SCHEDULE,30,30,CTE / FINANCIAL LIT,"Stott, M",168,B6,semester_pair,2,semester_2,Early Childhood 2
+TENTATIVE MASTER SCHEDULE,30,30,CTE / FINANCIAL LIT,"Stott, M",168,B7,semester_pair,1,semester_1,Early Childhood 1
+TENTATIVE MASTER SCHEDULE,30,30,CTE / FINANCIAL LIT,"Stott, M",168,B7,semester_pair,2,semester_2,Early Childhood 2
+TENTATIVE MASTER SCHEDULE,31,31,CTE / FINANCIAL LIT,"Stott, M",168,A2,full_year,1,full_year,Early Childhood 3 (Teacher Approved)
+TENTATIVE MASTER SCHEDULE,31,31,CTE / FINANCIAL LIT,"Stott, M",168,A3,full_year,1,full_year,Early Childhood 3 (Teacher Approved)
+TENTATIVE MASTER SCHEDULE,31,31,CTE / FINANCIAL LIT,"Stott, M",168,B6,full_year,1,full_year,Early Childhood 3 (Teacher Approved)
+TENTATIVE MASTER SCHEDULE,31,31,CTE / FINANCIAL LIT,"Stott, M",168,B7,full_year,1,full_year,Early Childhood 3 (Teacher Approved)
+TENTATIVE MASTER SCHEDULE,32,32,CTE / FINANCIAL LIT,"Stott, M",168,A2,semester_pair,1,semester_1,Preschool Aide (Teacher Approved)
+TENTATIVE MASTER SCHEDULE,32,32,CTE / FINANCIAL LIT,"Stott, M",168,A2,semester_pair,2,semester_2,Preschool Aide (Teacher Approved)
+TENTATIVE MASTER SCHEDULE,32,32,CTE / FINANCIAL LIT,"Stott, M",168,A3,semester_pair,1,semester_1,Preschool Aide (Teacher Approved)
+TENTATIVE MASTER SCHEDULE,32,32,CTE / FINANCIAL LIT,"Stott, M",168,A3,semester_pair,2,semester_2,Preschool Aide (Teacher Approved)
+TENTATIVE MASTER SCHEDULE,32,32,CTE / FINANCIAL LIT,"Stott, M",168,B6,semester_pair,1,semester_1,Preschool Aide (Teacher Approved)
+TENTATIVE MASTER SCHEDULE,32,32,CTE / FINANCIAL LIT,"Stott, M",168,B6,semester_pair,2,semester_2,Preschool Aide (Teacher Approved)
+TENTATIVE MASTER SCHEDULE,32,32,CTE / FINANCIAL LIT,"Stott, M",168,B7,semester_pair,1,semester_1,Preschool Aide (Teacher Approved)
+TENTATIVE MASTER SCHEDULE,32,32,CTE / FINANCIAL LIT,"Stott, M",168,B7,semester_pair,2,semester_2,Preschool Aide (Teacher Approved)
+TENTATIVE MASTER SCHEDULE,33,33,CTE / FINANCIAL LIT,"White, D",237,A1,semester_pair,1,semester_1,Game Design CE
+TENTATIVE MASTER SCHEDULE,33,33,CTE / FINANCIAL LIT,"White, D",237,A1,semester_pair,2,semester_2,Game Design CE
+TENTATIVE MASTER SCHEDULE,33,33,CTE / FINANCIAL LIT,"White, D",237,A2,semester_pair,1,semester_1,Computer Prog 1
+TENTATIVE MASTER SCHEDULE,33,33,CTE / FINANCIAL LIT,"White, D",237,A2,semester_pair,2,semester_2,Computer Prog 2 CE
+TENTATIVE MASTER SCHEDULE,33,33,CTE / FINANCIAL LIT,"White, D",237,A3,semester_pair,1,semester_1,Computer Prog 1
+TENTATIVE MASTER SCHEDULE,33,33,CTE / FINANCIAL LIT,"White, D",237,A3,semester_pair,2,semester_2,Computer Prog 2 CE
+TENTATIVE MASTER SCHEDULE,33,33,CTE / FINANCIAL LIT,"White, D",237,A4,full_year,1,full_year,Computer Prog 3 CE
+TENTATIVE MASTER SCHEDULE,34,34,CTE / FINANCIAL LIT,"White, D",237,A4,semester_pair,1,semester_1,Web Development 1
+TENTATIVE MASTER SCHEDULE,34,34,CTE / FINANCIAL LIT,"White, D",237,A4,semester_pair,2,semester_2,Web Development 1
+TENTATIVE MASTER SCHEDULE,35,35,CTE / FINANCIAL LIT,"White, D",237,A4,semester_pair,1,semester_1,Game Design
+TENTATIVE MASTER SCHEDULE,35,35,CTE / FINANCIAL LIT,"White, D",237,A4,semester_pair,2,semester_2,Game Design
+TENTATIVE MASTER SCHEDULE,36,36,CTE / FINANCIAL LIT,"White, D",237,A4,semester_pair,1,semester_1,Computer Programming 1 (python)
+TENTATIVE MASTER SCHEDULE,36,36,CTE / FINANCIAL LIT,"White, D",237,A4,semester_pair,2,semester_2,Computer Programming 1 (python)
+TENTATIVE MASTER SCHEDULE,38,38,ENGLISH,"Birkeland, H",245,A2,semester_pair,1,semester_1,UVU- ENGL 1010 CE
+TENTATIVE MASTER SCHEDULE,38,38,ENGLISH,"Birkeland, H",245,A2,semester_pair,2,semester_2,UVU- ENGL 2010 CE
+TENTATIVE MASTER SCHEDULE,38,38,ENGLISH,"Birkeland, H",245,A3,semester_pair,1,semester_1,UVU- ENGL 1010 CE
+TENTATIVE MASTER SCHEDULE,38,38,ENGLISH,"Birkeland, H",245,A3,semester_pair,2,semester_2,UVU- ENGL 2010 CE
+TENTATIVE MASTER SCHEDULE,38,38,ENGLISH,"Birkeland, H",245,A4,semester_pair,1,semester_1,UVU- ENGL 1010 CE
+TENTATIVE MASTER SCHEDULE,38,38,ENGLISH,"Birkeland, H",245,A4,semester_pair,2,semester_2,UVU- ENGL 2010 CE
+TENTATIVE MASTER SCHEDULE,38,38,ENGLISH,"Birkeland, H",245,B6,full_year,1,full_year,English 10
+TENTATIVE MASTER SCHEDULE,38,38,ENGLISH,"Birkeland, H",245,B7,semester_pair,1,semester_1,UVU- ENGL 1010 CE
+TENTATIVE MASTER SCHEDULE,38,38,ENGLISH,"Birkeland, H",245,B7,semester_pair,2,semester_2,UVU- ENGL 2010 CE
+TENTATIVE MASTER SCHEDULE,38,38,ENGLISH,"Birkeland, H",245,B8,semester_pair,1,semester_1,UVU- ENGL 1010 CE
+TENTATIVE MASTER SCHEDULE,38,38,ENGLISH,"Birkeland, H",245,B8,semester_pair,2,semester_2,UVU- ENGL 2010 CE
+TENTATIVE MASTER SCHEDULE,39,39,ENGLISH,"Bushman, T",248,A1,full_year,1,full_year,English 12
+TENTATIVE MASTER SCHEDULE,39,39,ENGLISH,"Bushman, T",248,A3,full_year,1,full_year,English 12
+TENTATIVE MASTER SCHEDULE,39,39,ENGLISH,"Bushman, T",248,A4,full_year,1,full_year,English 12
+TENTATIVE MASTER SCHEDULE,39,39,ENGLISH,"Bushman, T",248,B5,full_year,1,full_year,English 11 CT
+TENTATIVE MASTER SCHEDULE,39,39,ENGLISH,"Bushman, T",248,B7,semester_pair,1,semester_1,Dystopian Literature
+TENTATIVE MASTER SCHEDULE,39,39,ENGLISH,"Bushman, T",248,B7,semester_pair,2,semester_2,Dystopian Literature
+TENTATIVE MASTER SCHEDULE,39,39,ENGLISH,"Bushman, T",248,B8,full_year,1,full_year,English 11 CT
+TENTATIVE MASTER SCHEDULE,40,40,ENGLISH,"Braithwaite, A",243,A1,full_year,1,full_year,English 11
+TENTATIVE MASTER SCHEDULE,40,40,ENGLISH,"Braithwaite, A",243,A2,full_year,1,full_year,English 11
+TENTATIVE MASTER SCHEDULE,40,40,ENGLISH,"Braithwaite, A",243,A3,full_year,1,full_year,English 11
+TENTATIVE MASTER SCHEDULE,40,40,ENGLISH,"Braithwaite, A",243,A4,semester_pair,1,semester_1,Cross Country
+TENTATIVE MASTER SCHEDULE,40,40,ENGLISH,"Braithwaite, A",243,A4,semester_pair,2,semester_2,Track
+TENTATIVE MASTER SCHEDULE,40,40,ENGLISH,"Braithwaite, A",243,B5,full_year,1,full_year,English 10
+TENTATIVE MASTER SCHEDULE,40,40,ENGLISH,"Braithwaite, A",243,B6,full_year,1,full_year,English 10
+TENTATIVE MASTER SCHEDULE,40,40,ENGLISH,"Braithwaite, A",243,B7,full_year,1,full_year,English 10
+TENTATIVE MASTER SCHEDULE,41,41,ENGLISH,"Ferguson, M",242,A1,full_year,1,full_year,English 10
+TENTATIVE MASTER SCHEDULE,41,41,ENGLISH,"Ferguson, M",242,A3,full_year,1,full_year,English 10
+TENTATIVE MASTER SCHEDULE,41,41,ENGLISH,"Ferguson, M",242,A4,full_year,1,full_year,English 10
+TENTATIVE MASTER SCHEDULE,41,41,ENGLISH,"Ferguson, M",242,B5,semester_pair,1,semester_1,UVU- ENGL 1010 CE
+TENTATIVE MASTER SCHEDULE,41,41,ENGLISH,"Ferguson, M",242,B5,semester_pair,2,semester_2,UVU- ENGL 2010 CE
+TENTATIVE MASTER SCHEDULE,41,41,ENGLISH,"Ferguson, M",242,B6,semester_pair,1,semester_1,UVU- ENGL 1010 CE
+TENTATIVE MASTER SCHEDULE,41,41,ENGLISH,"Ferguson, M",242,B6,semester_pair,2,semester_2,UVU- ENGL 2010 CE
+TENTATIVE MASTER SCHEDULE,41,41,ENGLISH,"Ferguson, M",242,B8,full_year,1,full_year,English 10
+TENTATIVE MASTER SCHEDULE,42,42,ENGLISH,"Gagnier, G",238,A1,full_year,1,full_year,English 11 H
+TENTATIVE MASTER SCHEDULE,42,42,ENGLISH,"Gagnier, G",238,A2,semester_pair,1,semester_1,Science Fiction and Fantasy
+TENTATIVE MASTER SCHEDULE,42,42,ENGLISH,"Gagnier, G",238,A2,semester_pair,2,semester_2,Science Fiction and Fantasy
+TENTATIVE MASTER SCHEDULE,42,42,ENGLISH,"Gagnier, G",238,A3,full_year,1,full_year,English 11 H
+TENTATIVE MASTER SCHEDULE,42,42,ENGLISH,"Gagnier, G",238,A4,full_year,1,full_year,English 11 H
+TENTATIVE MASTER SCHEDULE,42,42,ENGLISH,"Gagnier, G",238,B5,full_year,1,full_year,English 10
+TENTATIVE MASTER SCHEDULE,42,42,ENGLISH,"Gagnier, G",238,B7,full_year,1,full_year,English 10
+TENTATIVE MASTER SCHEDULE,42,42,ENGLISH,"Gagnier, G",238,B8,full_year,1,full_year,English 10
+TENTATIVE MASTER SCHEDULE,43,43,ENGLISH,"Gowans, C",246,A2,full_year,1,full_year,English 10 H
+TENTATIVE MASTER SCHEDULE,43,43,ENGLISH,"Gowans, C",246,A3,full_year,1,full_year,English 10 H
+TENTATIVE MASTER SCHEDULE,43,43,ENGLISH,"Gowans, C",246,A4,full_year,1,full_year,English 10 H
+TENTATIVE MASTER SCHEDULE,43,43,ENGLISH,"Gowans, C",246,B5,semester_pair,1,semester_1,Creative Writing
+TENTATIVE MASTER SCHEDULE,43,43,ENGLISH,"Gowans, C",246,B5,semester_pair,2,semester_2,Creative Writing
+TENTATIVE MASTER SCHEDULE,43,43,ENGLISH,"Gowans, C",246,B7,full_year,1,full_year,English 10 H
+TENTATIVE MASTER SCHEDULE,43,43,ENGLISH,"Gowans, C",246,B8,full_year,1,full_year,English 10 H
+TENTATIVE MASTER SCHEDULE,44,44,ENGLISH,"Lloyd, E",236,A1,full_year,1,full_year,English 10
+TENTATIVE MASTER SCHEDULE,44,44,ENGLISH,"Lloyd, E",236,A2,full_year,1,full_year,English 10
+TENTATIVE MASTER SCHEDULE,44,44,ENGLISH,"Lloyd, E",236,A3,full_year,1,full_year,English 10
+TENTATIVE MASTER SCHEDULE,44,44,ENGLISH,"Lloyd, E",236,B6,full_year,1,full_year,Yearbook
+TENTATIVE MASTER SCHEDULE,44,44,ENGLISH,"Lloyd, E",236,B7,full_year,1,full_year,English 11
+TENTATIVE MASTER SCHEDULE,44,44,ENGLISH,"Lloyd, E",236,B8,full_year,1,full_year,English 11
+TENTATIVE MASTER SCHEDULE,45,45,ENGLISH,"Lyon, A",230,A2,full_year,1,full_year,English 11
+TENTATIVE MASTER SCHEDULE,45,45,ENGLISH,"Lyon, A",230,A3,full_year,1,full_year,English 11
+TENTATIVE MASTER SCHEDULE,45,45,ENGLISH,"Lyon, A",230,A4,full_year,1,full_year,English 11
+TENTATIVE MASTER SCHEDULE,45,45,ENGLISH,"Lyon, A",230,B5,full_year,1,full_year,English 12 CT
+TENTATIVE MASTER SCHEDULE,45,45,ENGLISH,"Lyon, A",230,B6,full_year,1,full_year,English 12 CT
+TENTATIVE MASTER SCHEDULE,45,45,ENGLISH,"Lyon, A",230,B7,full_year,1,full_year,English 12
+TENTATIVE MASTER SCHEDULE,46,46,ENGLISH,"Mosdell, E",234/A-days,A1,full_year,1,full_year,AP Language
+TENTATIVE MASTER SCHEDULE,46,46,ENGLISH,"Mosdell, E",234/A-days,A2,full_year,1,full_year,English 12
+TENTATIVE MASTER SCHEDULE,46,46,ENGLISH,"Mosdell, E",234/A-days,A4,semester_pair,1,semester_1,Creative Writing
+TENTATIVE MASTER SCHEDULE,46,46,ENGLISH,"Mosdell, E",234/A-days,A4,semester_pair,2,semester_2,Creative Writing
+TENTATIVE MASTER SCHEDULE,47,47,ENGLISH,"Nelsen, M",527,A1,semester_pair,1,semester_1,Film Lit 1
+TENTATIVE MASTER SCHEDULE,47,47,ENGLISH,"Nelsen, M",527,A1,semester_pair,2,semester_2,Film Lit 2
+TENTATIVE MASTER SCHEDULE,47,47,ENGLISH,"Nelsen, M",527,A2,full_year,1,full_year,Drama 4 (Audition)
+TENTATIVE MASTER SCHEDULE,47,47,ENGLISH,"Nelsen, M",527,A4,full_year,1,full_year,Stage Crew (Teacher Approved)
+TENTATIVE MASTER SCHEDULE,47,47,ENGLISH,"Nelsen, M",527,B5,full_year,1,full_year,Stagecraft
+TENTATIVE MASTER SCHEDULE,47,47,ENGLISH,"Nelsen, M",527,B6,full_year,1,full_year,Drama 3
+TENTATIVE MASTER SCHEDULE,47,47,ENGLISH,"Nelsen, M",527,B8,full_year,1,full_year,Musical Theater (Audition)
+TENTATIVE MASTER SCHEDULE,48,48,ENGLISH,"Olsen, S",244,A1,full_year,1,full_year,English 10 CT
+TENTATIVE MASTER SCHEDULE,48,48,ENGLISH,"Olsen, S",244,A2,full_year,1,full_year,English 10 CT
+TENTATIVE MASTER SCHEDULE,48,48,ENGLISH,"Olsen, S",244,A4,full_year,1,full_year,English 10
+TENTATIVE MASTER SCHEDULE,48,48,ENGLISH,"Olsen, S",244,B5,full_year,1,full_year,English 10
+TENTATIVE MASTER SCHEDULE,48,48,ENGLISH,"Olsen, S",244,B6,full_year,1,full_year,English 10
+TENTATIVE MASTER SCHEDULE,48,48,ENGLISH,"Olsen, S",244,B8,semester_pair,1,semester_1,Short Stories
+TENTATIVE MASTER SCHEDULE,48,48,ENGLISH,"Olsen, S",244,B8,semester_pair,2,semester_2,Short Stories
+TENTATIVE MASTER SCHEDULE,49,49,ENGLISH,"Rhodehouse, B",235,A1,full_year,1,full_year,English 11
+TENTATIVE MASTER SCHEDULE,49,49,ENGLISH,"Rhodehouse, B",235,A2,full_year,1,full_year,English 11
+TENTATIVE MASTER SCHEDULE,49,49,ENGLISH,"Rhodehouse, B",235,A4,full_year,1,full_year,English 11
+TENTATIVE MASTER SCHEDULE,49,49,ENGLISH,"Rhodehouse, B",235,B5,full_year,1,full_year,AP Literature
+TENTATIVE MASTER SCHEDULE,49,49,ENGLISH,"Rhodehouse, B",235,B6,full_year,1,full_year,Yearbook
+TENTATIVE MASTER SCHEDULE,49,49,ENGLISH,"Rhodehouse, B",235,B8,full_year,1,full_year,English 11
+TENTATIVE MASTER SCHEDULE,50,50,ENGLISH,"Wood, M",234/B-days,B5,full_year,1,full_year,English 11
+TENTATIVE MASTER SCHEDULE,50,50,ENGLISH,"Wood, M",234/B-days,B6,full_year,1,full_year,English 11
+TENTATIVE MASTER SCHEDULE,50,50,ENGLISH,"Wood, M",234/B-days,B8,semester_pair,1,semester_1,Popular Literature
+TENTATIVE MASTER SCHEDULE,50,50,ENGLISH,"Wood, M",234/B-days,B8,semester_pair,2,semester_2,Popular Literature
+TENTATIVE MASTER SCHEDULE,51,51,ENGLISH,Staff 1,,B5,full_year,1,full_year,English 11
+TENTATIVE MASTER SCHEDULE,51,51,ENGLISH,Staff 1,,B6,full_year,1,full_year,English 11 CT
+TENTATIVE MASTER SCHEDULE,51,51,ENGLISH,Staff 1,,B7,full_year,1,full_year,English 11
+TENTATIVE MASTER SCHEDULE,53,53,FINE ARTS,"Anderson, M",180,A1,semester_pair,1,semester_1,Mixed Media Sculpture
+TENTATIVE MASTER SCHEDULE,53,53,FINE ARTS,"Anderson, M",180,A1,semester_pair,2,semester_2,Ceramics Sculpture
+TENTATIVE MASTER SCHEDULE,53,53,FINE ARTS,"Anderson, M",180,A2,semester_pair,1,semester_1,Mixed Media Sculpture
+TENTATIVE MASTER SCHEDULE,53,53,FINE ARTS,"Anderson, M",180,A2,semester_pair,2,semester_2,Ceramics Sculpture
+TENTATIVE MASTER SCHEDULE,53,53,FINE ARTS,"Anderson, M",180,A4,semester_pair,1,semester_1,Ceramics 2
+TENTATIVE MASTER SCHEDULE,53,53,FINE ARTS,"Anderson, M",180,A4,semester_pair,2,semester_2,Ceramics 2
+TENTATIVE MASTER SCHEDULE,53,53,FINE ARTS,"Anderson, M",180,B6,semester_pair,1,semester_1,Ceramics 1
+TENTATIVE MASTER SCHEDULE,53,53,FINE ARTS,"Anderson, M",180,B6,semester_pair,2,semester_2,Ceramics 1
+TENTATIVE MASTER SCHEDULE,53,53,FINE ARTS,"Anderson, M",180,B7,semester_pair,1,semester_1,Ceramics 1
+TENTATIVE MASTER SCHEDULE,53,53,FINE ARTS,"Anderson, M",180,B7,semester_pair,2,semester_2,Ceramics 1
+TENTATIVE MASTER SCHEDULE,53,53,FINE ARTS,"Anderson, M",180,B8,semester_pair,1,semester_1,Ceramics 1
+TENTATIVE MASTER SCHEDULE,53,53,FINE ARTS,"Anderson, M",180,B8,semester_pair,2,semester_2,Ceramics 1
+TENTATIVE MASTER SCHEDULE,54,54,FINE ARTS,"Anderson, M",180,A4,full_year,1,full_year,Advanced Ceramics
+TENTATIVE MASTER SCHEDULE,55,55,FINE ARTS,"Chen, J",262,A1,semester_pair,1,semester_1,Digital Illustration
+TENTATIVE MASTER SCHEDULE,55,55,FINE ARTS,"Chen, J",262,A1,semester_pair,2,semester_2,Digital Illustration
+TENTATIVE MASTER SCHEDULE,55,55,FINE ARTS,"Chen, J",262,A3,semester_pair,1,semester_1,Digital Illustration
+TENTATIVE MASTER SCHEDULE,55,55,FINE ARTS,"Chen, J",262,A3,semester_pair,2,semester_2,Digital Illustration
+TENTATIVE MASTER SCHEDULE,55,55,FINE ARTS,"Chen, J",262,A4,semester_pair,1,semester_1,Digital Illustration
+TENTATIVE MASTER SCHEDULE,55,55,FINE ARTS,"Chen, J",262,A4,semester_pair,2,semester_2,Digital Illustration
+TENTATIVE MASTER SCHEDULE,55,55,FINE ARTS,"Chen, J",262,B5,semester_pair,1,semester_1,Commercial Art 1
+TENTATIVE MASTER SCHEDULE,55,55,FINE ARTS,"Chen, J",262,B5,semester_pair,2,semester_2,Commercial Art 1
+TENTATIVE MASTER SCHEDULE,55,55,FINE ARTS,"Chen, J",262,B7,semester_pair,1,semester_1,Commercial Art 1
+TENTATIVE MASTER SCHEDULE,55,55,FINE ARTS,"Chen, J",262,B7,semester_pair,2,semester_2,Commercial Art 1
+TENTATIVE MASTER SCHEDULE,55,55,FINE ARTS,"Chen, J",262,B8,semester_pair,1,semester_1,Commercial Art 1
+TENTATIVE MASTER SCHEDULE,55,55,FINE ARTS,"Chen, J",262,B8,semester_pair,2,semester_2,Commercial Art 2
+TENTATIVE MASTER SCHEDULE,56,56,FINE ARTS,"Dawson, A",185,A2,semester_pair,1,semester_1,Painting 1
+TENTATIVE MASTER SCHEDULE,56,56,FINE ARTS,"Dawson, A",185,A2,semester_pair,2,semester_2,Painting 1
+TENTATIVE MASTER SCHEDULE,56,56,FINE ARTS,"Dawson, A",185,A3,semester_pair,1,semester_1,Painting 1
+TENTATIVE MASTER SCHEDULE,56,56,FINE ARTS,"Dawson, A",185,A3,semester_pair,2,semester_2,Painting 1
+TENTATIVE MASTER SCHEDULE,56,56,FINE ARTS,"Dawson, A",185,A4,semester_pair,1,semester_1,Painting 1
+TENTATIVE MASTER SCHEDULE,56,56,FINE ARTS,"Dawson, A",185,A4,semester_pair,2,semester_2,Painting 1
+TENTATIVE MASTER SCHEDULE,56,56,FINE ARTS,"Dawson, A",185,B5,semester_pair,1,semester_1,Art Foundations
+TENTATIVE MASTER SCHEDULE,56,56,FINE ARTS,"Dawson, A",185,B5,semester_pair,2,semester_2,Art Foundations
+TENTATIVE MASTER SCHEDULE,56,56,FINE ARTS,"Dawson, A",185,B6,semester_pair,1,semester_1,Art Foundations
+TENTATIVE MASTER SCHEDULE,56,56,FINE ARTS,"Dawson, A",185,B6,semester_pair,2,semester_2,Art Foundations
+TENTATIVE MASTER SCHEDULE,56,56,FINE ARTS,"Dawson, A",185,B7,semester_pair,1,semester_1,Fiber Art 1
+TENTATIVE MASTER SCHEDULE,56,56,FINE ARTS,"Dawson, A",185,B7,semester_pair,2,semester_2,Fiber Art 1
+TENTATIVE MASTER SCHEDULE,56,56,FINE ARTS,"Dawson, A",185,B8,semester_pair,1,semester_1,Fiber Art 2
+TENTATIVE MASTER SCHEDULE,56,56,FINE ARTS,"Dawson, A",185,B8,semester_pair,2,semester_2,Fiber Art 2
+TENTATIVE MASTER SCHEDULE,57,57,FINE ARTS,"Duncan, E",516,A1,full_year,1,full_year,AP Music Theory
+TENTATIVE MASTER SCHEDULE,57,57,FINE ARTS,"Duncan, E",516,A2,semester_pair,1,semester_1,Music Appreciation
+TENTATIVE MASTER SCHEDULE,57,57,FINE ARTS,"Duncan, E",516,A2,semester_pair,2,semester_2,Music Appreciation
+TENTATIVE MASTER SCHEDULE,57,57,FINE ARTS,"Duncan, E",516,A3,full_year,1,full_year,Treble Choir
+TENTATIVE MASTER SCHEDULE,57,57,FINE ARTS,"Duncan, E",516,B5,full_year,1,full_year,Tenor/Bass Choir
+TENTATIVE MASTER SCHEDULE,57,57,FINE ARTS,"Duncan, E",516,B6,full_year,1,full_year,Varsity Concert Choir
+TENTATIVE MASTER SCHEDULE,57,57,FINE ARTS,"Duncan, E",516,B7,full_year,1,full_year,Chamber Choir (Audition)
+TENTATIVE MASTER SCHEDULE,57,57,FINE ARTS,"Duncan, E",516,B8,full_year,1,full_year,Musical Theater (Audition)
+TENTATIVE MASTER SCHEDULE,58,58,FINE ARTS,"Hansen, B",460,A1,semester_pair,1,semester_1,(Yoga)
+TENTATIVE MASTER SCHEDULE,58,58,FINE ARTS,"Hansen, B",460,A1,semester_pair,2,semester_2,(Yoga)
+TENTATIVE MASTER SCHEDULE,58,58,FINE ARTS,"Hansen, B",460,A2,semester_pair,1,semester_1,Dance 1
+TENTATIVE MASTER SCHEDULE,58,58,FINE ARTS,"Hansen, B",460,A2,semester_pair,2,semester_2,Dance 2
+TENTATIVE MASTER SCHEDULE,58,58,FINE ARTS,"Hansen, B",460,A3,full_year,1,full_year,Dance 3 CE (Audition)
+TENTATIVE MASTER SCHEDULE,58,58,FINE ARTS,"Hansen, B",460,A4,full_year,1,full_year,Dance Company (Audition)
+TENTATIVE MASTER SCHEDULE,58,58,FINE ARTS,"Hansen, B",460,B6,semester_pair,1,semester_1,(Yoga)
+TENTATIVE MASTER SCHEDULE,58,58,FINE ARTS,"Hansen, B",460,B6,semester_pair,2,semester_2,(Yoga)
+TENTATIVE MASTER SCHEDULE,58,58,FINE ARTS,"Hansen, B",460,B7,semester_pair,1,semester_1,(Yoga)
+TENTATIVE MASTER SCHEDULE,58,58,FINE ARTS,"Hansen, B",460,B7,semester_pair,2,semester_2,(Yoga)
+TENTATIVE MASTER SCHEDULE,58,58,FINE ARTS,"Hansen, B",460,B8,semester_pair,1,semester_1,(Yoga)
+TENTATIVE MASTER SCHEDULE,58,58,FINE ARTS,"Hansen, B",460,B8,semester_pair,2,semester_2,(Yoga)
+TENTATIVE MASTER SCHEDULE,59,59,FINE ARTS,"Haws, Z",184,A1,semester_pair,1,semester_1,Illustration/Character Design
+TENTATIVE MASTER SCHEDULE,59,59,FINE ARTS,"Haws, Z",184,A1,semester_pair,2,semester_2,Illustration/Character Design
+TENTATIVE MASTER SCHEDULE,59,59,FINE ARTS,"Haws, Z",184,A3,semester_pair,1,semester_1,Illustration/Character Design
+TENTATIVE MASTER SCHEDULE,59,59,FINE ARTS,"Haws, Z",184,A3,semester_pair,2,semester_2,Illustration/Character Design
+TENTATIVE MASTER SCHEDULE,59,59,FINE ARTS,"Haws, Z",184,A4,semester_pair,1,semester_1,Illustration/Character Design
+TENTATIVE MASTER SCHEDULE,59,59,FINE ARTS,"Haws, Z",184,A4,semester_pair,2,semester_2,Illustration/Character Design
+TENTATIVE MASTER SCHEDULE,59,59,FINE ARTS,"Haws, Z",184,B5,semester_pair,1,semester_1,Drawing 2
+TENTATIVE MASTER SCHEDULE,59,59,FINE ARTS,"Haws, Z",184,B5,semester_pair,2,semester_2,Drawing 2
+TENTATIVE MASTER SCHEDULE,59,59,FINE ARTS,"Haws, Z",184,B6,semester_pair,1,semester_1,Drawing 1
+TENTATIVE MASTER SCHEDULE,59,59,FINE ARTS,"Haws, Z",184,B6,semester_pair,2,semester_2,Drawing 1
+TENTATIVE MASTER SCHEDULE,59,59,FINE ARTS,"Haws, Z",184,B7,semester_pair,1,semester_1,Drawing 1
+TENTATIVE MASTER SCHEDULE,59,59,FINE ARTS,"Haws, Z",184,B7,semester_pair,2,semester_2,Drawing 1
+TENTATIVE MASTER SCHEDULE,59,59,FINE ARTS,"Haws, Z",184,B8,semester_pair,1,semester_1,Drawing 1
+TENTATIVE MASTER SCHEDULE,59,59,FINE ARTS,"Haws, Z",184,B8,semester_pair,2,semester_2,Drawing 1
+TENTATIVE MASTER SCHEDULE,60,60,FINE ARTS,"Kelley, J",515,B6,full_year,1,full_year,Orchestra - Chamber (Audition)
+TENTATIVE MASTER SCHEDULE,60,60,FINE ARTS,"Kelley, J",515,B7,full_year,1,full_year,Orchestra - Intermediate
+TENTATIVE MASTER SCHEDULE,60,60,FINE ARTS,"Kelley, J",515,B8,full_year,1,full_year,Hand Bells (Audition)
+TENTATIVE MASTER SCHEDULE,61,61,FINE ARTS,"Marsh, R",182,A1,full_year,1,full_year,Honors Art
+TENTATIVE MASTER SCHEDULE,61,61,FINE ARTS,"Marsh, R",182,A2,semester_pair,1,semester_1,Drawing 2
+TENTATIVE MASTER SCHEDULE,61,61,FINE ARTS,"Marsh, R",182,A2,semester_pair,2,semester_2,Drawing 2
+TENTATIVE MASTER SCHEDULE,61,61,FINE ARTS,"Marsh, R",182,A3,full_year,1,full_year,AP Art
+TENTATIVE MASTER SCHEDULE,61,61,FINE ARTS,"Marsh, R",182,B5,semester_pair,1,semester_1,UVU- Art 1010 CE
+TENTATIVE MASTER SCHEDULE,61,61,FINE ARTS,"Marsh, R",182,B5,semester_pair,2,semester_2,UVU- Art 1010 CE
+TENTATIVE MASTER SCHEDULE,61,61,FINE ARTS,"Marsh, R",182,B6,semester_pair,1,semester_1,Painting 2
+TENTATIVE MASTER SCHEDULE,61,61,FINE ARTS,"Marsh, R",182,B6,semester_pair,2,semester_2,Painting 2
+TENTATIVE MASTER SCHEDULE,61,61,FINE ARTS,"Marsh, R",182,B7,semester_pair,1,semester_1,Painting 1
+TENTATIVE MASTER SCHEDULE,61,61,FINE ARTS,"Marsh, R",182,B7,semester_pair,2,semester_2,Painting 1
+TENTATIVE MASTER SCHEDULE,61,61,FINE ARTS,"Marsh, R",182,B8,semester_pair,1,semester_1,Painting 1
+TENTATIVE MASTER SCHEDULE,61,61,FINE ARTS,"Marsh, R",182,B8,semester_pair,2,semester_2,Painting 1
+TENTATIVE MASTER SCHEDULE,62,62,FINE ARTS,"Nelsen, M",527,A1,semester_pair,1,semester_1,Film Lit 1
+TENTATIVE MASTER SCHEDULE,62,62,FINE ARTS,"Nelsen, M",527,A1,semester_pair,2,semester_2,Film Lit 2
+TENTATIVE MASTER SCHEDULE,62,62,FINE ARTS,"Nelsen, M",527,A2,full_year,1,full_year,Drama 4 (Audition)
+TENTATIVE MASTER SCHEDULE,62,62,FINE ARTS,"Nelsen, M",527,A4,full_year,1,full_year,Stage Crew (Teacher Approved)
+TENTATIVE MASTER SCHEDULE,62,62,FINE ARTS,"Nelsen, M",527,B5,full_year,1,full_year,Stagecraft
+TENTATIVE MASTER SCHEDULE,62,62,FINE ARTS,"Nelsen, M",527,B6,full_year,1,full_year,Drama 3 CE
+TENTATIVE MASTER SCHEDULE,62,62,FINE ARTS,"Nelsen, M",527,B8,full_year,1,full_year,Musical Theater (Audition)
+TENTATIVE MASTER SCHEDULE,63,63,FINE ARTS,"Parker, B",503,A1,semester_pair,1,semester_1,Guitar 1
+TENTATIVE MASTER SCHEDULE,63,63,FINE ARTS,"Parker, B",503,A1,semester_pair,2,semester_2,Guitar 1
+TENTATIVE MASTER SCHEDULE,63,63,FINE ARTS,"Parker, B",503,A2,full_year,1,full_year,Symphonic Band
+TENTATIVE MASTER SCHEDULE,63,63,FINE ARTS,"Parker, B",503,A3,full_year,1,full_year,Wind Symphony
+TENTATIVE MASTER SCHEDULE,63,63,FINE ARTS,"Parker, B",503,B5,full_year,1,full_year,Jazz Band - Intermediate
+TENTATIVE MASTER SCHEDULE,63,63,FINE ARTS,"Parker, B",503,B6,full_year,1,full_year,Jazz Band - Advanced
+TENTATIVE MASTER SCHEDULE,63,63,FINE ARTS,"Parker, B",503,B7,full_year,1,full_year,Intermediate Guitar (Sem 2)
+TENTATIVE MASTER SCHEDULE,64,64,FINE ARTS,"Slager, B",257,A1,semester_pair,1,semester_1,Photo 1
+TENTATIVE MASTER SCHEDULE,64,64,FINE ARTS,"Slager, B",257,A1,semester_pair,2,semester_2,Photo 1
+TENTATIVE MASTER SCHEDULE,64,64,FINE ARTS,"Slager, B",257,A2,semester_pair,1,semester_1,Photo 1
+TENTATIVE MASTER SCHEDULE,64,64,FINE ARTS,"Slager, B",257,A2,semester_pair,2,semester_2,Photo 2
+TENTATIVE MASTER SCHEDULE,64,64,FINE ARTS,"Slager, B",257,A3,full_year,1,full_year,Photo 3 (Teacher Approved)
+TENTATIVE MASTER SCHEDULE,64,64,FINE ARTS,"Slager, B",257,A4,semester_pair,1,semester_1,Photo 1
+TENTATIVE MASTER SCHEDULE,64,64,FINE ARTS,"Slager, B",257,A4,semester_pair,2,semester_2,Photo 2
+TENTATIVE MASTER SCHEDULE,64,64,FINE ARTS,"Slager, B",257,B5,semester_pair,1,semester_1,Photo 1
+TENTATIVE MASTER SCHEDULE,64,64,FINE ARTS,"Slager, B",257,B5,semester_pair,2,semester_2,Photo 1
+TENTATIVE MASTER SCHEDULE,64,64,FINE ARTS,"Slager, B",257,B7,semester_pair,1,semester_1,Photo 1
+TENTATIVE MASTER SCHEDULE,64,64,FINE ARTS,"Slager, B",257,B7,semester_pair,2,semester_2,Photo 2
+TENTATIVE MASTER SCHEDULE,64,64,FINE ARTS,"Slager, B",257,B8,semester_pair,1,semester_1,Photo 1
+TENTATIVE MASTER SCHEDULE,64,64,FINE ARTS,"Slager, B",257,B8,semester_pair,2,semester_2,Photo 2
+TENTATIVE MASTER SCHEDULE,65,65,FINE ARTS,"Tippetts, M",515,A2,full_year,1,full_year,Percussion - Intermediate
+TENTATIVE MASTER SCHEDULE,65,65,FINE ARTS,"Tippetts, M",515,A3,full_year,1,full_year,Percussion - Advanced
+TENTATIVE MASTER SCHEDULE,65,65,FINE ARTS,"Tippetts, M",515,A4,semester_pair,1,semester_1,Music Appreciation CE
+TENTATIVE MASTER SCHEDULE,65,65,FINE ARTS,"Tippetts, M",515,A4,semester_pair,2,semester_2,Music Appreciation CE
+TENTATIVE MASTER SCHEDULE,67,67,MATH,"Armour, C",203,A1,full_year,1,full_year,Secondary 2 Extended
+TENTATIVE MASTER SCHEDULE,67,67,MATH,"Armour, C",203,A2,full_year,1,full_year,Math Decision Making CT
+TENTATIVE MASTER SCHEDULE,67,67,MATH,"Armour, C",203,A3,full_year,1,full_year,Math Decision Making
+TENTATIVE MASTER SCHEDULE,67,67,MATH,"Armour, C",203,A4,full_year,1,full_year,Secondary 2 Extended
+TENTATIVE MASTER SCHEDULE,67,67,MATH,"Armour, C",203,B5,full_year,1,full_year,Secondary 2
+TENTATIVE MASTER SCHEDULE,67,67,MATH,"Armour, C",203,B7,full_year,1,full_year,Secondary 2
+TENTATIVE MASTER SCHEDULE,67,67,MATH,"Armour, C",203,B8,full_year,1,full_year,Secondary 2
+TENTATIVE MASTER SCHEDULE,68,68,MATH,"Barker, A",209 / B-day,B5,full_year,1,full_year,Secondary 3
+TENTATIVE MASTER SCHEDULE,68,68,MATH,"Barker, A",209 / B-day,B6,semester_pair,1,semester_1,UVU-Math 1010
+TENTATIVE MASTER SCHEDULE,68,68,MATH,"Barker, A",209 / B-day,B6,semester_pair,2,semester_2,UVU-Math 1050
+TENTATIVE MASTER SCHEDULE,68,68,MATH,"Barker, A",209 / B-day,B7,full_year,1,full_year,Secondary 3
+TENTATIVE MASTER SCHEDULE,68,68,MATH,"Barker, A",209 / B-day,B8,semester_pair,1,semester_1,UVU-Math 1010
+TENTATIVE MASTER SCHEDULE,68,68,MATH,"Barker, A",209 / B-day,B8,semester_pair,2,semester_2,UVU-Math 1050
+TENTATIVE MASTER SCHEDULE,69,69,MATH,"Clark (Jones), M",210,A2,full_year,1,full_year,Secondary 2
+TENTATIVE MASTER SCHEDULE,69,69,MATH,"Clark (Jones), M",210,A3,full_year,1,full_year,AP Precalculus
+TENTATIVE MASTER SCHEDULE,69,69,MATH,"Clark (Jones), M",210,A4,full_year,1,full_year,Secondary 2
+TENTATIVE MASTER SCHEDULE,69,69,MATH,"Clark (Jones), M",210,B5,full_year,1,full_year,Secondary 2
+TENTATIVE MASTER SCHEDULE,69,69,MATH,"Clark (Jones), M",210,B6,full_year,1,full_year,Secondary 2
+TENTATIVE MASTER SCHEDULE,69,69,MATH,"Clark (Jones), M",210,B7,full_year,1,full_year,AP Calculus AB
+TENTATIVE MASTER SCHEDULE,69,69,MATH,"Clark (Jones), M",210,B8,full_year,1,full_year,AP/CE Math Lab
+TENTATIVE MASTER SCHEDULE,70,70,MATH,"Embley, J",208,A1,full_year,1,full_year,AP Stats
+TENTATIVE MASTER SCHEDULE,70,70,MATH,"Embley, J",208,A2,full_year,1,full_year,Secondary 3 Daily
+TENTATIVE MASTER SCHEDULE,70,70,MATH,"Embley, J",208,A3,full_year,1,full_year,Secondary 3
+TENTATIVE MASTER SCHEDULE,70,70,MATH,"Embley, J",208,B5,full_year,1,full_year,Secondary 3
+TENTATIVE MASTER SCHEDULE,70,70,MATH,"Embley, J",208,B6,full_year,1,full_year,Secondary 3 Daily
+TENTATIVE MASTER SCHEDULE,70,70,MATH,"Embley, J",208,B7,full_year,1,full_year,Math Decision Making CT
+TENTATIVE MASTER SCHEDULE,70,70,MATH,"Embley, J",208,B8,full_year,1,full_year,Math Decision Making CT
+TENTATIVE MASTER SCHEDULE,71,71,MATH,"Gale, S",209 / A-day,A1,full_year,1,full_year,Data Science CT
+TENTATIVE MASTER SCHEDULE,71,71,MATH,"Gale, S",209 / A-day,A2,full_year,1,full_year,Secondary 2 CT
+TENTATIVE MASTER SCHEDULE,71,71,MATH,"Gale, S",209 / A-day,A3,full_year,1,full_year,Secondary 1
+TENTATIVE MASTER SCHEDULE,71,71,MATH,"Gale, S",209 / A-day,A4,full_year,1,full_year,Data Science
+TENTATIVE MASTER SCHEDULE,72,72,MATH,"Gibbons, J",207,A1,full_year,1,full_year,Secondary 2
+TENTATIVE MASTER SCHEDULE,72,72,MATH,"Gibbons, J",207,A2,full_year,1,full_year,Secondary 2 Daily
+TENTATIVE MASTER SCHEDULE,72,72,MATH,"Gibbons, J",207,A3,full_year,1,full_year,Secondary 2 Daily CT
+TENTATIVE MASTER SCHEDULE,72,72,MATH,"Gibbons, J",207,B5,full_year,1,full_year,Secondary 3
+TENTATIVE MASTER SCHEDULE,72,72,MATH,"Gibbons, J",207,B6,full_year,1,full_year,Secondary 2 Daily
+TENTATIVE MASTER SCHEDULE,72,72,MATH,"Gibbons, J",207,B7,full_year,1,full_year,Secondary 2 Daily CT
+TENTATIVE MASTER SCHEDULE,72,72,MATH,"Gibbons, J",207,B8,full_year,1,full_year,Secondary 3
+TENTATIVE MASTER SCHEDULE,73,73,MATH,"Manning, M",204,A1,full_year,1,full_year,Secondary 3 Daily
+TENTATIVE MASTER SCHEDULE,73,73,MATH,"Manning, M",204,A3,full_year,1,full_year,Secondary 2
+TENTATIVE MASTER SCHEDULE,73,73,MATH,"Manning, M",204,A4,full_year,1,full_year,Secondary 2
+TENTATIVE MASTER SCHEDULE,73,73,MATH,"Manning, M",204,B5,full_year,1,full_year,Secondary 3 Daily
+TENTATIVE MASTER SCHEDULE,73,73,MATH,"Manning, M",204,B6,full_year,1,full_year,Secondary 3
+TENTATIVE MASTER SCHEDULE,73,73,MATH,"Manning, M",204,B7,full_year,1,full_year,Secondary 2
+TENTATIVE MASTER SCHEDULE,73,73,MATH,"Manning, M",204,B8,full_year,1,full_year,Secondary 2
+TENTATIVE MASTER SCHEDULE,74,74,MATH,"Jasperson, M",205,A2,full_year,1,full_year,Secondary 3
+TENTATIVE MASTER SCHEDULE,74,74,MATH,"Jasperson, M",205,A3,full_year,1,full_year,AP Calculus BC Daily
+TENTATIVE MASTER SCHEDULE,74,74,MATH,"Jasperson, M",205,A4,full_year,1,full_year,Secondary 3
+TENTATIVE MASTER SCHEDULE,74,74,MATH,"Jasperson, M",205,B5,full_year,1,full_year,Secondary 3 Extended
+TENTATIVE MASTER SCHEDULE,74,74,MATH,"Jasperson, M",205,B6,full_year,1,full_year,Secondary 3 Extended
+TENTATIVE MASTER SCHEDULE,74,74,MATH,"Jasperson, M",205,B7,full_year,1,full_year,AP Calculus BC Daily
+TENTATIVE MASTER SCHEDULE,74,74,MATH,"Jasperson, M",205,B8,full_year,1,full_year,Secondary 3
+TENTATIVE MASTER SCHEDULE,75,75,MATH,"Roberts, BJ",221,A1,semester_pair,1,semester_1,Academic Studies
+TENTATIVE MASTER SCHEDULE,75,75,MATH,"Roberts, BJ",221,A1,semester_pair,2,semester_2,Academic Studies
+TENTATIVE MASTER SCHEDULE,75,75,MATH,"Roberts, BJ",221,A2,full_year,1,full_year,Secondary 3
+TENTATIVE MASTER SCHEDULE,75,75,MATH,"Roberts, BJ",221,A3,full_year,1,full_year,Secondary 3 Daily
+TENTATIVE MASTER SCHEDULE,75,75,MATH,"Roberts, BJ",221,A4,full_year,1,full_year,Secondary 3
+TENTATIVE MASTER SCHEDULE,75,75,MATH,"Roberts, BJ",221,B5,semester_pair,1,semester_1,UVU-Math 1010
+TENTATIVE MASTER SCHEDULE,75,75,MATH,"Roberts, BJ",221,B5,semester_pair,2,semester_2,UVU-Math 1040
+TENTATIVE MASTER SCHEDULE,75,75,MATH,"Roberts, BJ",221,B6,full_year,1,full_year,Secondary 2
+TENTATIVE MASTER SCHEDULE,75,75,MATH,"Roberts, BJ",221,B7,full_year,1,full_year,Secondary 3 Daily
+TENTATIVE MASTER SCHEDULE,76,76,MATH,"Shaffer, M",220/ A-Day,A1,full_year,1,full_year,Secondary 3 Extended
+TENTATIVE MASTER SCHEDULE,76,76,MATH,"Shaffer, M",220/ A-Day,A2,full_year,1,full_year,Secondary 2
+TENTATIVE MASTER SCHEDULE,76,76,MATH,"Shaffer, M",220/ A-Day,A3,full_year,1,full_year,Secondary 2
+TENTATIVE MASTER SCHEDULE,76,76,MATH,"Shaffer, M",220/ A-Day,A4,full_year,1,full_year,Secondary 3 Extended
+TENTATIVE MASTER SCHEDULE,77,77,MATH,"Stromness, J",201,A1,full_year,1,full_year,Secondary 2 Daily
+TENTATIVE MASTER SCHEDULE,77,77,MATH,"Stromness, J",201,A2,semester_pair,1,semester_1,UVU-Math 1010
+TENTATIVE MASTER SCHEDULE,77,77,MATH,"Stromness, J",201,A2,semester_pair,2,semester_2,UVU-Math 1030
+TENTATIVE MASTER SCHEDULE,77,77,MATH,"Stromness, J",201,A3,full_year,1,full_year,`
+TENTATIVE MASTER SCHEDULE,77,77,MATH,"Stromness, J",201,A4,full_year,1,full_year,Secondary 2
+TENTATIVE MASTER SCHEDULE,77,77,MATH,"Stromness, J",201,B5,full_year,1,full_year,Secondary 2 Daily
+TENTATIVE MASTER SCHEDULE,77,77,MATH,"Stromness, J",201,B6,full_year,1,full_year,Sec 2 Extended
+TENTATIVE MASTER SCHEDULE,77,77,MATH,"Stromness, J",201,B7,full_year,1,full_year,Secondary 2 Extended
+TENTATIVE MASTER SCHEDULE,77,77,MATH,"Stromness, J",201,B8,full_year,1,full_year,Secondary 2
+TENTATIVE MASTER SCHEDULE,78,78,MATH,"Wood, J",206,A1,full_year,1,full_year,Secondary 3
+TENTATIVE MASTER SCHEDULE,78,78,MATH,"Wood, J",206,A2,semester_pair,1,semester_1,UVU-Math 1010
+TENTATIVE MASTER SCHEDULE,78,78,MATH,"Wood, J",206,A2,semester_pair,2,semester_2,UVU-Math 1050
+TENTATIVE MASTER SCHEDULE,78,78,MATH,"Wood, J",206,A3,semester_pair,1,semester_1,UVU-Math 1010
+TENTATIVE MASTER SCHEDULE,78,78,MATH,"Wood, J",206,A3,semester_pair,2,semester_2,UVU-Math 1050
+TENTATIVE MASTER SCHEDULE,78,78,MATH,"Wood, J",206,A4,full_year,1,full_year,Secondary 3
+TENTATIVE MASTER SCHEDULE,78,78,MATH,"Wood, J",206,B5,semester_pair,1,semester_1,UVU-Math 1050
+TENTATIVE MASTER SCHEDULE,78,78,MATH,"Wood, J",206,B5,semester_pair,2,semester_2,UVU-Math 1050
+TENTATIVE MASTER SCHEDULE,78,78,MATH,"Wood, J",206,B6,full_year,1,full_year,Secondary 3
+TENTATIVE MASTER SCHEDULE,78,78,MATH,"Wood, J",206,B7,semester_pair,1,semester_1,UVU-Math 1010
+TENTATIVE MASTER SCHEDULE,78,78,MATH,"Wood, J",206,B7,semester_pair,2,semester_2,UVU-Math 1050
+TENTATIVE MASTER SCHEDULE,80,80,PE / HEALTH,"Anderson, J",,B8,full_year,1,full_year,Cheerleader (Try-Out)
+TENTATIVE MASTER SCHEDULE,81,81,PE / HEALTH,"Bentley, J",178,A1,semester_pair,1,semester_1,EMR CE
+TENTATIVE MASTER SCHEDULE,81,81,PE / HEALTH,"Bentley, J",178,A1,semester_pair,2,semester_2,EMR CE
+TENTATIVE MASTER SCHEDULE,81,81,PE / HEALTH,"Bentley, J",178,A2,semester_pair,1,semester_1,Health Science Intro
+TENTATIVE MASTER SCHEDULE,81,81,PE / HEALTH,"Bentley, J",178,A2,semester_pair,2,semester_2,Medical Terminology CE
+TENTATIVE MASTER SCHEDULE,81,81,PE / HEALTH,"Bentley, J",178,A3,semester_pair,1,semester_1,Health Science Intro
+TENTATIVE MASTER SCHEDULE,81,81,PE / HEALTH,"Bentley, J",178,A3,semester_pair,2,semester_2,Medical Terminology CE
+TENTATIVE MASTER SCHEDULE,81,81,PE / HEALTH,"Bentley, J",178,A4,semester_pair,1,semester_1,Health
+TENTATIVE MASTER SCHEDULE,81,81,PE / HEALTH,"Bentley, J",178,A4,semester_pair,2,semester_2,Health
+TENTATIVE MASTER SCHEDULE,81,81,PE / HEALTH,"Bentley, J",178,B6,full_year,1,full_year,Sports Medicine CE
+TENTATIVE MASTER SCHEDULE,81,81,PE / HEALTH,"Bentley, J",178,B7,full_year,1,full_year,Sports Medicine CE
+TENTATIVE MASTER SCHEDULE,81,81,PE / HEALTH,"Bentley, J",178,B8,full_year,1,full_year,Sports Medicine CE
+TENTATIVE MASTER SCHEDULE,82,82,PE / HEALTH,"Bowles, A",,A1,semester_pair,1,semester_1,Lifetime Activities
+TENTATIVE MASTER SCHEDULE,82,82,PE / HEALTH,"Bowles, A",,A1,semester_pair,2,semester_2,Lifetime Activities
+TENTATIVE MASTER SCHEDULE,82,82,PE / HEALTH,"Bowles, A",,A2,semester_pair,1,semester_1,Lifetime Activities
+TENTATIVE MASTER SCHEDULE,82,82,PE / HEALTH,"Bowles, A",,A2,semester_pair,2,semester_2,Lifetime Activities
+TENTATIVE MASTER SCHEDULE,82,82,PE / HEALTH,"Bowles, A",,A4,semester_pair,1,semester_1,Volleyball Team (F)
+TENTATIVE MASTER SCHEDULE,82,82,PE / HEALTH,"Bowles, A",,A4,semester_pair,2,semester_2,Volleyball Team
+TENTATIVE MASTER SCHEDULE,82,82,PE / HEALTH,"Bowles, A",,B5,semester_pair,1,semester_1,Lifetime Activities
+TENTATIVE MASTER SCHEDULE,82,82,PE / HEALTH,"Bowles, A",,B5,semester_pair,2,semester_2,Lifetime Activities
+TENTATIVE MASTER SCHEDULE,82,82,PE / HEALTH,"Bowles, A",,B6,semester_pair,1,semester_1,Fitness
+TENTATIVE MASTER SCHEDULE,82,82,PE / HEALTH,"Bowles, A",,B6,semester_pair,2,semester_2,Fitness
+TENTATIVE MASTER SCHEDULE,82,82,PE / HEALTH,"Bowles, A",,B8,semester_pair,1,semester_1,Lifetime Activities
+TENTATIVE MASTER SCHEDULE,82,82,PE / HEALTH,"Bowles, A",,B8,semester_pair,2,semester_2,Lifetime Activities
+TENTATIVE MASTER SCHEDULE,83,83,PE / HEALTH,"Bromley, R",,A4,semester_pair,1,semester_1,Basketball Conditioning (M)
+TENTATIVE MASTER SCHEDULE,83,83,PE / HEALTH,"Bromley, R",,A4,semester_pair,2,semester_2,Basketball Team (M)
+TENTATIVE MASTER SCHEDULE,84,84,PE / HEALTH,"Burningham, R",,A1,semester_pair,1,semester_1,Woods 1
+TENTATIVE MASTER SCHEDULE,84,84,PE / HEALTH,"Burningham, R",,A1,semester_pair,2,semester_2,Woods 1
+TENTATIVE MASTER SCHEDULE,84,84,PE / HEALTH,"Burningham, R",,A2,full_year,1,full_year,Woods 2/3 CE
+TENTATIVE MASTER SCHEDULE,84,84,PE / HEALTH,"Burningham, R",,A3,full_year,1,full_year,Woods 2/3 CE
+TENTATIVE MASTER SCHEDULE,84,84,PE / HEALTH,"Burningham, R",,B5,semester_pair,1,semester_1,Woods 1
+TENTATIVE MASTER SCHEDULE,84,84,PE / HEALTH,"Burningham, R",,B5,semester_pair,2,semester_2,Woods 1
+TENTATIVE MASTER SCHEDULE,84,84,PE / HEALTH,"Burningham, R",,B6,semester_pair,1,semester_1,Woods 1
+TENTATIVE MASTER SCHEDULE,84,84,PE / HEALTH,"Burningham, R",,B6,semester_pair,2,semester_2,Woods 1
+TENTATIVE MASTER SCHEDULE,84,84,PE / HEALTH,"Burningham, R",,B7,semester_pair,1,semester_1,Woods 1
+TENTATIVE MASTER SCHEDULE,84,84,PE / HEALTH,"Burningham, R",,B7,semester_pair,2,semester_2,Woods 1
+TENTATIVE MASTER SCHEDULE,84,84,PE / HEALTH,"Burningham, R",,B8,full_year,1,full_year,Tennis Team (M) (Sem 2)
+TENTATIVE MASTER SCHEDULE,85,85,PE / HEALTH,"Dolan, B",,B5,full_year,1,full_year,Ballroom
+TENTATIVE MASTER SCHEDULE,86,86,PE / HEALTH,"Dorton, C",361,A1,full_year,1,full_year,US History
+TENTATIVE MASTER SCHEDULE,86,86,PE / HEALTH,"Dorton, C",361,A2,full_year,1,full_year,US History
+TENTATIVE MASTER SCHEDULE,86,86,PE / HEALTH,"Dorton, C",361,A3,full_year,1,full_year,US History
+TENTATIVE MASTER SCHEDULE,86,86,PE / HEALTH,"Dorton, C",361,A4,semester_pair,1,semester_1,Cross Country
+TENTATIVE MASTER SCHEDULE,86,86,PE / HEALTH,"Dorton, C",361,A4,semester_pair,2,semester_2,World Religions
+TENTATIVE MASTER SCHEDULE,86,86,PE / HEALTH,"Dorton, C",361,B5,full_year,1,full_year,Economics Economics
+TENTATIVE MASTER SCHEDULE,86,86,PE / HEALTH,"Dorton, C",361,B6,full_year,1,full_year,Economics Economics
+TENTATIVE MASTER SCHEDULE,86,86,PE / HEALTH,"Dorton, C",361,B7,full_year,1,full_year,AP Economics
+TENTATIVE MASTER SCHEDULE,87,87,PE / HEALTH,"Gray, M",,A1,full_year,1,full_year,Drill Team (Try-Out)
+TENTATIVE MASTER SCHEDULE,88,88,PE / HEALTH,"Hadfield, A",,B7,semester_pair,1,semester_1,Football Team Sophomore
+TENTATIVE MASTER SCHEDULE,88,88,PE / HEALTH,"Hadfield, A",,B7,semester_pair,2,semester_2,Football Team Sophomore
+TENTATIVE MASTER SCHEDULE,88,88,PE / HEALTH,"Hadfield, A",,B8,semester_pair,1,semester_1,Football Team Varsity
+TENTATIVE MASTER SCHEDULE,88,88,PE / HEALTH,"Hadfield, A",,B8,semester_pair,2,semester_2,Football Team Varsity
+TENTATIVE MASTER SCHEDULE,89,89,PE / HEALTH,Staff 2,,B6,semester_pair,1,semester_1,Lifetime Activities
+TENTATIVE MASTER SCHEDULE,89,89,PE / HEALTH,Staff 2,,B6,semester_pair,2,semester_2,Lifetime Activities
+TENTATIVE MASTER SCHEDULE,90,90,PE / HEALTH,"Hartmann, J",,A4,full_year,1,full_year,Soccer Team (F) (Sem 1)
+TENTATIVE MASTER SCHEDULE,91,91,PE / HEALTH,"Ingersoll, J",Gym,A1,semester_pair,1,semester_1,Weight Training
+TENTATIVE MASTER SCHEDULE,91,91,PE / HEALTH,"Ingersoll, J",Gym,A1,semester_pair,2,semester_2,Weight Training
+TENTATIVE MASTER SCHEDULE,91,91,PE / HEALTH,"Ingersoll, J",Gym,A2,semester_pair,1,semester_1,Weight Training
+TENTATIVE MASTER SCHEDULE,91,91,PE / HEALTH,"Ingersoll, J",Gym,A2,semester_pair,2,semester_2,Weight Training
+TENTATIVE MASTER SCHEDULE,91,91,PE / HEALTH,"Ingersoll, J",Gym,A3,semester_pair,1,semester_1,Rec Basketball
+TENTATIVE MASTER SCHEDULE,91,91,PE / HEALTH,"Ingersoll, J",Gym,A3,semester_pair,2,semester_2,Rec Basketball
+TENTATIVE MASTER SCHEDULE,91,91,PE / HEALTH,"Ingersoll, J",Gym,B5,semester_pair,1,semester_1,Financial Lit
+TENTATIVE MASTER SCHEDULE,91,91,PE / HEALTH,"Ingersoll, J",Gym,B5,semester_pair,2,semester_2,Financial Lit
+TENTATIVE MASTER SCHEDULE,91,91,PE / HEALTH,"Ingersoll, J",Gym,B6,semester_pair,1,semester_1,Financial Lit
+TENTATIVE MASTER SCHEDULE,91,91,PE / HEALTH,"Ingersoll, J",Gym,B6,semester_pair,2,semester_2,Financial Lit
+TENTATIVE MASTER SCHEDULE,91,91,PE / HEALTH,"Ingersoll, J",Gym,B7,semester_pair,1,semester_1,Financial Lit
+TENTATIVE MASTER SCHEDULE,91,91,PE / HEALTH,"Ingersoll, J",Gym,B7,semester_pair,2,semester_2,Financial Lit
+TENTATIVE MASTER SCHEDULE,91,91,PE / HEALTH,"Ingersoll, J",Gym,B8,semester_pair,1,semester_1,Lifetime Activities
+TENTATIVE MASTER SCHEDULE,91,91,PE / HEALTH,"Ingersoll, J",Gym,B8,semester_pair,2,semester_2,Lifetime Activities
+TENTATIVE MASTER SCHEDULE,92,92,PE / HEALTH,"Kennedy, T",,B8,full_year,1,full_year,Softball Team (F)
+TENTATIVE MASTER SCHEDULE,93,93,PE / HEALTH,"Hansen, B",460,A1,semester_pair,1,semester_1,Yoga
+TENTATIVE MASTER SCHEDULE,93,93,PE / HEALTH,"Hansen, B",460,A1,semester_pair,2,semester_2,Yoga
+TENTATIVE MASTER SCHEDULE,93,93,PE / HEALTH,"Hansen, B",460,A2,semester_pair,1,semester_1,Dance 1
+TENTATIVE MASTER SCHEDULE,93,93,PE / HEALTH,"Hansen, B",460,A2,semester_pair,2,semester_2,Dance 2
+TENTATIVE MASTER SCHEDULE,93,93,PE / HEALTH,"Hansen, B",460,A3,full_year,1,full_year,Dance 3 CE (Audition)
+TENTATIVE MASTER SCHEDULE,93,93,PE / HEALTH,"Hansen, B",460,A4,full_year,1,full_year,Dance Company (Audition)
+TENTATIVE MASTER SCHEDULE,93,93,PE / HEALTH,"Hansen, B",460,B6,semester_pair,1,semester_1,Yoga
+TENTATIVE MASTER SCHEDULE,93,93,PE / HEALTH,"Hansen, B",460,B6,semester_pair,2,semester_2,Yoga
+TENTATIVE MASTER SCHEDULE,93,93,PE / HEALTH,"Hansen, B",460,B7,semester_pair,1,semester_1,Yoga
+TENTATIVE MASTER SCHEDULE,93,93,PE / HEALTH,"Hansen, B",460,B7,semester_pair,2,semester_2,Yoga
+TENTATIVE MASTER SCHEDULE,93,93,PE / HEALTH,"Hansen, B",460,B8,semester_pair,1,semester_1,Yoga
+TENTATIVE MASTER SCHEDULE,93,93,PE / HEALTH,"Hansen, B",460,B8,semester_pair,2,semester_2,Yoga
+TENTATIVE MASTER SCHEDULE,94,94,PE / HEALTH,"Labrum, T",,A4,full_year,1,full_year,Swim Team
+TENTATIVE MASTER SCHEDULE,95,95,PE / HEALTH,"Larsen, K",363/A-days,A1,semester_pair,1,semester_1,Fitness
+TENTATIVE MASTER SCHEDULE,95,95,PE / HEALTH,"Larsen, K",363/A-days,A1,semester_pair,2,semester_2,Fitness
+TENTATIVE MASTER SCHEDULE,95,95,PE / HEALTH,"Larsen, K",363/A-days,A2,semester_pair,1,semester_1,Health
+TENTATIVE MASTER SCHEDULE,95,95,PE / HEALTH,"Larsen, K",363/A-days,A2,semester_pair,2,semester_2,Health
+TENTATIVE MASTER SCHEDULE,95,95,PE / HEALTH,"Larsen, K",363/A-days,A3,semester_pair,1,semester_1,Health
+TENTATIVE MASTER SCHEDULE,95,95,PE / HEALTH,"Larsen, K",363/A-days,A3,semester_pair,2,semester_2,Health
+TENTATIVE MASTER SCHEDULE,95,95,PE / HEALTH,"Larsen, K",363/A-days,A4,semester_pair,1,semester_1,Lifetime Activities
+TENTATIVE MASTER SCHEDULE,95,95,PE / HEALTH,"Larsen, K",363/A-days,A4,semester_pair,2,semester_2,Lifetime Activities
+TENTATIVE MASTER SCHEDULE,95,95,PE / HEALTH,"Larsen, K",363/A-days,B5,semester_pair,1,semester_1,Fitness
+TENTATIVE MASTER SCHEDULE,95,95,PE / HEALTH,"Larsen, K",363/A-days,B5,semester_pair,2,semester_2,Fitness
+TENTATIVE MASTER SCHEDULE,95,95,PE / HEALTH,"Larsen, K",363/A-days,B6,semester_pair,1,semester_1,Fitness
+TENTATIVE MASTER SCHEDULE,95,95,PE / HEALTH,"Larsen, K",363/A-days,B6,semester_pair,2,semester_2,Fitness
+TENTATIVE MASTER SCHEDULE,95,95,PE / HEALTH,"Larsen, K",363/A-days,B7,semester_pair,1,semester_1,Rec Basketball
+TENTATIVE MASTER SCHEDULE,95,95,PE / HEALTH,"Larsen, K",363/A-days,B7,semester_pair,2,semester_2,Rec Basketball
+TENTATIVE MASTER SCHEDULE,96,96,PE / HEALTH,"Larson, E",456,A1,semester_pair,1,semester_1,Fitness
+TENTATIVE MASTER SCHEDULE,96,96,PE / HEALTH,"Larson, E",456,A1,semester_pair,2,semester_2,Fitness
+TENTATIVE MASTER SCHEDULE,96,96,PE / HEALTH,"Larson, E",456,A2,semester_pair,1,semester_1,Fitness
+TENTATIVE MASTER SCHEDULE,96,96,PE / HEALTH,"Larson, E",456,A2,semester_pair,2,semester_2,Fitness
+TENTATIVE MASTER SCHEDULE,96,96,PE / HEALTH,"Larson, E",456,A3,semester_pair,1,semester_1,Advanced Weight Training
+TENTATIVE MASTER SCHEDULE,96,96,PE / HEALTH,"Larson, E",456,A3,semester_pair,2,semester_2,Advanced Weight Training
+TENTATIVE MASTER SCHEDULE,96,96,PE / HEALTH,"Larson, E",456,A4,semester_pair,1,semester_1,Lifetime Activities
+TENTATIVE MASTER SCHEDULE,96,96,PE / HEALTH,"Larson, E",456,A4,semester_pair,2,semester_2,Lifetime Activities
+TENTATIVE MASTER SCHEDULE,96,96,PE / HEALTH,"Larson, E",456,B5,semester_pair,1,semester_1,Weight Training
+TENTATIVE MASTER SCHEDULE,96,96,PE / HEALTH,"Larson, E",456,B5,semester_pair,2,semester_2,Weight Training
+TENTATIVE MASTER SCHEDULE,96,96,PE / HEALTH,"Larson, E",456,B6,semester_pair,1,semester_1,Weight Training
+TENTATIVE MASTER SCHEDULE,96,96,PE / HEALTH,"Larson, E",456,B6,semester_pair,2,semester_2,Weight Training
+TENTATIVE MASTER SCHEDULE,96,96,PE / HEALTH,"Larson, E",456,B7,semester_pair,1,semester_1,Fitness
+TENTATIVE MASTER SCHEDULE,96,96,PE / HEALTH,"Larson, E",456,B7,semester_pair,2,semester_2,Fitness
+TENTATIVE MASTER SCHEDULE,97,97,PE / HEALTH,"Layman, P",703/B-days,A1,full_year,1,full_year,PLC Coach
+TENTATIVE MASTER SCHEDULE,97,97,PE / HEALTH,"Layman, P",703/B-days,A2,full_year,1,full_year,PLC Coach
+TENTATIVE MASTER SCHEDULE,97,97,PE / HEALTH,"Layman, P",703/B-days,A3,full_year,1,full_year,PLC Coach
+TENTATIVE MASTER SCHEDULE,97,97,PE / HEALTH,"Layman, P",703/B-days,A4,full_year,1,full_year,PLC Coach
+TENTATIVE MASTER SCHEDULE,97,97,PE / HEALTH,"Layman, P",703/B-days,B6,semester_pair,1,semester_1,Health
+TENTATIVE MASTER SCHEDULE,97,97,PE / HEALTH,"Layman, P",703/B-days,B6,semester_pair,2,semester_2,Health
+TENTATIVE MASTER SCHEDULE,97,97,PE / HEALTH,"Layman, P",703/B-days,B7,semester_pair,1,semester_1,Health
+TENTATIVE MASTER SCHEDULE,97,97,PE / HEALTH,"Layman, P",703/B-days,B7,semester_pair,2,semester_2,Health
+TENTATIVE MASTER SCHEDULE,97,97,PE / HEALTH,"Layman, P",703/B-days,B8,semester_pair,1,semester_1,Health
+TENTATIVE MASTER SCHEDULE,97,97,PE / HEALTH,"Layman, P",703/B-days,B8,semester_pair,2,semester_2,Health
+TENTATIVE MASTER SCHEDULE,98,98,PE / HEALTH,"Madsen, E",,A1,semester_pair,1,semester_1,Unified PE
+TENTATIVE MASTER SCHEDULE,98,98,PE / HEALTH,"Madsen, E",,A1,semester_pair,2,semester_2,Unified PE
+TENTATIVE MASTER SCHEDULE,98,98,PE / HEALTH,"Madsen, E",,A2,semester_pair,1,semester_1,Fitness
+TENTATIVE MASTER SCHEDULE,98,98,PE / HEALTH,"Madsen, E",,A2,semester_pair,2,semester_2,Fitness
+TENTATIVE MASTER SCHEDULE,98,98,PE / HEALTH,"Madsen, E",,A3,semester_pair,1,semester_1,Fitness
+TENTATIVE MASTER SCHEDULE,98,98,PE / HEALTH,"Madsen, E",,A3,semester_pair,2,semester_2,Fitness
+TENTATIVE MASTER SCHEDULE,98,98,PE / HEALTH,"Madsen, E",,A4,full_year,1,full_year,Baseball Team
+TENTATIVE MASTER SCHEDULE,98,98,PE / HEALTH,"Madsen, E",,B5,semester_pair,1,semester_1,Fitness
+TENTATIVE MASTER SCHEDULE,98,98,PE / HEALTH,"Madsen, E",,B5,semester_pair,2,semester_2,Fitness
+TENTATIVE MASTER SCHEDULE,98,98,PE / HEALTH,"Madsen, E",,B6,semester_pair,1,semester_1,Lifetime Activities
+TENTATIVE MASTER SCHEDULE,98,98,PE / HEALTH,"Madsen, E",,B6,semester_pair,2,semester_2,Lifetime Activities
+TENTATIVE MASTER SCHEDULE,98,98,PE / HEALTH,"Madsen, E",,B7,semester_pair,1,semester_1,Fitness
+TENTATIVE MASTER SCHEDULE,98,98,PE / HEALTH,"Madsen, E",,B7,semester_pair,2,semester_2,Fitness
+TENTATIVE MASTER SCHEDULE,99,99,PE / HEALTH,"Morales, N",231,A1,semester_pair,1,semester_1,Health
+TENTATIVE MASTER SCHEDULE,99,99,PE / HEALTH,"Morales, N",231,A1,semester_pair,2,semester_2,Health
+TENTATIVE MASTER SCHEDULE,99,99,PE / HEALTH,"Morales, N",231,A2,semester_pair,1,semester_1,Health
+TENTATIVE MASTER SCHEDULE,99,99,PE / HEALTH,"Morales, N",231,A2,semester_pair,2,semester_2,Health
+TENTATIVE MASTER SCHEDULE,99,99,PE / HEALTH,"Morales, N",231,A3,semester_pair,1,semester_1,Health
+TENTATIVE MASTER SCHEDULE,99,99,PE / HEALTH,"Morales, N",231,A3,semester_pair,2,semester_2,Health
+TENTATIVE MASTER SCHEDULE,99,99,PE / HEALTH,"Morales, N",231,A4,semester_pair,1,semester_1,Health
+TENTATIVE MASTER SCHEDULE,99,99,PE / HEALTH,"Morales, N",231,A4,semester_pair,2,semester_2,Health
+TENTATIVE MASTER SCHEDULE,99,99,PE / HEALTH,"Morales, N",231,B5,semester_pair,1,semester_1,Health
+TENTATIVE MASTER SCHEDULE,99,99,PE / HEALTH,"Morales, N",231,B5,semester_pair,2,semester_2,Health
+TENTATIVE MASTER SCHEDULE,99,99,PE / HEALTH,"Morales, N",231,B6,semester_pair,1,semester_1,Health
+TENTATIVE MASTER SCHEDULE,99,99,PE / HEALTH,"Morales, N",231,B6,semester_pair,2,semester_2,Health
+TENTATIVE MASTER SCHEDULE,99,99,PE / HEALTH,"Morales, N",231,B7,semester_pair,1,semester_1,Sources of Strength
+TENTATIVE MASTER SCHEDULE,99,99,PE / HEALTH,"Morales, N",231,B7,semester_pair,2,semester_2,Sources of Strength
+TENTATIVE MASTER SCHEDULE,100,100,PE / HEALTH,"Parker, T",,B5,full_year,1,full_year,Color Guard (elective credit only)
+TENTATIVE MASTER SCHEDULE,101,101,PE / HEALTH,"Rice, D",,A1,full_year,1,full_year,Wrestling (Semester 1)
+TENTATIVE MASTER SCHEDULE,102,102,PE / HEALTH,"Sager, R",,A1,full_year,1,full_year,Spanish 4 CE
+TENTATIVE MASTER SCHEDULE,102,102,PE / HEALTH,"Sager, R",,A2,full_year,1,full_year,Spanish 4 CE
+TENTATIVE MASTER SCHEDULE,102,102,PE / HEALTH,"Sager, R",,A3,full_year,1,full_year,AP Spanish
+TENTATIVE MASTER SCHEDULE,102,102,PE / HEALTH,"Sager, R",,B5,semester_pair,1,semester_1,Wrestling Team Boys
+TENTATIVE MASTER SCHEDULE,102,102,PE / HEALTH,"Sager, R",,B5,semester_pair,2,semester_2,Wrestling Team Boys
+TENTATIVE MASTER SCHEDULE,102,102,PE / HEALTH,"Sager, R",,B6,full_year,1,full_year,Spanish 3 CE
+TENTATIVE MASTER SCHEDULE,102,102,PE / HEALTH,"Sager, R",,B7,full_year,1,full_year,Spanish 3 CE
+TENTATIVE MASTER SCHEDULE,102,102,PE / HEALTH,"Sager, R",,B8,full_year,1,full_year,Spanish 3 CE
+TENTATIVE MASTER SCHEDULE,103,103,PE / HEALTH,"Seastrand, S",,A1,full_year,1,full_year,PLC Coach
+TENTATIVE MASTER SCHEDULE,103,103,PE / HEALTH,"Seastrand, S",,A2,full_year,1,full_year,PLC Coach
+TENTATIVE MASTER SCHEDULE,103,103,PE / HEALTH,"Seastrand, S",,A3,full_year,1,full_year,PLC Coach
+TENTATIVE MASTER SCHEDULE,103,103,PE / HEALTH,"Seastrand, S",,A4,full_year,1,full_year,PLC Coach
+TENTATIVE MASTER SCHEDULE,103,103,PE / HEALTH,"Seastrand, S",,B6,semester_pair,1,semester_1,Sociology
+TENTATIVE MASTER SCHEDULE,103,103,PE / HEALTH,"Seastrand, S",,B6,semester_pair,2,semester_2,Sociology
+TENTATIVE MASTER SCHEDULE,103,103,PE / HEALTH,"Seastrand, S",,B7,semester_pair,1,semester_1,Sociology
+TENTATIVE MASTER SCHEDULE,103,103,PE / HEALTH,"Seastrand, S",,B7,semester_pair,2,semester_2,Sociology
+TENTATIVE MASTER SCHEDULE,103,103,PE / HEALTH,"Seastrand, S",,B8,full_year,1,full_year,Basketball Team (F)
+TENTATIVE MASTER SCHEDULE,104,104,PE / HEALTH,"Siri, T",,A1,full_year,1,full_year,Spanish 1
+TENTATIVE MASTER SCHEDULE,104,104,PE / HEALTH,"Siri, T",,A2,full_year,1,full_year,Spanish 1
+TENTATIVE MASTER SCHEDULE,104,104,PE / HEALTH,"Siri, T",,A3,full_year,1,full_year,Spanish 1
+TENTATIVE MASTER SCHEDULE,104,104,PE / HEALTH,"Siri, T",,A4,semester_pair,1,semester_1,Academic Studies
+TENTATIVE MASTER SCHEDULE,104,104,PE / HEALTH,"Siri, T",,A4,semester_pair,2,semester_2,Lacrosse Team (F) (Sem 2)
+TENTATIVE MASTER SCHEDULE,105,105,PE / HEALTH,"Trejo, K",,A1,semester_pair,1,semester_1,Genetics
+TENTATIVE MASTER SCHEDULE,105,105,PE / HEALTH,"Trejo, K",,A1,semester_pair,2,semester_2,Genetics
+TENTATIVE MASTER SCHEDULE,105,105,PE / HEALTH,"Trejo, K",,A2,full_year,1,full_year,Biology
+TENTATIVE MASTER SCHEDULE,105,105,PE / HEALTH,"Trejo, K",,A3,full_year,1,full_year,Biology
+TENTATIVE MASTER SCHEDULE,105,105,PE / HEALTH,"Trejo, K",,A4,semester_pair,1,semester_1,Wildlife Biology
+TENTATIVE MASTER SCHEDULE,105,105,PE / HEALTH,"Trejo, K",,A4,semester_pair,2,semester_2,Track (Sem 2)
+TENTATIVE MASTER SCHEDULE,105,105,PE / HEALTH,"Trejo, K",,B6,full_year,1,full_year,Chemistry
+TENTATIVE MASTER SCHEDULE,105,105,PE / HEALTH,"Trejo, K",,B7,full_year,1,full_year,Chemistry
+TENTATIVE MASTER SCHEDULE,105,105,PE / HEALTH,"Trejo, K",,B8,full_year,1,full_year,Chemistry
+TENTATIVE MASTER SCHEDULE,106,106,PE / HEALTH,"Zobell, G",,A1,full_year,1,full_year,Biology
+TENTATIVE MASTER SCHEDULE,106,106,PE / HEALTH,"Zobell, G",,A2,full_year,1,full_year,Biology
+TENTATIVE MASTER SCHEDULE,106,106,PE / HEALTH,"Zobell, G",,A3,full_year,1,full_year,Biology
+TENTATIVE MASTER SCHEDULE,106,106,PE / HEALTH,"Zobell, G",,A4,semester_pair,1,semester_1,Tennis Team (F) (Sem 1)
+TENTATIVE MASTER SCHEDULE,106,106,PE / HEALTH,"Zobell, G",,A4,semester_pair,2,semester_2,Academic Studies (Science)
+TENTATIVE MASTER SCHEDULE,106,106,PE / HEALTH,"Zobell, G",,B6,full_year,1,full_year,AP Biology/Bio 1610 CE
+TENTATIVE MASTER SCHEDULE,106,106,PE / HEALTH,"Zobell, G",,B7,full_year,1,full_year,AP Biology/Bio 1610 CE
+TENTATIVE MASTER SCHEDULE,106,106,PE / HEALTH,"Zobell, G",,B8,full_year,1,full_year,AP Biology/Bio 1610 CE
+TENTATIVE MASTER SCHEDULE,108,108,SCIENCE,"Bergholm, B",109,A1,semester_pair,1,semester_1,Zoology
+TENTATIVE MASTER SCHEDULE,108,108,SCIENCE,"Bergholm, B",109,A1,semester_pair,2,semester_2,Zoology
+TENTATIVE MASTER SCHEDULE,108,108,SCIENCE,"Bergholm, B",109,A2,semester_pair,1,semester_1,Zoology
+TENTATIVE MASTER SCHEDULE,108,108,SCIENCE,"Bergholm, B",109,A2,semester_pair,2,semester_2,Zoology
+TENTATIVE MASTER SCHEDULE,108,108,SCIENCE,"Bergholm, B",109,A3,semester_pair,1,semester_1,Zoology
+TENTATIVE MASTER SCHEDULE,108,108,SCIENCE,"Bergholm, B",109,A3,semester_pair,2,semester_2,Zoology
+TENTATIVE MASTER SCHEDULE,108,108,SCIENCE,"Bergholm, B",109,B5,full_year,1,full_year,Medical Anatomy
+TENTATIVE MASTER SCHEDULE,108,108,SCIENCE,"Bergholm, B",109,B6,full_year,1,full_year,Medical Anatomy
+TENTATIVE MASTER SCHEDULE,108,108,SCIENCE,"Bergholm, B",109,B7,semester_pair,1,semester_1,Zoology
+TENTATIVE MASTER SCHEDULE,108,108,SCIENCE,"Bergholm, B",109,B7,semester_pair,2,semester_2,Zoology
+TENTATIVE MASTER SCHEDULE,108,108,SCIENCE,"Bergholm, B",109,B8,semester_pair,1,semester_1,Zoology
+TENTATIVE MASTER SCHEDULE,108,108,SCIENCE,"Bergholm, B",109,B8,semester_pair,2,semester_2,Zoology
+TENTATIVE MASTER SCHEDULE,109,109,SCIENCE,"Dodge, B",108,A1,full_year,1,full_year,Chemistry
+TENTATIVE MASTER SCHEDULE,109,109,SCIENCE,"Dodge, B",108,A2,full_year,1,full_year,Chemistry
+TENTATIVE MASTER SCHEDULE,109,109,SCIENCE,"Dodge, B",108,A3,full_year,1,full_year,Chemistry
+TENTATIVE MASTER SCHEDULE,109,109,SCIENCE,"Dodge, B",108,A4,full_year,1,full_year,Chemistry
+TENTATIVE MASTER SCHEDULE,109,109,SCIENCE,"Dodge, B",108,B5,semester_pair,1,semester_1,Marine Science
+TENTATIVE MASTER SCHEDULE,109,109,SCIENCE,"Dodge, B",108,B5,semester_pair,2,semester_2,Marine Science
+TENTATIVE MASTER SCHEDULE,109,109,SCIENCE,"Dodge, B",108,B7,semester_pair,1,semester_1,Marine Science
+TENTATIVE MASTER SCHEDULE,109,109,SCIENCE,"Dodge, B",108,B7,semester_pair,2,semester_2,Marine Science
+TENTATIVE MASTER SCHEDULE,109,109,SCIENCE,"Dodge, B",108,B8,semester_pair,1,semester_1,Marine Science
+TENTATIVE MASTER SCHEDULE,109,109,SCIENCE,"Dodge, B",108,B8,semester_pair,2,semester_2,Marine Science
+TENTATIVE MASTER SCHEDULE,110,110,SCIENCE,"Edmondson, P",156,A1,full_year,1,full_year,Earth and Space
+TENTATIVE MASTER SCHEDULE,110,110,SCIENCE,"Edmondson, P",156,A2,full_year,1,full_year,Earth and Space
+TENTATIVE MASTER SCHEDULE,110,110,SCIENCE,"Edmondson, P",156,A3,full_year,1,full_year,Physics
+TENTATIVE MASTER SCHEDULE,110,110,SCIENCE,"Edmondson, P",156,A4,full_year,1,full_year,Physics
+TENTATIVE MASTER SCHEDULE,110,110,SCIENCE,"Edmondson, P",156,B5,semester_pair,1,semester_1,Astronomy
+TENTATIVE MASTER SCHEDULE,110,110,SCIENCE,"Edmondson, P",156,B5,semester_pair,2,semester_2,Astronomy
+TENTATIVE MASTER SCHEDULE,110,110,SCIENCE,"Edmondson, P",156,B6,semester_pair,1,semester_1,Astronomy
+TENTATIVE MASTER SCHEDULE,110,110,SCIENCE,"Edmondson, P",156,B6,semester_pair,2,semester_2,Astronomy
+TENTATIVE MASTER SCHEDULE,110,110,SCIENCE,"Edmondson, P",156,B8,full_year,1,full_year,Geology CE
+TENTATIVE MASTER SCHEDULE,111,111,SCIENCE,"Gines, S",114,A1,full_year,1,full_year,Chemistry
+TENTATIVE MASTER SCHEDULE,111,111,SCIENCE,"Gines, S",114,A2,full_year,1,full_year,Chemistry
+TENTATIVE MASTER SCHEDULE,111,111,SCIENCE,"Gines, S",114,A4,full_year,1,full_year,AP Chemistry
+TENTATIVE MASTER SCHEDULE,111,111,SCIENCE,"Gines, S",114,B5,full_year,1,full_year,Biology
+TENTATIVE MASTER SCHEDULE,111,111,SCIENCE,"Gines, S",114,B6,full_year,1,full_year,Biology
+TENTATIVE MASTER SCHEDULE,111,111,SCIENCE,"Gines, S",114,B7,full_year,1,full_year,Biology
+TENTATIVE MASTER SCHEDULE,111,111,SCIENCE,"Gines, S",114,B8,full_year,1,full_year,Biology
+TENTATIVE MASTER SCHEDULE,112,112,SCIENCE,"Greenwood, C - IVC",220,A3,full_year,1,full_year,IVC: Medical Anatomy
+TENTATIVE MASTER SCHEDULE,112,112,SCIENCE,"Greenwood, C - IVC",220,B6,semester_pair,1,semester_1,IVC: Med Terminology
+TENTATIVE MASTER SCHEDULE,112,112,SCIENCE,"Greenwood, C - IVC",220,B6,semester_pair,2,semester_2,IVC: Med Terminology
+TENTATIVE MASTER SCHEDULE,112,112,SCIENCE,"Greenwood, C - IVC",220,B7,full_year,1,full_year,IVC: Medical Anatomy
+TENTATIVE MASTER SCHEDULE,112,112,SCIENCE,"Greenwood, C - IVC",220,B8,full_year,1,full_year,IVC: Medical Anatomy
+TENTATIVE MASTER SCHEDULE,113,113,SCIENCE,"Harward, A",101,A1,full_year,1,full_year,UVU -Biology 1010 CE
+TENTATIVE MASTER SCHEDULE,113,113,SCIENCE,"Harward, A",101,A2,full_year,1,full_year,UVU-Biology 1010 CE
+TENTATIVE MASTER SCHEDULE,113,113,SCIENCE,"Harward, A",101,A3,full_year,1,full_year,UVU-Biology 1010 CE
+TENTATIVE MASTER SCHEDULE,113,113,SCIENCE,"Harward, A",101,B5,full_year,1,full_year,Biology
+TENTATIVE MASTER SCHEDULE,113,113,SCIENCE,"Harward, A",101,B6,full_year,1,full_year,Biology
+TENTATIVE MASTER SCHEDULE,113,113,SCIENCE,"Harward, A",101,B7,full_year,1,full_year,Biology
+TENTATIVE MASTER SCHEDULE,113,113,SCIENCE,"Harward, A",101,B8,full_year,1,full_year,CE/AP Environmental Science
+TENTATIVE MASTER SCHEDULE,114,114,SCIENCE,"Marshall, R",616,A1,full_year,1,full_year,AG Mech/Weld 1
+TENTATIVE MASTER SCHEDULE,114,114,SCIENCE,"Marshall, R",616,A2,full_year,1,full_year,AG Mech/Weld 1
+TENTATIVE MASTER SCHEDULE,114,114,SCIENCE,"Marshall, R",616,A3,full_year,1,full_year,AG Mech/Weld 1
+TENTATIVE MASTER SCHEDULE,114,114,SCIENCE,"Marshall, R",616,A4,full_year,1,full_year,Veterinary Assistant 1
+TENTATIVE MASTER SCHEDULE,114,114,SCIENCE,"Marshall, R",616,B6,full_year,1,full_year,AG Mech/Weld 2
+TENTATIVE MASTER SCHEDULE,114,114,SCIENCE,"Marshall, R",616,B7,full_year,1,full_year,AG Mech/Weld 2
+TENTATIVE MASTER SCHEDULE,114,114,SCIENCE,"Marshall, R",616,B8,semester_pair,1,semester_1,Equine Science 1
+TENTATIVE MASTER SCHEDULE,114,114,SCIENCE,"Marshall, R",616,B8,semester_pair,2,semester_2,Equine Science 2
+TENTATIVE MASTER SCHEDULE,115,115,SCIENCE,"Spencer, S",615,A1,semester_pair,1,semester_1,Floral Design
+TENTATIVE MASTER SCHEDULE,115,115,SCIENCE,"Spencer, S",615,A1,semester_pair,2,semester_2,Floral Design
+TENTATIVE MASTER SCHEDULE,115,115,SCIENCE,"Spencer, S",615,A2,full_year,1,full_year,Animal Science
+TENTATIVE MASTER SCHEDULE,115,115,SCIENCE,"Spencer, S",615,A3,full_year,1,full_year,Animal Science
+TENTATIVE MASTER SCHEDULE,115,115,SCIENCE,"Spencer, S",615,A4,semester_pair,1,semester_1,Floral Design
+TENTATIVE MASTER SCHEDULE,115,115,SCIENCE,"Spencer, S",615,A4,semester_pair,2,semester_2,Floral Design
+TENTATIVE MASTER SCHEDULE,115,115,SCIENCE,"Spencer, S",615,B5,full_year,1,full_year,Plant and Soil Science CE
+TENTATIVE MASTER SCHEDULE,115,115,SCIENCE,"Spencer, S",615,B6,full_year,1,full_year,Plant and Soil Science CE
+TENTATIVE MASTER SCHEDULE,115,115,SCIENCE,"Spencer, S",615,B7,full_year,1,full_year,Biology Ag Science
+TENTATIVE MASTER SCHEDULE,116,116,SCIENCE,"Trejo, K",116,A1,semester_pair,1,semester_1,Genetics
+TENTATIVE MASTER SCHEDULE,116,116,SCIENCE,"Trejo, K",116,A1,semester_pair,2,semester_2,Genetics
+TENTATIVE MASTER SCHEDULE,116,116,SCIENCE,"Trejo, K",116,A2,full_year,1,full_year,Biology
+TENTATIVE MASTER SCHEDULE,116,116,SCIENCE,"Trejo, K",116,A3,full_year,1,full_year,Biology
+TENTATIVE MASTER SCHEDULE,116,116,SCIENCE,"Trejo, K",116,A4,semester_pair,1,semester_1,Wildlife Biology
+TENTATIVE MASTER SCHEDULE,116,116,SCIENCE,"Trejo, K",116,A4,semester_pair,2,semester_2,Track
+TENTATIVE MASTER SCHEDULE,116,116,SCIENCE,"Trejo, K",116,B6,full_year,1,full_year,Chemistry
+TENTATIVE MASTER SCHEDULE,116,116,SCIENCE,"Trejo, K",116,B7,full_year,1,full_year,Chemistry
+TENTATIVE MASTER SCHEDULE,116,116,SCIENCE,"Trejo, K",116,B8,full_year,1,full_year,Chemistry
+TENTATIVE MASTER SCHEDULE,117,117,SCIENCE,"Goldman, C.",152,A1,full_year,1,full_year,UVU- Physics 1010 CE/AP
+TENTATIVE MASTER SCHEDULE,117,117,SCIENCE,"Goldman, C.",152,A2,full_year,1,full_year,UVU- Physics 1010 CE/AP
+TENTATIVE MASTER SCHEDULE,117,117,SCIENCE,"Goldman, C.",152,A3,full_year,1,full_year,CE Astronomy
+TENTATIVE MASTER SCHEDULE,117,117,SCIENCE,"Goldman, C.",152,A4,full_year,1,full_year,CE Astronomy
+TENTATIVE MASTER SCHEDULE,117,117,SCIENCE,"Goldman, C.",152,B5,full_year,1,full_year,Physics
+TENTATIVE MASTER SCHEDULE,117,117,SCIENCE,"Goldman, C.",152,B7,full_year,1,full_year,Physics
+TENTATIVE MASTER SCHEDULE,117,117,SCIENCE,"Goldman, C.",152,B8,full_year,1,full_year,Physics
+TENTATIVE MASTER SCHEDULE,118,118,SCIENCE,"Zobell, G",137,A1,full_year,1,full_year,Biology
+TENTATIVE MASTER SCHEDULE,118,118,SCIENCE,"Zobell, G",137,A2,full_year,1,full_year,Biology
+TENTATIVE MASTER SCHEDULE,118,118,SCIENCE,"Zobell, G",137,A3,full_year,1,full_year,Biology
+TENTATIVE MASTER SCHEDULE,118,118,SCIENCE,"Zobell, G",137,A4,semester_pair,1,semester_1,Tennis Team (F) (Sem 1)
+TENTATIVE MASTER SCHEDULE,118,118,SCIENCE,"Zobell, G",137,A4,semester_pair,2,semester_2,Academic Studies (Science)
+TENTATIVE MASTER SCHEDULE,118,118,SCIENCE,"Zobell, G",137,B6,full_year,1,full_year,AP Biology/Bio 1610 CE
+TENTATIVE MASTER SCHEDULE,118,118,SCIENCE,"Zobell, G",137,B7,full_year,1,full_year,AP Biology/Bio 1610 CE
+TENTATIVE MASTER SCHEDULE,118,118,SCIENCE,"Zobell, G",137,B8,full_year,1,full_year,AP Biology/Bio 1610 CE
+TENTATIVE MASTER SCHEDULE,120,120,SOCIAL STUDIES,"Dorton, C",361,A1,full_year,1,full_year,US History
+TENTATIVE MASTER SCHEDULE,120,120,SOCIAL STUDIES,"Dorton, C",361,A2,full_year,1,full_year,US History
+TENTATIVE MASTER SCHEDULE,120,120,SOCIAL STUDIES,"Dorton, C",361,A3,full_year,1,full_year,US History
+TENTATIVE MASTER SCHEDULE,120,120,SOCIAL STUDIES,"Dorton, C",361,A4,semester_pair,1,semester_1,Cross Country
+TENTATIVE MASTER SCHEDULE,120,120,SOCIAL STUDIES,"Dorton, C",361,A4,semester_pair,2,semester_2,World Religions
+TENTATIVE MASTER SCHEDULE,120,120,SOCIAL STUDIES,"Dorton, C",361,B5,full_year,1,full_year,Economics Economics
+TENTATIVE MASTER SCHEDULE,120,120,SOCIAL STUDIES,"Dorton, C",361,B6,full_year,1,full_year,Economics Economics
+TENTATIVE MASTER SCHEDULE,120,120,SOCIAL STUDIES,"Dorton, C",361,B7,full_year,1,full_year,AP Economics
+TENTATIVE MASTER SCHEDULE,121,121,SOCIAL STUDIES,"Gappmayer, H",359,A1,full_year,1,full_year,CE/AP US History (UVU-HIST1700)
+TENTATIVE MASTER SCHEDULE,121,121,SOCIAL STUDIES,"Gappmayer, H",359,A3,full_year,1,full_year,US History
+TENTATIVE MASTER SCHEDULE,121,121,SOCIAL STUDIES,"Gappmayer, H",359,A4,full_year,1,full_year,CE/AP US History (UVU-HIST1700)
+TENTATIVE MASTER SCHEDULE,121,121,SOCIAL STUDIES,"Gappmayer, H",359,B5,full_year,1,full_year,AP Psych
+TENTATIVE MASTER SCHEDULE,121,121,SOCIAL STUDIES,"Gappmayer, H",359,B6,semester_pair,1,semester_1,Psychology
+TENTATIVE MASTER SCHEDULE,121,121,SOCIAL STUDIES,"Gappmayer, H",359,B6,semester_pair,2,semester_2,Psychology
+TENTATIVE MASTER SCHEDULE,121,121,SOCIAL STUDIES,"Gappmayer, H",359,B7,semester_pair,1,semester_1,CE Psychology
+TENTATIVE MASTER SCHEDULE,121,121,SOCIAL STUDIES,"Gappmayer, H",359,B7,semester_pair,2,semester_2,CE Psychology
+TENTATIVE MASTER SCHEDULE,121,121,SOCIAL STUDIES,"Gappmayer, H",359,B8,semester_pair,1,semester_1,CE Psychology
+TENTATIVE MASTER SCHEDULE,121,121,SOCIAL STUDIES,"Gappmayer, H",359,B8,semester_pair,2,semester_2,CE Psychology
+TENTATIVE MASTER SCHEDULE,122,122,SOCIAL STUDIES,"Hall, J",357,A1,semester_pair,1,semester_1,Sports History
+TENTATIVE MASTER SCHEDULE,122,122,SOCIAL STUDIES,"Hall, J",357,A1,semester_pair,2,semester_2,Sports History
+TENTATIVE MASTER SCHEDULE,122,122,SOCIAL STUDIES,"Hall, J",357,A2,semester_pair,1,semester_1,Sports History
+TENTATIVE MASTER SCHEDULE,122,122,SOCIAL STUDIES,"Hall, J",357,A2,semester_pair,2,semester_2,Sports History
+TENTATIVE MASTER SCHEDULE,122,122,SOCIAL STUDIES,"Hall, J",357,A3,semester_pair,1,semester_1,Pop Culture
+TENTATIVE MASTER SCHEDULE,122,122,SOCIAL STUDIES,"Hall, J",357,A3,semester_pair,2,semester_2,Pop Culture
+TENTATIVE MASTER SCHEDULE,122,122,SOCIAL STUDIES,"Hall, J",357,A4,semester_pair,1,semester_1,Pop Culture
+TENTATIVE MASTER SCHEDULE,122,122,SOCIAL STUDIES,"Hall, J",357,A4,semester_pair,2,semester_2,Pop Culture
+TENTATIVE MASTER SCHEDULE,122,122,SOCIAL STUDIES,"Hall, J",357,B5,full_year,1,full_year,US History
+TENTATIVE MASTER SCHEDULE,122,122,SOCIAL STUDIES,"Hall, J",357,B6,full_year,1,full_year,US History
+TENTATIVE MASTER SCHEDULE,122,122,SOCIAL STUDIES,"Hall, J",357,B7,full_year,1,full_year,US History
+TENTATIVE MASTER SCHEDULE,123,123,SOCIAL STUDIES,"Harrison, J",354,A1,semester_pair,1,semester_1,Ancient World History
+TENTATIVE MASTER SCHEDULE,123,123,SOCIAL STUDIES,"Harrison, J",354,A1,semester_pair,2,semester_2,Modern World History
+TENTATIVE MASTER SCHEDULE,123,123,SOCIAL STUDIES,"Harrison, J",354,A2,semester_pair,1,semester_1,Ancient World History
+TENTATIVE MASTER SCHEDULE,123,123,SOCIAL STUDIES,"Harrison, J",354,A2,semester_pair,2,semester_2,Modern World History
+TENTATIVE MASTER SCHEDULE,123,123,SOCIAL STUDIES,"Harrison, J",354,A3,semester_pair,1,semester_1,Wars
+TENTATIVE MASTER SCHEDULE,123,123,SOCIAL STUDIES,"Harrison, J",354,A3,semester_pair,2,semester_2,Wars
+TENTATIVE MASTER SCHEDULE,123,123,SOCIAL STUDIES,"Harrison, J",354,A4,semester_pair,1,semester_1,Ancient World History
+TENTATIVE MASTER SCHEDULE,123,123,SOCIAL STUDIES,"Harrison, J",354,A4,semester_pair,2,semester_2,Wars
+TENTATIVE MASTER SCHEDULE,123,123,SOCIAL STUDIES,"Harrison, J",354,B6,full_year,1,full_year,AP World History
+TENTATIVE MASTER SCHEDULE,123,123,SOCIAL STUDIES,"Harrison, J",354,B7,semester_pair,1,semester_1,Ancient World History
+TENTATIVE MASTER SCHEDULE,123,123,SOCIAL STUDIES,"Harrison, J",354,B7,semester_pair,2,semester_2,Modern World History
+TENTATIVE MASTER SCHEDULE,123,123,SOCIAL STUDIES,"Harrison, J",354,B8,semester_pair,1,semester_1,Ancient World History
+TENTATIVE MASTER SCHEDULE,123,123,SOCIAL STUDIES,"Harrison, J",354,B8,semester_pair,2,semester_2,Modern World History
+TENTATIVE MASTER SCHEDULE,124,124,SOCIAL STUDIES,"Lindsay, D",358,A2,full_year,1,full_year,US History
+TENTATIVE MASTER SCHEDULE,124,124,SOCIAL STUDIES,"Lindsay, D",358,A3,full_year,1,full_year,US History
+TENTATIVE MASTER SCHEDULE,124,124,SOCIAL STUDIES,"Lindsay, D",358,A4,full_year,1,full_year,US History
+TENTATIVE MASTER SCHEDULE,124,124,SOCIAL STUDIES,"Lindsay, D",358,B5,semester_pair,1,semester_1,Women's History
+TENTATIVE MASTER SCHEDULE,124,124,SOCIAL STUDIES,"Lindsay, D",358,B5,semester_pair,2,semester_2,Women's History
+TENTATIVE MASTER SCHEDULE,124,124,SOCIAL STUDIES,"Lindsay, D",358,B6,semester_pair,1,semester_1,Women's History
+TENTATIVE MASTER SCHEDULE,124,124,SOCIAL STUDIES,"Lindsay, D",358,B6,semester_pair,2,semester_2,Women's History
+TENTATIVE MASTER SCHEDULE,124,124,SOCIAL STUDIES,"Lindsay, D",358,B7,semester_pair,1,semester_1,CE Gov and Cit
+TENTATIVE MASTER SCHEDULE,124,124,SOCIAL STUDIES,"Lindsay, D",358,B7,semester_pair,2,semester_2,CE Gov and Cit
+TENTATIVE MASTER SCHEDULE,124,124,SOCIAL STUDIES,"Lindsay, D",358,B8,semester_pair,1,semester_1,Current Issues
+TENTATIVE MASTER SCHEDULE,124,124,SOCIAL STUDIES,"Lindsay, D",358,B8,semester_pair,2,semester_2,Current Issues
+TENTATIVE MASTER SCHEDULE,125,125,SOCIAL STUDIES,"Longmore, B",364,A1,full_year,1,full_year,US History
+TENTATIVE MASTER SCHEDULE,125,125,SOCIAL STUDIES,"Longmore, B",364,A2,full_year,1,full_year,CE/AP US History (UVU-HIST1700)
+TENTATIVE MASTER SCHEDULE,125,125,SOCIAL STUDIES,"Longmore, B",364,A3,full_year,1,full_year,US History
+TENTATIVE MASTER SCHEDULE,125,125,SOCIAL STUDIES,"Longmore, B",364,A4,full_year,1,full_year,US History
+TENTATIVE MASTER SCHEDULE,125,125,SOCIAL STUDIES,"Longmore, B",364,B5,full_year,1,full_year,CE/AP US History (UVU-HIST1700)
+TENTATIVE MASTER SCHEDULE,125,125,SOCIAL STUDIES,"Longmore, B",364,B7,semester_pair,1,semester_1,History of Rock and Roll
+TENTATIVE MASTER SCHEDULE,125,125,SOCIAL STUDIES,"Longmore, B",364,B7,semester_pair,2,semester_2,History of Rock and Roll
+TENTATIVE MASTER SCHEDULE,125,125,SOCIAL STUDIES,"Longmore, B",364,B8,full_year,1,full_year,CE/AP US History (UVU-HIST1700)
+TENTATIVE MASTER SCHEDULE,126,126,SOCIAL STUDIES,"Ricks, M",360,A1,semester_pair,1,semester_1,Gov and Cit
+TENTATIVE MASTER SCHEDULE,126,126,SOCIAL STUDIES,"Ricks, M",360,A1,semester_pair,2,semester_2,Gov and Cit
+TENTATIVE MASTER SCHEDULE,126,126,SOCIAL STUDIES,"Ricks, M",360,A3,semester_pair,1,semester_1,Financial Literacy
+TENTATIVE MASTER SCHEDULE,126,126,SOCIAL STUDIES,"Ricks, M",360,A3,semester_pair,2,semester_2,Financial Literacy
+TENTATIVE MASTER SCHEDULE,126,126,SOCIAL STUDIES,"Ricks, M",360,B5,full_year,1,full_year,US History
+TENTATIVE MASTER SCHEDULE,126,126,SOCIAL STUDIES,"Ricks, M",360,B6,full_year,1,full_year,US History
+TENTATIVE MASTER SCHEDULE,126,126,SOCIAL STUDIES,"Ricks, M",360,B7,full_year,1,full_year,US History
+TENTATIVE MASTER SCHEDULE,126,126,SOCIAL STUDIES,"Ricks, M",360,B8,full_year,1,full_year,US History
+TENTATIVE MASTER SCHEDULE,127,127,SOCIAL STUDIES,"Seastrand, S",363/B-days,A1,full_year,1,full_year,PLC Coach
+TENTATIVE MASTER SCHEDULE,127,127,SOCIAL STUDIES,"Seastrand, S",363/B-days,A2,full_year,1,full_year,PLC Coach
+TENTATIVE MASTER SCHEDULE,127,127,SOCIAL STUDIES,"Seastrand, S",363/B-days,A3,full_year,1,full_year,PLC Coach
+TENTATIVE MASTER SCHEDULE,127,127,SOCIAL STUDIES,"Seastrand, S",363/B-days,A4,full_year,1,full_year,PLC Coach
+TENTATIVE MASTER SCHEDULE,127,127,SOCIAL STUDIES,"Seastrand, S",363/B-days,B6,semester_pair,1,semester_1,Sociology
+TENTATIVE MASTER SCHEDULE,127,127,SOCIAL STUDIES,"Seastrand, S",363/B-days,B6,semester_pair,2,semester_2,Sociology
+TENTATIVE MASTER SCHEDULE,127,127,SOCIAL STUDIES,"Seastrand, S",363/B-days,B7,semester_pair,1,semester_1,Sociology
+TENTATIVE MASTER SCHEDULE,127,127,SOCIAL STUDIES,"Seastrand, S",363/B-days,B7,semester_pair,2,semester_2,Sociology
+TENTATIVE MASTER SCHEDULE,127,127,SOCIAL STUDIES,"Seastrand, S",363/B-days,B8,full_year,1,full_year,(Basketball Team (F)
+TENTATIVE MASTER SCHEDULE,128,128,SOCIAL STUDIES,"Weiss, A",348,A1,semester_pair,1,semester_1,Psychology
+TENTATIVE MASTER SCHEDULE,128,128,SOCIAL STUDIES,"Weiss, A",348,A1,semester_pair,2,semester_2,Psychology
+TENTATIVE MASTER SCHEDULE,128,128,SOCIAL STUDIES,"Weiss, A",348,A2,semester_pair,1,semester_1,Psychology
+TENTATIVE MASTER SCHEDULE,128,128,SOCIAL STUDIES,"Weiss, A",348,A2,semester_pair,2,semester_2,Psychology
+TENTATIVE MASTER SCHEDULE,128,128,SOCIAL STUDIES,"Weiss, A",348,A4,semester_pair,1,semester_1,Psychology
+TENTATIVE MASTER SCHEDULE,128,128,SOCIAL STUDIES,"Weiss, A",348,A4,semester_pair,2,semester_2,Psychology
+TENTATIVE MASTER SCHEDULE,128,128,SOCIAL STUDIES,"Weiss, A",348,B5,semester_pair,1,semester_1,Psychology
+TENTATIVE MASTER SCHEDULE,128,128,SOCIAL STUDIES,"Weiss, A",348,B5,semester_pair,2,semester_2,Psychology
+TENTATIVE MASTER SCHEDULE,128,128,SOCIAL STUDIES,"Weiss, A",348,B6,full_year,1,full_year,US History
+TENTATIVE MASTER SCHEDULE,128,128,SOCIAL STUDIES,"Weiss, A",348,B7,full_year,1,full_year,US History
+TENTATIVE MASTER SCHEDULE,128,128,SOCIAL STUDIES,"Weiss, A",348,B8,full_year,1,full_year,US History
+TENTATIVE MASTER SCHEDULE,130,130,WORLD LANGUAGES,"Cornelsen, K",343/ B-day,B6,full_year,1,full_year,French 1
+TENTATIVE MASTER SCHEDULE,130,130,WORLD LANGUAGES,"Cornelsen, K",343/ B-day,B7,full_year,1,full_year,French 2
+TENTATIVE MASTER SCHEDULE,131,131,WORLD LANGUAGES,"Guiver, J",342,A1,full_year,1,full_year,ELD 1
+TENTATIVE MASTER SCHEDULE,131,131,WORLD LANGUAGES,"Guiver, J",342,A2,full_year,1,full_year,ELD 3/4
+TENTATIVE MASTER SCHEDULE,131,131,WORLD LANGUAGES,"Guiver, J",342,A3,full_year,1,full_year,ELD 3/4
+TENTATIVE MASTER SCHEDULE,131,131,WORLD LANGUAGES,"Guiver, J",342,A4,semester_pair,1,semester_1,Academic Studies
+TENTATIVE MASTER SCHEDULE,131,131,WORLD LANGUAGES,"Guiver, J",342,A4,semester_pair,2,semester_2,Academic Studies
+TENTATIVE MASTER SCHEDULE,131,131,WORLD LANGUAGES,"Guiver, J",342,B5,semester_pair,1,semester_1,Academic Studies
+TENTATIVE MASTER SCHEDULE,131,131,WORLD LANGUAGES,"Guiver, J",342,B5,semester_pair,2,semester_2,Academic Studies
+TENTATIVE MASTER SCHEDULE,131,131,WORLD LANGUAGES,"Guiver, J",342,B6,full_year,1,full_year,LIA- CE
+TENTATIVE MASTER SCHEDULE,131,131,WORLD LANGUAGES,"Guiver, J",342,B8,full_year,1,full_year,ELD 2
+TENTATIVE MASTER SCHEDULE,132,132,WORLD LANGUAGES,"Kemp, H",343/ A-day,A1,full_year,1,full_year,French 4 CE
+TENTATIVE MASTER SCHEDULE,132,132,WORLD LANGUAGES,"Kemp, H",343/ A-day,A2,full_year,1,full_year,AP French
+TENTATIVE MASTER SCHEDULE,132,132,WORLD LANGUAGES,"Kemp, H",343/ A-day,A3,full_year,1,full_year,French 3 CE
+TENTATIVE MASTER SCHEDULE,132,132,WORLD LANGUAGES,"Kemp, H",343/ A-day,A4,full_year,1,full_year,French 3 CE
+TENTATIVE MASTER SCHEDULE,133,133,WORLD LANGUAGES,"Lee, B - IVC",222,A1,full_year,1,full_year,IVC: ASL 1
+TENTATIVE MASTER SCHEDULE,133,133,WORLD LANGUAGES,"Lee, B - IVC",222,A2,full_year,1,full_year,IVC: ASL 3
+TENTATIVE MASTER SCHEDULE,133,133,WORLD LANGUAGES,"Lee, B - IVC",222,A4,full_year,1,full_year,IVC: ASL 1
+TENTATIVE MASTER SCHEDULE,133,133,WORLD LANGUAGES,"Lee, B - IVC",222,B5,full_year,1,full_year,IVC: ASL 2
+TENTATIVE MASTER SCHEDULE,134,134,WORLD LANGUAGES,"Olson, M",346/A-days,B5,full_year,1,full_year,Spanish 2
+TENTATIVE MASTER SCHEDULE,134,134,WORLD LANGUAGES,"Olson, M",346/A-days,B6,full_year,1,full_year,Spanish 2
+TENTATIVE MASTER SCHEDULE,134,134,WORLD LANGUAGES,"Olson, M",346/A-days,B7,full_year,1,full_year,Spanish 2
+TENTATIVE MASTER SCHEDULE,134,134,WORLD LANGUAGES,"Olson, M",346/A-days,B8,full_year,1,full_year,Spanish 2
+TENTATIVE MASTER SCHEDULE,135,135,WORLD LANGUAGES,"Sager, R",345,A1,full_year,1,full_year,Spanish 4 CE
+TENTATIVE MASTER SCHEDULE,135,135,WORLD LANGUAGES,"Sager, R",345,A2,full_year,1,full_year,Spanish 4 CE
+TENTATIVE MASTER SCHEDULE,135,135,WORLD LANGUAGES,"Sager, R",345,A3,full_year,1,full_year,AP Spanish
+TENTATIVE MASTER SCHEDULE,135,135,WORLD LANGUAGES,"Sager, R",345,B5,semester_pair,1,semester_1,Wrestling Team Boys
+TENTATIVE MASTER SCHEDULE,135,135,WORLD LANGUAGES,"Sager, R",345,B5,semester_pair,2,semester_2,Wrestling Team Boys
+TENTATIVE MASTER SCHEDULE,135,135,WORLD LANGUAGES,"Sager, R",345,B6,full_year,1,full_year,Spanish 3 CE
+TENTATIVE MASTER SCHEDULE,135,135,WORLD LANGUAGES,"Sager, R",345,B7,full_year,1,full_year,Spanish 3 CE
+TENTATIVE MASTER SCHEDULE,135,135,WORLD LANGUAGES,"Sager, R",345,B8,full_year,1,full_year,Spanish 3 CE
+TENTATIVE MASTER SCHEDULE,136,136,WORLD LANGUAGES,"Siri, T",346/A-day,A1,full_year,1,full_year,Spanish 1
+TENTATIVE MASTER SCHEDULE,136,136,WORLD LANGUAGES,"Siri, T",346/A-day,A2,full_year,1,full_year,Spanish 1
+TENTATIVE MASTER SCHEDULE,136,136,WORLD LANGUAGES,"Siri, T",346/A-day,A3,full_year,1,full_year,Spanish 1
+TENTATIVE MASTER SCHEDULE,136,136,WORLD LANGUAGES,"Siri, T",346/A-day,A4,semester_pair,1,semester_1,Academic Studies
+TENTATIVE MASTER SCHEDULE,136,136,WORLD LANGUAGES,"Siri, T",346/A-day,A4,semester_pair,2,semester_2,Lacrosse
+TENTATIVE MASTER SCHEDULE,137,137,WORLD LANGUAGES,"Scott, S",183/ B-day,B5,full_year,1,full_year,ASL 1
+TENTATIVE MASTER SCHEDULE,137,137,WORLD LANGUAGES,"Scott, S",183/ B-day,B6,full_year,1,full_year,ASL 2
+TENTATIVE MASTER SCHEDULE,138,138,WORLD LANGUAGES,"Wesemann, K - IVC",220,A2,full_year,1,full_year,IVC: Japanese 1
+TENTATIVE MASTER SCHEDULE,138,138,WORLD LANGUAGES,"Wesemann, K - IVC",220,A3,full_year,1,full_year,IVC: Japanese 2
+TENTATIVE MASTER SCHEDULE,140,140,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Guiver, J",342,A1,full_year,1,full_year,(ELD 1)
+TENTATIVE MASTER SCHEDULE,140,140,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Guiver, J",342,A2,full_year,1,full_year,(ELD 3/4)
+TENTATIVE MASTER SCHEDULE,140,140,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Guiver, J",342,A3,full_year,1,full_year,(ELD 3/4)
+TENTATIVE MASTER SCHEDULE,140,140,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Guiver, J",342,A4,semester_pair,1,semester_1,Academic Studies
+TENTATIVE MASTER SCHEDULE,140,140,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Guiver, J",342,A4,semester_pair,2,semester_2,Academic Studies
+TENTATIVE MASTER SCHEDULE,140,140,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Guiver, J",342,B5,semester_pair,1,semester_1,Academic Studies
+TENTATIVE MASTER SCHEDULE,140,140,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Guiver, J",342,B5,semester_pair,2,semester_2,Academic Studies
+TENTATIVE MASTER SCHEDULE,140,140,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Guiver, J",342,B6,full_year,1,full_year,(LIA) CE
+TENTATIVE MASTER SCHEDULE,140,140,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Guiver, J",342,B8,full_year,1,full_year,(ELD 1)
+TENTATIVE MASTER SCHEDULE,141,141,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),Henrie - IVC,703,A1,full_year,1,full_year,IVC: ASL 1
+TENTATIVE MASTER SCHEDULE,141,141,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),Henrie - IVC,703,A2,full_year,1,full_year,IVC: Japanese 1
+TENTATIVE MASTER SCHEDULE,141,141,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),Henrie - IVC,703,A3,full_year,1,full_year,IVC: Japanese 2
+TENTATIVE MASTER SCHEDULE,141,141,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),Henrie - IVC,703,A4,full_year,1,full_year,IVC: ASL 1
+TENTATIVE MASTER SCHEDULE,141,141,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),Henrie - IVC,703,B6,semester_pair,1,semester_1,IVC: Med Terminology
+TENTATIVE MASTER SCHEDULE,141,141,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),Henrie - IVC,703,B6,semester_pair,2,semester_2,IVC: Med Terminology
+TENTATIVE MASTER SCHEDULE,142,142,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Jimenez, L - IVC",702,A2,full_year,1,full_year,IVC: ASL 3
+TENTATIVE MASTER SCHEDULE,142,142,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Jimenez, L - IVC",702,A3,full_year,1,full_year,IVC: Medical Anatomy
+TENTATIVE MASTER SCHEDULE,142,142,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Jimenez, L - IVC",702,B5,full_year,1,full_year,IVC: ASL 2
+TENTATIVE MASTER SCHEDULE,142,142,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Jimenez, L - IVC",702,B7,full_year,1,full_year,IVC: Medical Anatomy
+TENTATIVE MASTER SCHEDULE,142,142,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Jimenez, L - IVC",702,B8,full_year,1,full_year,IVC: Medical Anatomy
+TENTATIVE MASTER SCHEDULE,143,143,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Miller, H",222,A2,semester_pair,1,semester_1,Academic Studies
+TENTATIVE MASTER SCHEDULE,143,143,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Miller, H",222,A2,semester_pair,2,semester_2,Academic Studies
+TENTATIVE MASTER SCHEDULE,143,143,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Miller, H",222,A3,semester_pair,1,semester_1,Academic Studies
+TENTATIVE MASTER SCHEDULE,143,143,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Miller, H",222,A3,semester_pair,2,semester_2,Academic Studies
+TENTATIVE MASTER SCHEDULE,143,143,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Miller, H",222,B5,semester_pair,1,semester_1,Academic Studies
+TENTATIVE MASTER SCHEDULE,143,143,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Miller, H",222,B5,semester_pair,2,semester_2,Academic Studies
+TENTATIVE MASTER SCHEDULE,143,143,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Miller, H",222,B6,semester_pair,1,semester_1,Academic Studies
+TENTATIVE MASTER SCHEDULE,143,143,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Miller, H",222,B6,semester_pair,2,semester_2,Academic Studies
+TENTATIVE MASTER SCHEDULE,143,143,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Miller, H",222,B7,semester_pair,1,semester_1,Academic Studies
+TENTATIVE MASTER SCHEDULE,143,143,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Miller, H",222,B7,semester_pair,2,semester_2,Academic Studies
+TENTATIVE MASTER SCHEDULE,144,144,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Pendleton, W",701,A1,semester_pair,1,semester_1,Digital Curriculum
+TENTATIVE MASTER SCHEDULE,144,144,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Pendleton, W",701,A1,semester_pair,2,semester_2,(Counselor Approval)
+TENTATIVE MASTER SCHEDULE,144,144,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Pendleton, W",701,A2,semester_pair,1,semester_1,Digital Curriculum
+TENTATIVE MASTER SCHEDULE,144,144,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Pendleton, W",701,A2,semester_pair,2,semester_2,(Counselor Approval)
+TENTATIVE MASTER SCHEDULE,144,144,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Pendleton, W",701,A3,semester_pair,1,semester_1,Digital Curriculum
+TENTATIVE MASTER SCHEDULE,144,144,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Pendleton, W",701,A3,semester_pair,2,semester_2,(Counselor Approval)
+TENTATIVE MASTER SCHEDULE,144,144,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Pendleton, W",701,A4,semester_pair,1,semester_1,Digital Curriculum
+TENTATIVE MASTER SCHEDULE,144,144,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Pendleton, W",701,A4,semester_pair,2,semester_2,(Counselor Approval)
+TENTATIVE MASTER SCHEDULE,144,144,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Pendleton, W",701,B6,semester_pair,1,semester_1,Digital Curriculum
+TENTATIVE MASTER SCHEDULE,144,144,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Pendleton, W",701,B6,semester_pair,2,semester_2,(Counselor Approval)
+TENTATIVE MASTER SCHEDULE,144,144,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Pendleton, W",701,B7,semester_pair,1,semester_1,Digital Curriculum
+TENTATIVE MASTER SCHEDULE,144,144,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Pendleton, W",701,B7,semester_pair,2,semester_2,(Counselor Approval)
+TENTATIVE MASTER SCHEDULE,144,144,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Pendleton, W",701,B8,semester_pair,1,semester_1,Digital Curriculum
+TENTATIVE MASTER SCHEDULE,144,144,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Pendleton, W",701,B8,semester_pair,2,semester_2,(Counselor Approval)
+TENTATIVE MASTER SCHEDULE,145,145,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Roberts, BJ",221,A1,semester_pair,1,semester_1,Academic Studies
+TENTATIVE MASTER SCHEDULE,145,145,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Roberts, BJ",221,A1,semester_pair,2,semester_2,Academic Studies
+TENTATIVE MASTER SCHEDULE,146,146,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Siri, T",346/A-day,A1,full_year,1,full_year,(Spanish 1)
+TENTATIVE MASTER SCHEDULE,146,146,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Siri, T",346/A-day,A2,full_year,1,full_year,(Spanish 1)
+TENTATIVE MASTER SCHEDULE,146,146,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Siri, T",346/A-day,A3,full_year,1,full_year,(Spanish 1)
+TENTATIVE MASTER SCHEDULE,146,146,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Siri, T",346/A-day,A4,semester_pair,1,semester_1,Academic Studies
+TENTATIVE MASTER SCHEDULE,146,146,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Siri, T",346/A-day,A4,semester_pair,2,semester_2,(Lacrosse)
+TENTATIVE MASTER SCHEDULE,147,147,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),Thompson/Scott,150,A1,semester_pair,1,semester_1,Peer Tutor
+TENTATIVE MASTER SCHEDULE,147,147,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),Thompson/Scott,150,A1,semester_pair,2,semester_2,Peer Tutor
+TENTATIVE MASTER SCHEDULE,147,147,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),Thompson/Scott,150,A2,semester_pair,1,semester_1,Peer Tutor
+TENTATIVE MASTER SCHEDULE,147,147,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),Thompson/Scott,150,A2,semester_pair,2,semester_2,Peer Tutor
+TENTATIVE MASTER SCHEDULE,147,147,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),Thompson/Scott,150,A3,semester_pair,1,semester_1,Peer Tutor
+TENTATIVE MASTER SCHEDULE,147,147,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),Thompson/Scott,150,A3,semester_pair,2,semester_2,Peer Tutor
+TENTATIVE MASTER SCHEDULE,147,147,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),Thompson/Scott,150,A4,semester_pair,1,semester_1,Peer Tutor
+TENTATIVE MASTER SCHEDULE,147,147,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),Thompson/Scott,150,A4,semester_pair,2,semester_2,Peer Tutor
+TENTATIVE MASTER SCHEDULE,147,147,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),Thompson/Scott,150,B5,semester_pair,1,semester_1,Peer Tutor
+TENTATIVE MASTER SCHEDULE,147,147,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),Thompson/Scott,150,B5,semester_pair,2,semester_2,Peer Tutor
+TENTATIVE MASTER SCHEDULE,147,147,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),Thompson/Scott,150,B6,semester_pair,1,semester_1,Peer Tutor
+TENTATIVE MASTER SCHEDULE,147,147,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),Thompson/Scott,150,B6,semester_pair,2,semester_2,Peer Tutor
+TENTATIVE MASTER SCHEDULE,147,147,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),Thompson/Scott,150,B7,semester_pair,1,semester_1,Peer Tutor
+TENTATIVE MASTER SCHEDULE,147,147,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),Thompson/Scott,150,B7,semester_pair,2,semester_2,Peer Tutor
+TENTATIVE MASTER SCHEDULE,147,147,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),Thompson/Scott,150,B8,semester_pair,1,semester_1,Peer Tutor
+TENTATIVE MASTER SCHEDULE,147,147,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),Thompson/Scott,150,B8,semester_pair,2,semester_2,Peer Tutor
+TENTATIVE MASTER SCHEDULE,148,148,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Zobell, G",,A1,full_year,1,full_year,Biology
+TENTATIVE MASTER SCHEDULE,148,148,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Zobell, G",,A2,full_year,1,full_year,Biology
+TENTATIVE MASTER SCHEDULE,148,148,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Zobell, G",,A3,full_year,1,full_year,Biology
+TENTATIVE MASTER SCHEDULE,148,148,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Zobell, G",,A4,semester_pair,1,semester_1,Tennis Team (F) (Sem 1)
+TENTATIVE MASTER SCHEDULE,148,148,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Zobell, G",,A4,semester_pair,2,semester_2,Academic Studies (Science)
+TENTATIVE MASTER SCHEDULE,148,148,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Zobell, G",,B6,full_year,1,full_year,AP Biology/Bio 1610 CE
+TENTATIVE MASTER SCHEDULE,148,148,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Zobell, G",,B7,full_year,1,full_year,AP Biology/Bio 1610 CE
+TENTATIVE MASTER SCHEDULE,148,148,GENERAL EDUCATION/INTERACTIVE VIDEO CLASSES (IVC),"Zobell, G",,B8,full_year,1,full_year,AP Biology/Bio 1610 CE
+TENTATIVE MASTER SCHEDULE,150,150,SPED,New Hire,,A2,full_year,1,full_year,English 12 R
+TENTATIVE MASTER SCHEDULE,150,150,SPED,New Hire,,A3,full_year,1,full_year,Reading
+TENTATIVE MASTER SCHEDULE,150,150,SPED,New Hire,,A4,full_year,1,full_year,Reading
+TENTATIVE MASTER SCHEDULE,150,150,SPED,New Hire,,B5,full_year,1,full_year,English 12 CT (Lyon)
+TENTATIVE MASTER SCHEDULE,150,150,SPED,New Hire,,B6,full_year,1,full_year,English 12 CT (Lyon)
+TENTATIVE MASTER SCHEDULE,150,150,SPED,New Hire,,B8,full_year,1,full_year,English 11 R
+TENTATIVE MASTER SCHEDULE,151,151,SPED,"Horne, G",263,A1,full_year,1,full_year,Data Science CT (Gale)
+TENTATIVE MASTER SCHEDULE,151,151,SPED,"Horne, G",263,A2,full_year,1,full_year,Secondary Math 2 CT (Gale)
+TENTATIVE MASTER SCHEDULE,151,151,SPED,"Horne, G",263,A3,full_year,1,full_year,Directed Studies
+TENTATIVE MASTER SCHEDULE,151,151,SPED,"Horne, G",263,B5,full_year,1,full_year,English 11 CT (Bushman)
+TENTATIVE MASTER SCHEDULE,151,151,SPED,"Horne, G",263,B6,full_year,1,full_year,Directed Studies
+TENTATIVE MASTER SCHEDULE,151,151,SPED,"Horne, G",263,B7,full_year,1,full_year,Math Lab
+TENTATIVE MASTER SCHEDULE,151,151,SPED,"Horne, G",263,B8,full_year,1,full_year,English 11 CT (Bushman)
+TENTATIVE MASTER SCHEDULE,152,152,SPED,"Jones, J",260,A1,full_year,1,full_year,Secondary Math 2-R
+TENTATIVE MASTER SCHEDULE,152,152,SPED,"Jones, J",260,A2,full_year,1,full_year,Math Decision Making CT (Armour)
+TENTATIVE MASTER SCHEDULE,152,152,SPED,"Jones, J",260,A3,full_year,1,full_year,Secondary Math 2 CT (Gibbons)
+TENTATIVE MASTER SCHEDULE,152,152,SPED,"Jones, J",260,B5,full_year,1,full_year,Secondary Math 2-R
+TENTATIVE MASTER SCHEDULE,152,152,SPED,"Jones, J",260,B6,full_year,1,full_year,Math Decision Making Resource
+TENTATIVE MASTER SCHEDULE,152,152,SPED,"Jones, J",260,B7,full_year,1,full_year,Secondary Math 2 CT (Gibbons)
+TENTATIVE MASTER SCHEDULE,152,152,SPED,"Jones, J",260,B8,full_year,1,full_year,Math Decision Making CT (Embley)
+TENTATIVE MASTER SCHEDULE,153,153,SPED,"White, R (234))/A-days)",,A1,full_year,1,full_year,English 10 CT (Olsen)
+TENTATIVE MASTER SCHEDULE,153,153,SPED,"White, R (234))/A-days)",,A2,full_year,1,full_year,English 10 CT (Olsen)
+TENTATIVE MASTER SCHEDULE,153,153,SPED,"White, R (234))/A-days)",,A3,full_year,1,full_year,Math Lab
+TENTATIVE MASTER SCHEDULE,153,153,SPED,"White, R (234))/A-days)",,B5,full_year,1,full_year,English 10 R
+TENTATIVE MASTER SCHEDULE,153,153,SPED,"White, R (234))/A-days)",,B6,full_year,1,full_year,English 11 CT (New Hire)
+TENTATIVE MASTER SCHEDULE,153,153,SPED,"White, R (234))/A-days)",,B7,full_year,1,full_year,Math Decision Making CT (Embley)
+TENTATIVE MASTER SCHEDULE,153,153,SPED,"White, R (234))/A-days)",,B8,full_year,1,full_year,Directed Studies
+TENTATIVE MASTER SCHEDULE,155,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,A1,ambiguous,1,line_1,"FALL- LIVE INTERACTIVE- MUSC 1010, PSY 1100, HUM 1010, COMM 1500, ENGL 1010, CJ 1010, METO 1010"
+TENTATIVE MASTER SCHEDULE,155,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,A1,ambiguous,2,line_2,"LIVESTREAM- ANTH101G, AVSC 2150, CJ 1350, METO 1010"
+TENTATIVE MASTER SCHEDULE,155,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,A1,ambiguous,3,line_3,"ONLINE- ART 1010, AST1040, BIOL 1010, ENGL 1010, HIST 1700, MUSC 1010,"
+TENTATIVE MASTER SCHEDULE,155,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,A1,ambiguous,4,line_4,"NUTR 1020, POLS 1100, PSY 1010, THEA 1013, THEA 1023"
+TENTATIVE MASTER SCHEDULE,155,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,A2,ambiguous,1,line_1,"FALL- LIVE INTERACTIVE- MUSC 1010, PSY 1100, HUM 1010, COMM 1500, ENGL 1010, CJ 1010, METO 1010"
+TENTATIVE MASTER SCHEDULE,155,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,A2,ambiguous,2,line_2,"LIVESTREAM- ANTH101G, AVSC 2150, CJ 1350, METO 1010"
+TENTATIVE MASTER SCHEDULE,155,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,A2,ambiguous,3,line_3,"ONLINE- ART 1010, AST1040, BIOL 1010, ENGL 1010, HIST 1700, MUSC 1010,"
+TENTATIVE MASTER SCHEDULE,155,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,A2,ambiguous,4,line_4,"NUTR 1020, POLS 1100, PSY 1010, THEA 1013, THEA 1023"
+TENTATIVE MASTER SCHEDULE,155,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,A3,ambiguous,1,line_1,"FALL- LIVE INTERACTIVE- MUSC 1010, PSY 1100, HUM 1010, COMM 1500, ENGL 1010, CJ 1010, METO 1010"
+TENTATIVE MASTER SCHEDULE,155,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,A3,ambiguous,2,line_2,"LIVESTREAM- ANTH101G, AVSC 2150, CJ 1350, METO 1010"
+TENTATIVE MASTER SCHEDULE,155,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,A3,ambiguous,3,line_3,"ONLINE- ART 1010, AST1040, BIOL 1010, ENGL 1010, HIST 1700, MUSC 1010,"
+TENTATIVE MASTER SCHEDULE,155,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,A3,ambiguous,4,line_4,"NUTR 1020, POLS 1100, PSY 1010, THEA 1013, THEA 1023"
+TENTATIVE MASTER SCHEDULE,155,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,A4,ambiguous,1,line_1,"FALL- LIVE INTERACTIVE- MUSC 1010, PSY 1100, HUM 1010, COMM 1500, ENGL 1010, CJ 1010, METO 1010"
+TENTATIVE MASTER SCHEDULE,155,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,A4,ambiguous,2,line_2,"LIVESTREAM- ANTH101G, AVSC 2150, CJ 1350, METO 1010"
+TENTATIVE MASTER SCHEDULE,155,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,A4,ambiguous,3,line_3,"ONLINE- ART 1010, AST1040, BIOL 1010, ENGL 1010, HIST 1700, MUSC 1010,"
+TENTATIVE MASTER SCHEDULE,155,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,A4,ambiguous,4,line_4,"NUTR 1020, POLS 1100, PSY 1010, THEA 1013, THEA 1023"
+TENTATIVE MASTER SCHEDULE,155,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,B5,ambiguous,1,line_1,"FALL- LIVE INTERACTIVE- MUSC 1010, PSY 1100, HUM 1010, COMM 1500, ENGL 1010, CJ 1010, METO 1010"
+TENTATIVE MASTER SCHEDULE,155,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,B5,ambiguous,2,line_2,"LIVESTREAM- ANTH101G, AVSC 2150, CJ 1350, METO 1010"
+TENTATIVE MASTER SCHEDULE,155,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,B5,ambiguous,3,line_3,"ONLINE- ART 1010, AST1040, BIOL 1010, ENGL 1010, HIST 1700, MUSC 1010,"
+TENTATIVE MASTER SCHEDULE,155,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,B5,ambiguous,4,line_4,"NUTR 1020, POLS 1100, PSY 1010, THEA 1013, THEA 1023"
+TENTATIVE MASTER SCHEDULE,155,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,B6,ambiguous,1,line_1,"FALL- LIVE INTERACTIVE- MUSC 1010, PSY 1100, HUM 1010, COMM 1500, ENGL 1010, CJ 1010, METO 1010"
+TENTATIVE MASTER SCHEDULE,155,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,B6,ambiguous,2,line_2,"LIVESTREAM- ANTH101G, AVSC 2150, CJ 1350, METO 1010"
+TENTATIVE MASTER SCHEDULE,155,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,B6,ambiguous,3,line_3,"ONLINE- ART 1010, AST1040, BIOL 1010, ENGL 1010, HIST 1700, MUSC 1010,"
+TENTATIVE MASTER SCHEDULE,155,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,B6,ambiguous,4,line_4,"NUTR 1020, POLS 1100, PSY 1010, THEA 1013, THEA 1023"
+TENTATIVE MASTER SCHEDULE,155,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,B7,ambiguous,1,line_1,"FALL- LIVE INTERACTIVE- MUSC 1010, PSY 1100, HUM 1010, COMM 1500, ENGL 1010, CJ 1010, METO 1010"
+TENTATIVE MASTER SCHEDULE,155,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,B7,ambiguous,2,line_2,"LIVESTREAM- ANTH101G, AVSC 2150, CJ 1350, METO 1010"
+TENTATIVE MASTER SCHEDULE,155,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,B7,ambiguous,3,line_3,"ONLINE- ART 1010, AST1040, BIOL 1010, ENGL 1010, HIST 1700, MUSC 1010,"
+TENTATIVE MASTER SCHEDULE,155,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,B7,ambiguous,4,line_4,"NUTR 1020, POLS 1100, PSY 1010, THEA 1013, THEA 1023"
+TENTATIVE MASTER SCHEDULE,155,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,B8,ambiguous,1,line_1,"FALL- LIVE INTERACTIVE- MUSC 1010, PSY 1100, HUM 1010, COMM 1500, ENGL 1010, CJ 1010, METO 1010"
+TENTATIVE MASTER SCHEDULE,155,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,B8,ambiguous,2,line_2,"LIVESTREAM- ANTH101G, AVSC 2150, CJ 1350, METO 1010"
+TENTATIVE MASTER SCHEDULE,155,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,B8,ambiguous,3,line_3,"ONLINE- ART 1010, AST1040, BIOL 1010, ENGL 1010, HIST 1700, MUSC 1010,"
+TENTATIVE MASTER SCHEDULE,155,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,B8,ambiguous,4,line_4,"NUTR 1020, POLS 1100, PSY 1010, THEA 1013, THEA 1023"
+TENTATIVE MASTER SCHEDULE,156,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,A1,ambiguous,1,line_1,"SPRING- LIVE INTERACTIVE- PSY 1010, COMM 1020, ASTR 1040, METO 1010, PHIL 205G, ENGL 2010, CJ 1340, MUSC 1030"
+TENTATIVE MASTER SCHEDULE,156,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,A1,ambiguous,2,line_2,"LIVESTREAM- ANTH101G, AVSC 2150, CJ 1350, METO 1010"
+TENTATIVE MASTER SCHEDULE,156,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,A1,ambiguous,3,line_3,"ONLINE- ART 1010, AST1040, BIOL 1010, ENGL 1010, HIST 1700,"
+TENTATIVE MASTER SCHEDULE,156,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,A1,ambiguous,4,line_4,"MUSC 1010, NUTR 1020, POLS 1100, PSY 1010, THEA 1013, THEA 1023"
+TENTATIVE MASTER SCHEDULE,156,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,A2,ambiguous,1,line_1,"SPRING- LIVE INTERACTIVE- PSY 1010, COMM 1020, ASTR 1040, METO 1010, PHIL 205G, ENGL 2010, CJ 1340, MUSC 1030"
+TENTATIVE MASTER SCHEDULE,156,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,A2,ambiguous,2,line_2,"LIVESTREAM- ANTH101G, AVSC 2150, CJ 1350, METO 1010"
+TENTATIVE MASTER SCHEDULE,156,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,A2,ambiguous,3,line_3,"ONLINE- ART 1010, AST1040, BIOL 1010, ENGL 1010, HIST 1700,"
+TENTATIVE MASTER SCHEDULE,156,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,A2,ambiguous,4,line_4,"MUSC 1010, NUTR 1020, POLS 1100, PSY 1010, THEA 1013, THEA 1023"
+TENTATIVE MASTER SCHEDULE,156,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,A3,ambiguous,1,line_1,"SPRING- LIVE INTERACTIVE- PSY 1010, COMM 1020, ASTR 1040, METO 1010, PHIL 205G, ENGL 2010, CJ 1340, MUSC 1030"
+TENTATIVE MASTER SCHEDULE,156,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,A3,ambiguous,2,line_2,"LIVESTREAM- ANTH101G, AVSC 2150, CJ 1350, METO 1010"
+TENTATIVE MASTER SCHEDULE,156,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,A3,ambiguous,3,line_3,"ONLINE- ART 1010, AST1040, BIOL 1010, ENGL 1010, HIST 1700,"
+TENTATIVE MASTER SCHEDULE,156,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,A3,ambiguous,4,line_4,"MUSC 1010, NUTR 1020, POLS 1100, PSY 1010, THEA 1013, THEA 1023"
+TENTATIVE MASTER SCHEDULE,156,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,A4,ambiguous,1,line_1,"SPRING- LIVE INTERACTIVE- PSY 1010, COMM 1020, ASTR 1040, METO 1010, PHIL 205G, ENGL 2010, CJ 1340, MUSC 1030"
+TENTATIVE MASTER SCHEDULE,156,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,A4,ambiguous,2,line_2,"LIVESTREAM- ANTH101G, AVSC 2150, CJ 1350, METO 1010"
+TENTATIVE MASTER SCHEDULE,156,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,A4,ambiguous,3,line_3,"ONLINE- ART 1010, AST1040, BIOL 1010, ENGL 1010, HIST 1700,"
+TENTATIVE MASTER SCHEDULE,156,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,A4,ambiguous,4,line_4,"MUSC 1010, NUTR 1020, POLS 1100, PSY 1010, THEA 1013, THEA 1023"
+TENTATIVE MASTER SCHEDULE,156,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,B5,ambiguous,1,line_1,"SPRING- LIVE INTERACTIVE- PSY 1010, COMM 1020, ASTR 1040, METO 1010, PHIL 205G, ENGL 2010, CJ 1340, MUSC 1030"
+TENTATIVE MASTER SCHEDULE,156,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,B5,ambiguous,2,line_2,"LIVESTREAM- ANTH101G, AVSC 2150, CJ 1350, METO 1010"
+TENTATIVE MASTER SCHEDULE,156,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,B5,ambiguous,3,line_3,"ONLINE- ART 1010, AST1040, BIOL 1010, ENGL 1010, HIST 1700,"
+TENTATIVE MASTER SCHEDULE,156,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,B5,ambiguous,4,line_4,"MUSC 1010, NUTR 1020, POLS 1100, PSY 1010, THEA 1013, THEA 1023"
+TENTATIVE MASTER SCHEDULE,156,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,B6,ambiguous,1,line_1,"SPRING- LIVE INTERACTIVE- PSY 1010, COMM 1020, ASTR 1040, METO 1010, PHIL 205G, ENGL 2010, CJ 1340, MUSC 1030"
+TENTATIVE MASTER SCHEDULE,156,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,B6,ambiguous,2,line_2,"LIVESTREAM- ANTH101G, AVSC 2150, CJ 1350, METO 1010"
+TENTATIVE MASTER SCHEDULE,156,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,B6,ambiguous,3,line_3,"ONLINE- ART 1010, AST1040, BIOL 1010, ENGL 1010, HIST 1700,"
+TENTATIVE MASTER SCHEDULE,156,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,B6,ambiguous,4,line_4,"MUSC 1010, NUTR 1020, POLS 1100, PSY 1010, THEA 1013, THEA 1023"
+TENTATIVE MASTER SCHEDULE,156,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,B7,ambiguous,1,line_1,"SPRING- LIVE INTERACTIVE- PSY 1010, COMM 1020, ASTR 1040, METO 1010, PHIL 205G, ENGL 2010, CJ 1340, MUSC 1030"
+TENTATIVE MASTER SCHEDULE,156,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,B7,ambiguous,2,line_2,"LIVESTREAM- ANTH101G, AVSC 2150, CJ 1350, METO 1010"
+TENTATIVE MASTER SCHEDULE,156,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,B7,ambiguous,3,line_3,"ONLINE- ART 1010, AST1040, BIOL 1010, ENGL 1010, HIST 1700,"
+TENTATIVE MASTER SCHEDULE,156,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,B7,ambiguous,4,line_4,"MUSC 1010, NUTR 1020, POLS 1100, PSY 1010, THEA 1013, THEA 1023"
+TENTATIVE MASTER SCHEDULE,156,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,B8,ambiguous,1,line_1,"SPRING- LIVE INTERACTIVE- PSY 1010, COMM 1020, ASTR 1040, METO 1010, PHIL 205G, ENGL 2010, CJ 1340, MUSC 1030"
+TENTATIVE MASTER SCHEDULE,156,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,B8,ambiguous,2,line_2,"LIVESTREAM- ANTH101G, AVSC 2150, CJ 1350, METO 1010"
+TENTATIVE MASTER SCHEDULE,156,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,B8,ambiguous,3,line_3,"ONLINE- ART 1010, AST1040, BIOL 1010, ENGL 1010, HIST 1700,"
+TENTATIVE MASTER SCHEDULE,156,155,UVU DIGITAL EDUCATION-UVU LIVE INTERACTIVE- UVU LIVESTREAM- UVU ONLINE,Wilson -,704,B8,ambiguous,4,line_4,"MUSC 1010, NUTR 1020, POLS 1100, PSY 1010, THEA 1013, THEA 1023"
+TENTATIVE MASTER SCHEDULE,158,158,SEMINARY,Seminary,,A1,full_year,1,full_year,Seminary
+TENTATIVE MASTER SCHEDULE,158,158,SEMINARY,Seminary,,A2,full_year,1,full_year,Seminary
+TENTATIVE MASTER SCHEDULE,158,158,SEMINARY,Seminary,,A3,full_year,1,full_year,Seminary
+TENTATIVE MASTER SCHEDULE,158,158,SEMINARY,Seminary,,A4,full_year,1,full_year,Seminary
+TENTATIVE MASTER SCHEDULE,158,158,SEMINARY,Seminary,,B5,full_year,1,full_year,Seminary
+TENTATIVE MASTER SCHEDULE,158,158,SEMINARY,Seminary,,B6,full_year,1,full_year,Seminary
+TENTATIVE MASTER SCHEDULE,158,158,SEMINARY,Seminary,,B7,full_year,1,full_year,Seminary
+TENTATIVE MASTER SCHEDULE,158,158,SEMINARY,Seminary,,B8,full_year,1,full_year,Seminary

@@ -1,0 +1,27 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:webapp": "playwright test tests/webapp.spec.js",
+    "build:webapp-data": "python3 scripts/build_webapp_data.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonmeacham/docs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jonmeacham/docs/issues"
+  },
+  "homepage": "https://github.com/jonmeacham/docs#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1"
+  }
+}

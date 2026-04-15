@@ -1,0 +1,396 @@
+"use strict";
+
+const DATA_PATHS = {
+  masterSchedule: "./data/master_schedule_cells.json",
+  catalog: "./data/course_catalog.json",
+};
+
+const PERIODS = ["A1", "A2", "A3", "A4", "B5", "B6", "B7", "B8"];
+
+const state = {
+  offerings: [],
+  requirementOptions: [],
+  courseOptions: [],
+};
+
+function normalizeText(text) {
+  return String(text || "")
+    .toLowerCase()
+    .replace(/&/g, "and")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+function dedupe(values) {
+  return [...new Set(values.filter(Boolean))];
+}
+
+function canonicalRequirement(requirement) {
+  const raw = String(requirement || "").trim();
+  if (!raw) return "";
+  const norm = normalizeText(raw);
+  if (!norm) return "";
+  if (norm.includes("language art")) return "Language Arts";
+  if (/\bart(s)?\b/.test(norm)) return "Art";
+  return raw;
+}
+
+function buildAliasIndex(courses) {
+  const index = new Map();
+  for (const course of courses) {
+    const allAliases = dedupe([
+      course.normalized_course_name,
+      ...(course.cross_reference_aliases || []),
+      course.course_name,
+    ]);
+    for (const alias of allAliases) {
+      const key = normalizeText(alias);
+      if (!key) continue;
+      if (!index.has(key)) {
+        index.set(key, []);
+      }
+      index.get(key).push(course);
+    }
+  }
+  return index;
+}
+
+function resolveCatalogMatches(courseName, aliasIndex, catalogCourses) {
+  const key = normalizeText(courseName);
+  if (!key) return [];
+
+  const exact = aliasIndex.get(key);
+  if (exact && exact.length > 0) {
+    return exact;
+  }
+
+  const fuzzy = [];
+  for (const course of catalogCourses) {
+    const normalized = normalizeText(course.normalized_course_name || course.course_name);
+    if (!normalized) continue;
+    if (normalized.includes(key) || key.includes(normalized)) {
+      fuzzy.push(course);
+    }
+  }
+  return fuzzy;
+}
+
+function buildOfferings(masterCells, catalogCourses) {
+  const aliasIndex = buildAliasIndex(catalogCourses);
+  const offerings = [];
+
+  for (const cell of masterCells) {
+    for (const line of cell.lines) {
+      const matchedCourses = resolveCatalogMatches(line.text, aliasIndex, catalogCourses);
+      const graduationRequirements = dedupe(
+        matchedCourses.flatMap((course) => course.graduation_requirement_list || [])
+      );
+      const graduationRequirementsNorm = graduationRequirements.map(normalizeText);
+      const canonicalRequirements = dedupe(graduationRequirements.map(canonicalRequirement));
+      const canonicalRequirementsNorm = canonicalRequirements.map(normalizeText);
+      const auditionRequired =
+        matchedCourses.some((course) => course.audition_tryout_required) ||
+        /\baudition\b|\btry-?out\b/i.test(line.text);
+      offerings.push({
+        courseName: line.text,
+        courseNameNorm: normalizeText(line.text),
+        period: cell.period,
+        semesterHint: line.semester_hint,
+        scheduleHint: cell.schedule_hint,
+        section: cell.section,
+        teacher: cell.teacher_name,
+        room: cell.room || "",
+        sourceRow: cell.source_row,
+        matchedCatalogCourses: matchedCourses.map((course) => course.course_name),
+        matchedCatalogDetails: matchedCourses.map((course) => ({
+          courseName: course.course_name,
+          sectionName: course.section_name || "",
+          description: course.description || "",
+          prerequisites: course.prerequisites || [],
+          recommendedPrerequisites: course.recommended_prerequisites || [],
+          courseLength: course.course_length_text || "",
+          grades: course.grade_requirements || "",
+          auditionTryoutRequired: Boolean(course.audition_tryout_required),
+          auditionTryoutEvidence: course.audition_tryout_evidence || [],
+        })),
+        graduationRequirements,
+        graduationRequirementsNorm,
+        canonicalRequirements,
+        canonicalRequirementsNorm,
+        auditionRequired,
+      });
+    }
+  }
+  return offerings;
+}
+
+function getCompatibleByTerm(offering, selectedTerm) {
+  if (!selectedTerm) return true;
+  if (selectedTerm === "full_year") {
+    return offering.scheduleHint === "full_year";
+  }
+  if (selectedTerm === "semester_1") {
+    return offering.semesterHint === "semester_1" || offering.scheduleHint === "full_year";
+  }
+  if (selectedTerm === "semester_2") {
+    return offering.semesterHint === "semester_2" || offering.scheduleHint === "full_year";
+  }
+  return true;
+}
+
+function renderResults(filtered) {
+  const resultsEl = document.getElementById("results");
+  const summaryEl = document.getElementById("summary");
+
+  resultsEl.innerHTML = "";
+  summaryEl.textContent = `${filtered.length} matching course option${filtered.length === 1 ? "" : "s"}`;
+
+  if (filtered.length === 0) {
+    const div = document.createElement("div");
+    div.className = "empty";
+    div.textContent =
+      "No compatible options found for the current filter combination. Try clearing one filter.";
+    resultsEl.appendChild(div);
+    return;
+  }
+
+  const wrap = document.createElement("div");
+  wrap.className = "results-table-wrap";
+  const table = document.createElement("table");
+  table.className = "results-table";
+  table.innerHTML =
+    "<thead><tr><th></th><th>Period</th><th>Term</th><th>Course</th><th>Teacher</th><th>Graduation Requirement</th></tr></thead>";
+  const tbody = document.createElement("tbody");
+
+  for (const offering of filtered) {
+    const row = document.createElement("tr");
+    const toggleCell = document.createElement("td");
+    toggleCell.setAttribute("data-col", "toggle");
+    const toggleBtn = document.createElement("button");
+    toggleBtn.type = "button";
+    toggleBtn.className = "row-toggle";
+    toggleBtn.setAttribute("aria-expanded", "false");
+    toggleBtn.setAttribute("aria-label", "Toggle details");
+    toggleBtn.textContent = "▸";
+    toggleCell.appendChild(toggleBtn);
+    row.appendChild(toggleCell);
+
+    const periodCell = document.createElement("td");
+    periodCell.setAttribute("data-col", "period");
+    periodCell.textContent = offering.period;
+    row.appendChild(periodCell);
+
+    const termCell = document.createElement("td");
+    termCell.setAttribute("data-col", "term");
+    termCell.textContent = offering.semesterHint.replace("_", " ");
+    row.appendChild(termCell);
+
+    const courseCell = document.createElement("td");
+    courseCell.setAttribute("data-col", "course");
+    courseCell.textContent = offering.courseName;
+    row.appendChild(courseCell);
+
+    const teacherCell = document.createElement("td");
+    teacherCell.setAttribute("data-col", "teacher");
+    teacherCell.textContent = `${offering.teacher}${offering.room ? ` (${offering.room})` : ""}`;
+    row.appendChild(teacherCell);
+
+    const reqCell = document.createElement("td");
+    reqCell.setAttribute("data-col", "requirement");
+    reqCell.textContent = offering.graduationRequirements.length
+      ? offering.graduationRequirements.join(", ")
+      : "No catalog match";
+    row.appendChild(reqCell);
+
+    const detailRow = document.createElement("tr");
+    detailRow.className = "detail-row";
+    detailRow.hidden = true;
+    const detailTd = document.createElement("td");
+    detailTd.colSpan = 6;
+    const detailContent = document.createElement("div");
+    detailContent.className = "detail-content";
+    detailTd.appendChild(detailContent);
+    detailRow.appendChild(detailTd);
+    const details = offering.matchedCatalogDetails;
+
+    if (!details || details.length === 0) {
+      const empty = document.createElement("div");
+      empty.className = "detail-item";
+      empty.innerHTML =
+        "<p><span class='label'>Catalog match:</span> No detailed course record found for this line item.</p>";
+      detailContent.appendChild(empty);
+    } else {
+      for (const detail of details) {
+        const block = document.createElement("div");
+        block.className = "detail-item";
+        const prereqText = detail.prerequisites.length
+          ? detail.prerequisites.join("; ")
+          : "None listed";
+        const recPrereqText = detail.recommendedPrerequisites.length
+          ? detail.recommendedPrerequisites.join("; ")
+          : "None listed";
+
+        block.innerHTML = `
+          <h4>${detail.courseName}</h4>
+          <p><span class="label">Section:</span> ${detail.sectionName || "Unspecified"} • <span class="label">Length:</span> ${detail.courseLength || "Unspecified"} • <span class="label">Grades:</span> ${detail.grades || "Unspecified"}</p>
+          <p><span class="label">Prerequisites:</span> ${prereqText}</p>
+          <p><span class="label">Recommended:</span> ${recPrereqText}</p>
+          <p><span class="label">Description:</span> ${detail.description || "No description available."}</p>
+        `;
+        detailContent.appendChild(block);
+      }
+    }
+
+    const toggle = () => {
+      const expanded = toggleBtn.getAttribute("aria-expanded") === "true";
+      toggleBtn.setAttribute("aria-expanded", String(!expanded));
+      toggleBtn.textContent = expanded ? "▸" : "▾";
+      detailRow.hidden = expanded;
+    };
+
+    toggleBtn.addEventListener("click", (event) => {
+      event.stopPropagation();
+      toggle();
+    });
+    row.addEventListener("click", toggle);
+
+    tbody.appendChild(row);
+    tbody.appendChild(detailRow);
+  }
+
+  table.appendChild(tbody);
+  wrap.appendChild(table);
+  resultsEl.appendChild(wrap);
+}
+
+function currentFilters() {
+  const requirementSelect = document.getElementById("requirements");
+  const selectedRequirements = [...requirementSelect.selectedOptions].map((option) => option.value);
+  return {
+    period: document.getElementById("period").value,
+    term: document.getElementById("term").value,
+    requirements: selectedRequirements,
+    course: normalizeText(document.getElementById("course").value),
+    includeAudition: document.getElementById("exclude-audition").checked,
+  };
+}
+
+function applyFilters() {
+  const filters = currentFilters();
+  const filtered = state.offerings.filter((offering) => {
+    if (filters.period && offering.period !== filters.period) return false;
+    if (!getCompatibleByTerm(offering, filters.term)) return false;
+    if (filters.course) {
+      if (!offering.courseNameNorm) return false;
+      if (
+        !offering.courseNameNorm.includes(filters.course)
+      ) {
+        return false;
+      }
+    }
+    if (filters.requirements.length > 0) {
+      const selectedNorm = filters.requirements.map(normalizeText);
+      const reqMatches = selectedNorm.some((selected) =>
+        offering.canonicalRequirementsNorm.some((req) => req === selected || req.includes(selected))
+      );
+      if (!reqMatches) {
+        return false;
+      }
+    }
+    if (!filters.includeAudition && offering.auditionRequired) {
+      return false;
+    }
+    return true;
+  });
+
+  filtered.sort((a, b) => {
+    const c = a.courseName.localeCompare(b.courseName);
+    if (c !== 0) return c;
+    const p = PERIODS.indexOf(a.period) - PERIODS.indexOf(b.period);
+    if (p !== 0) return p;
+    return a.teacher.localeCompare(b.teacher);
+  });
+
+  renderResults(filtered);
+}
+
+function fillInputs() {
+  const periodSelect = document.getElementById("period");
+  for (const period of PERIODS) {
+    const option = document.createElement("option");
+    option.value = period;
+    option.textContent = period;
+    periodSelect.appendChild(option);
+  }
+
+  const reqSelect = document.getElementById("requirements");
+  for (const req of state.requirementOptions) {
+    const option = document.createElement("option");
+    option.value = req;
+    option.textContent = req;
+    reqSelect.appendChild(option);
+  }
+
+  const courseDataList = document.getElementById("course-options");
+  for (const courseName of state.courseOptions) {
+    const option = document.createElement("option");
+    option.value = courseName;
+    courseDataList.appendChild(option);
+  }
+}
+
+function wireEvents() {
+  ["period", "term", "requirements", "course", "exclude-audition"].forEach((id) => {
+    document.getElementById(id).addEventListener("input", applyFilters);
+    document.getElementById(id).addEventListener("change", applyFilters);
+  });
+
+  document.getElementById("clear-btn").addEventListener("click", () => {
+    document.getElementById("period").value = "";
+    document.getElementById("term").value = "";
+    document.getElementById("exclude-audition").checked = false;
+    for (const option of document.getElementById("requirements").options) {
+      option.selected = false;
+    }
+    document.getElementById("course").value = "";
+    applyFilters();
+  });
+}
+
+async function loadData() {
+  const [masterResp, catalogResp] = await Promise.all([
+    fetch(DATA_PATHS.masterSchedule),
+    fetch(DATA_PATHS.catalog),
+  ]);
+  if (!masterResp.ok || !catalogResp.ok) {
+    throw new Error("Failed to load one or more dataset files.");
+  }
+  const master = await masterResp.json();
+  const catalog = await catalogResp.json();
+
+  state.offerings = buildOfferings(master.cells, catalog.courses);
+  state.requirementOptions = dedupe(
+    catalog.courses
+      .flatMap((course) => course.graduation_requirement_list || [])
+      .map(canonicalRequirement)
+  ).sort((a, b) => a.localeCompare(b));
+  state.courseOptions = dedupe(state.offerings.map((offering) => offering.courseName)).sort((a, b) =>
+    a.localeCompare(b)
+  );
+}
+
+async function init() {
+  try {
+    await loadData();
+    fillInputs();
+    wireEvents();
+    applyFilters();
+  } catch (error) {
+    const resultsEl = document.getElementById("results");
+    const summaryEl = document.getElementById("summary");
+    summaryEl.textContent = "Error loading datasets";
+    resultsEl.innerHTML = `<div class="empty">${error.message}</div>`;
+  }
+}
+
+init();

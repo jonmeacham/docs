@@ -1,0 +1,78 @@
+course_id,course_name,prerequisite_type,prerequisite_text
+french_3_ce,FRENCH 3 CE,required,French 1 & 2
+french_4_ce,FRENCH 4 CE,required,French 3
+spanish_3_ce,SPANISH 3 CE,required,Completion of Spanish 2 with a recommended grade of “C” or higher
+spanish_4_ce,SPANISH 4 CE,required,Completion of Spanish 3 with a recommended grade of “C” or higher
+ap_spanish,AP SPANISH,required,Completion of Spanish 4
+chemistry,CHEMISTRY,recommended,Secondary Math 2
+chemistry_ce,CHEMISTRY CE,recommended,Secondary Math 2
+ap_chemistry,AP CHEMISTRY,recommended,Chemistry
+physics_ce,PHYSICS CE,required,Secondary Math 1
+ap_physics,AP PHYSICS,recommended,Secondary Math 3 or currently enrolled
+computer_programming_2,COMPUTER PROGRAMMING 2,required,Computer Programming 1
+animal_science,ANIMAL SCIENCE,required,Biology-Agricultural Science (if you want the pathway) or Biology
+equine_science,EQUINE SCIENCE,required,Biology-Agricultural Science or Biology
+data_science,DATA SCIENCE,required,Math Sec 1 & 2
+math_1010_ce,MATH 1010 CE,required,"“C” average in Sec 1, 2, 3 or 19+ on the ACT in Math"
+math_1030_ce,MATH 1030 CE,required,"“C” average in Sec 1, 2, 3 or ACT 23 in Math"
+math_1040_ce,MATH 1040 CE,required,"“C” average in Sec 1, 2, 3 or ACT 23 in Math"
+math_1050_ce,MATH 1050 CE,required,"“C” average in Sec 1, 2, 3 and an ACT of 23+ in Math or a grade of C or better in a Math 1010 semester course"
+dance_2,DANCE 2,required,Dance 1 or Instructor Approval
+synergy_company_dance_3_audition_only,SYNERGY COMPANY: DANCE 3 (Audition only),required,Audition or Instructor Approval
+dance_company_audition_only,DANCE COMPANY (Audition only),required,Audition only
+ballroom_company_audition_only,BALLROOM COMPANY (Audition only),required,Audition only
+drawing_2,DRAWING 2,recommended,Drawing 1
+painting_1,PAINTING 1,recommended,Drawing 1
+painting_2,PAINTING 2,recommended,Painting 1
+art_honors,ART HONORS,required,Drawing & Painting or Teacher Approval
+ap_art_drawing_portfolio,AP ART DRAWING PORTFOLIO,required,Drawing and Painting or Teacher Approval
+photography_2,PHOTOGRAPHY 2,recommended,Photography 1
+photography_3,PHOTOGRAPHY 3,recommended,Photography 1 & 2
+yearbook_photo,YEARBOOK PHOTO,required,Photo 1 and Teacher Approval
+varsity_concert_choir,VARSITY CONCERT CHOIR,required,"Choral Experience (Resonance & Clarity, or another music ensemble)"
+encore_chamber_choir_audition_only,ENCORE CHAMBER CHOIR (Audition only),required,Audition
+chamber_orchestra_advanced_audition_only,CHAMBER ORCHESTRA ADVANCED (Audition only),required,Audition
+intermediate_jazz_band_audition_only,INTERMEDIATE JAZZ BAND (Audition only),required,Audition
+advanced_jazz_band_audition_only,ADVANCED JAZZ BAND (Audition only),required,Audition
+wind_symphony_audition,WIND SYMPHONY (Audition),required,Audition
+advanced_weight_training,ADVANCED WEIGHT TRAINING,required,Must have taken Weight Training
+ballroom_company_bookmark_id_6hnx5kmx27ht_audition_only,BALLROOM COMPANY](#bookmark=id.6hnx5kmx27ht) (Audition only),required,Audition only
+cheerleading_tryout_only,CHEERLEADING (Tryout only),required,Audition
+dance_2,DANCE 2,required,Dance 1 or Instructor Approval
+dance_3_synergy_bookmark_id_hq2ealidhucr_ce_audition_only,DANCE 3 SYNERGY](#bookmark=id.hq2ealidhucr) CE (Audition only),required,Audition or Instructor Approval
+dance_company_bookmark_id_3wws1jxflg5f_audition_only,DANCE COMPANY](#bookmark=id.3wws1jxflg5f) (Audition only),required,Audition only
+drill_team_tryout_only,DRILL TEAM (Tryout only),required,Audition
+cte_internships,CTE INTERNSHIPS,required,"You must fill out an application here, and get approval before enrolling in this course. Please visit Tamarie McMullin in room 162\."
+agricultural_mechanics_2,AGRICULTURAL MECHANICS 2,required,Agricultural Mechanics 1
+agricultural_mechanics_3_advanced,"AGRICULTURAL MECHANICS 3, ADVANCED",required,Must complete Mechanics 1 & 2
+woodworking_2_and_3_ce,WOODWORKING 2 & 3 CE,required,Woodworking 1
+equine_science_1_and_2,EQUINE SCIENCE 1 & 2,required,Biology-Agricultural Science or Biology
+early_childhood_education_1,EARLY CHILDHOOD EDUCATION 1,required,Child Development
+early_childhood_education_2,EARLY CHILDHOOD EDUCATION 2,required,Early Childhood Education 1
+early_childhood_education_3,EARLY CHILDHOOD EDUCATION 3,required,Early Childhood Education 1 & 2
+computer_programming_3_object_oriented_programming_ce,COMPUTER PROGRAMMING 3: OBJECT ORIENTED PROGRAMMING CE,required,Computer Programming 1 & 2
+prostart_1_ce,PROSTART 1 CE,required,"Foods 1 (9th) and/or Culinary 1 (10th-12th), and a valid Utah County food handler’s permit, Teacher approval required"
+baking_and_pastry,BAKING & PASTRY,required,"Foods 1 (9th) and Foods 2/Culinary 1 (9th-12th), Teacher approval required"
+sewing_construction_and_textiles_2,SEWING CONSTRUCTION & TEXTILES 2,required,Sewing Construction & Textiles 1 OR Sports and Outdoor Design 1 (Sports Sewing 1\)
+sports_sewing_2_sports_and_outdoor_design_2,SPORTS SEWING 2 (Sports & Outdoor Design 2\),required,Sewing Construction & Textiles 1 OR Sports and Outdoor Design 1 (Sports Sewing 1\)
+sewing_construction_and_textiles_3,SEWING CONSTRUCTION & TEXTILES 3,required,"Sewing Construction & Textiles 1 & 2, Teacher approval only"
+photography_2,PHOTOGRAPHY 2,recommended,Photography 1
+photography_3,PHOTOGRAPHY 3,recommended,Photography 1 & 2
+video_production_ii,VIDEO PRODUCTION II,required,Video Production I
+tv_broadcasting_i,TV BROADCASTING I,required,Video Production I & II
+tv_broadcasting_ii,TV BROADCASTING II,required,TV Broadcasting I
+american_sign_language_2,AMERICAN SIGN LANGUAGE 2,required,ASL 1
+french_2,FRENCH 2,required,French 1
+french_3_ce,FRENCH 3 CE,required,French 1 & 2
+french_4_ce,FRENCH 4 CE,required,French 3
+japanese_2_live_interactive,JAPANESE 2- LIVE INTERACTIVE,required,Japanese 1
+spanish_2,SPANISH 2,required,"Spanish 1, recommend a “C” or above in Spanish 1"
+spanish_3_ce,SPANISH 3 CE,required,Completion of Spanish 2 with a recommended grade of “C” or higher
+spanish_4_ce,SPANISH 4 CE,required,Completion of Spanish 3 with a recommended grade of “C” or higher
+ap_spanish,AP SPANISH,required,Completion of Spanish 4
+encore_chamber_choir,ENCORE CHAMBER CHOIR,required,Audition
+ballroom_company_bookmark_id_6hnx5kmx27ht_audition_only,BALLROOM COMPANY](#bookmark=id.6hnx5kmx27ht) (Audition only),required,Audition only
+dance_3_synergy_bookmark_id_hq2ealidhucr_audition_only,DANCE 3 SYNERGY](#bookmark=id.hq2ealidhucr) (Audition only),required,Audition or Instructor Approval
+dance_company_bookmark_id_3wws1jxflg5f_audition_only,DANCE COMPANY](#bookmark=id.3wws1jxflg5f) (Audition only),required,Audition only
+cheer,CHEER,required,Audition
+drill_team_tryout_only,DRILL TEAM (Tryout only),required,Audition

@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Student Schedule Planner</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="hero">
+        <h1>Student Schedule Planner</h1>
+        <p>
+          Filter available classes by schedule slot, graduation requirement, and course name.
+        </p>
+      </header>
+
+      <section class="panel">
+        <h2>Filters</h2>
+        <div class="grid">
+          <label class="course-primary">
+            Course Name
+            <input id="course" list="course-options" placeholder="Search for a course..." />
+            <datalist id="course-options"></datalist>
+          </label>
+
+          <label>
+            Period
+            <select id="period">
+              <option value="">Any period</option>
+            </select>
+          </label>
+
+          <label>
+            Slot Length / Semester
+            <select id="term">
+              <option value="">Any</option>
+              <option value="semester_1">Semester 1 compatible</option>
+              <option value="semester_2">Semester 2 compatible</option>
+              <option value="full_year">Full year only</option>
+            </select>
+          </label>
+
+          <label>
+            Graduation Credit Requirement (multi-select)
+            <select id="requirements" multiple size="6"></select>
+          </label>
+
+          <label class="checkbox-label">
+            <input id="exclude-audition" type="checkbox" />
+            Include audition/tryout-required courses
+          </label>
+        </div>
+
+        <div class="actions">
+          <button id="clear-btn" type="button">Clear filters</button>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="results-head">
+          <h2>Compatible Course Options</h2>
+          <p id="summary">Loading data...</p>
+        </div>
+        <div id="results"></div>
+      </section>
+    </main>
+
+    <template id="result-row-template">
+      <tr>
+        <td data-col="toggle">
+          <button type="button" class="row-toggle" aria-expanded="false" aria-label="Toggle details">▸</button>
+        </td>
+        <td data-col="period"></td>
+        <td data-col="term"></td>
+        <td data-col="course"></td>
+        <td data-col="teacher"></td>
+        <td data-col="requirement"></td>
+      </tr>
+    </template>
+
+    <template id="result-detail-row-template">
+      <tr class="detail-row" hidden>
+        <td colspan="6">
+          <div class="detail-content"></div>
+        </td>
+      </tr>
+    </template>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>
